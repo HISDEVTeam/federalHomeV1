@@ -221,7 +221,17 @@
         -webkit-tap-highlight-color: transparent;
         display: none;
     }
-    
+    .icon_position{
+        width: 55px;
+        height: auto;
+        top: 4px;
+    }
+    [class*=" icon-"], [class^=icon-]{
+        font-size: 2rem;
+    }
+    .icon_position img{
+    width: 33px;
+    height: auto;}
     .banner_img_cont {
         height: 331px;
         overflow: hidden;
@@ -346,14 +356,27 @@
     .spilit_res_none{
         display: none;
     }
-    .screen_nav_1{
-     position: absolute;
-    left: -4px;
-    top: 22px;
+   .screen_nav_1{
+    position: relative;
+    left: auto;
+    top: 19px;
     }
-    .headline_yellow{
+    .vertical_img_cont img {
+        min-width: 100%;
+        /* min-height: 100%; */
+    }
+    .vertical_img_cont {
+        width: 100%;
+        height: auto; 
+        overflow: hidden;
+    }
+    .four_col_img_c {
+        height: 279px;
+     
+    }
+    /* .headline_yellow{
         display: none;
-    }
+    } */
     .headline_below_content{
         font-family: 'Roboto-Regular';
         margin-top: 20px;
@@ -396,14 +419,14 @@
     padding: 23px 5px;
     line-height: 1.1;
     font-family: 'Roboto-Medium';
-    margin-top: -15px;
+    margin-top: 5px;
 }
 .h_89 img {
     height: 130px;
 }
 .side_content{
     font-size: 20px;
-    top: 4px;
+    top: 25px;
     font-family: 'Roboto-Light';
     color:#1E1E1E;
 }
@@ -699,7 +722,7 @@
     display: none;
 }
 .federal_logo_cont img {
-    height: 37px;
+    height: 42px;
 }
 [class*=" icon-"], [class^=icon-] {
    
@@ -1154,7 +1177,9 @@
 }
   
   
-  
+@media only screen and (min-device-width: 400px) and (orientation: landscape) {
+    /* Your CSS styles for devices with a width of 400px in landscape mode */
+  } 
   
   
   @media only screen and (min-width: 767px) {
