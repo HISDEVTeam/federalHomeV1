@@ -698,6 +698,16 @@
 .d_none{
     display: none;
 }
+.federal_logo_cont img {
+    height: 37px;
+}
+[class*=" icon-"], [class^=icon-] {
+   
+    font-size: 2rem;
+    
+    top: -20px;
+ 
+}
   }
   @media only screen and (max-width: 400px) {
     .headline_below_content {
@@ -705,7 +715,7 @@
         margin-top: 9px;
     }   
     .federal_logo_cont img {
-        height: 18px;
+        height: 24px;
     }
     .screen_nav{
         display: none;
@@ -757,7 +767,7 @@
         
     }
     .headline_yellow {
-        font-size: 23px;
+        font-size: 26px;
         
     }
     .exp {
@@ -770,8 +780,23 @@
     color: #520f0f;
     font-family: 'Roboto-Bold';
     font-size: 10px;
-    padding: 1px 8px 0px 11px !important;
+    padding: 5px 13px 5px 24px !important;
     text-transform: uppercase;
+    }
+    .img_15-start {
+        position: absolute;
+        top: 0px;
+    }
+    .img_size_re {
+        width: 385px !important;
+    }
+    .vertical_img_cont img {
+        min-width: 100%;
+        min-height: auto;
+    }
+    .three_col_img_c img {
+        height: 100%;
+        width: 100%;
     }
     .close_nav {
         display: none;
@@ -795,7 +820,7 @@
     height: 95px;
 }
 .side_content{
-    font-size: 13px;
+    font-size: 18px;
     top: 0px;
     font-family: 'Roboto-Light';
     color: #1E1E1E;
@@ -874,7 +899,7 @@
     text-transform: uppercase;
 }
 .fault_heading_color {
-    font-size: 21px;
+    font-size: 30px;
     font-family: 'Roboto-Bold';
     color: #FC9F00;
     margin: 0;
@@ -1031,14 +1056,14 @@
 }
 .owl-nav{
     position: absolute;
-    top: 221px !important;
+    top: 133px !important;
 }
 .left_ul ul li {
     padding-top: 6px !important;
 }
 .owl-nav .owl-right{
     position: absolute;
-    left: 174px !important;
+    right: auto !important;
 }
 /* federal playlist section */
 .gray_bg_title h1 {
@@ -1080,7 +1105,7 @@
     font-size:15px;
 }
 .left_ul ul{
-    font-size: 12px;
+    font-size: 18px;
     }
     .vertical_overlay_content h5 {
         font-family: 'Roboto-Bold';
@@ -1098,8 +1123,8 @@
         /* min-height: 100%; */
     }
     .vertical_img_cont {
-        width: auto;
-        /* height: 439px; */
+        width: 100%;
+        height: auto; 
         overflow: hidden;
     }
 .offset-1 {
