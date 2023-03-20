@@ -401,12 +401,31 @@
 
   /* Styles for screens narrower than 768px */
   @media only screen and (max-width: 767px) and (min-width: 400px) {
+    
+    .dropdown-menu {
+        position: absolute;
+        top: 100%;
+         left: -137px !important;
+        z-index: 1000;
+        display: none;
+        float: left;
+        min-width: 12.5rem;
+        padding: 0.5rem 0;
+        margin: 0.125rem 0 0;
+        font-size: .875rem;
+        color: #333;
+        text-align: left;
+        list-style: none;
+        background-color: #fff;
+        background-clip: padding-box;
+        border: 1px solid rgba(0,0,0,.15);
+        border-radius: 0.25rem;
+        box-shadow: 0 0.25rem 0.5rem rgba(0,0,0,.1);
+    }
     .screen_nav{
         display: none;
     }
-    .dropdown-menu{
-        right: 0 !important;
-    }
+    
     .navigation-bar-section{
         display: none;
     }
@@ -424,7 +443,7 @@
    .screen_nav_1{
     position: relative;
     left: auto;
-    top: 19px;
+    top: -26px;
     }
     .vertical_img_cont img {
         min-width: 100%;
@@ -793,11 +812,31 @@
    
     font-size: 2rem;
     
-    top: -20px;
+    top: -21px;
  
 }
   }
   @media only screen and (max-width: 400px) {
+    .dropdown-menu {
+        position: absolute;
+        top: 100%;
+        left: -154px !important;
+        z-index: 1000;
+        display: none;
+        float: left;
+        min-width: 12.5rem;
+        padding: 0.5rem 0;
+        margin: 0.125rem 0 0;
+        font-size: .875rem;
+        color: #333;
+        text-align: left;
+        list-style: none;
+        background-color: #fff;
+        background-clip: padding-box;
+        border: 1px solid rgba(0,0,0,.15);
+        border-radius: 0.25rem;
+        box-shadow: 0 0.25rem 0.5rem rgba(0,0,0,.1);
+    }
     .headline_below_content {
         font-family: 'Roboto-Regular';
         margin-top: 9px;
@@ -1144,7 +1183,7 @@
 }
 .owl-nav{
     position: absolute;
-    top: 133px !important;
+    top: 143px !important;
 }
 .left_ul ul li {
     padding-top: 6px !important;
