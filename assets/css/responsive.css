@@ -1016,8 +1016,9 @@
     line-height: 25px;
 }
 .center_space{
-    margin-top: 50px;
+    margin-top: 18px;
 }
+
 .fault_heading_color_1 {
     font-size: 30px;
     font-family: 'Roboto-Bold';
@@ -1123,7 +1124,7 @@
     width: 46%;
     flex-shrink: 0;
     height: auto;
-    margin: 20px 9px 0 0;
+    margin: 9px 9px 0 0;
 }
 #slider_w{
     width: 518px;
@@ -1180,10 +1181,12 @@
 .business_section_hr{
     border:1px solid #b6b6b6;
     width:92%;
+    padding: 0px 0 0 0;
+    margin: 0 0px 0px 10px;
 }
 .owl-nav{
     position: absolute;
-    top: 143px !important;
+    top: 125px !important;
 }
 .left_ul ul li {
     padding-top: 6px !important;
@@ -1192,11 +1195,15 @@
     position: absolute;
     right: auto !important;
 }
+.y_title {
+    font-family: 'Roboto-Bold';
+    font-size: 23px;}
+
 /* federal playlist section */
 .gray_bg_title h1 {
     font-family: 'Roboto-Bold';
     color: #AFAFAF;
-    font-size: 18px;
+    font-size: 28px;
     text-transform: uppercase;
     margin-right: 20px;
     margin-top: 9px;
@@ -1280,6 +1287,9 @@
 }
 .justify-content-end1{
 justify-content: flex-start !important;
+}
+.space_add{
+    margin-top: -33px;
 }
 }
   
