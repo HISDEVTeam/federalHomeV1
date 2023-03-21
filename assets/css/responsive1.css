@@ -5,84 +5,101 @@
     .d_none_mob1{
         display: none;
     }
+    .d_none_mob{
+        display: none;
+    }
     .card_car_none{
         display: none;
     }    
 }
-
-/* Styles for screens between 1024px and 1320px */
-@media only screen and (max-width: 1320px) and (min-width: 1200px)
-{
-
+@media only screen and (max-width: 1320px) and (min-width: 1201px){
     
-    .card-body {
-        -ms-flex: 1 1 auto;
-        flex: 1 1 auto;
-        min-height: 1px;
-        padding: 0;
-    }
-    .round_img_star {
-        position: absolute;
-        top: 110px;
-    }
-    .logo_premium {
-        height: 20px;
-        position: absolute;
-        top: 5px;
-        left: 22px;
-    }
-    /* .list-unstyled{ 
-        columns: 3;
-      -webkit-columns: 3;
-      -moz-columns: 3;
+
+        .d_none_mob{
+            display: none;
         }
-        .list-unstyled li{
-            display: inline-block;
-            width: 100%;
-        } */
-    .card_car_none{
-        display: none;
-    }
-    .spilit_res_none{
-        display: none;
-    }
-    .d_none_mob1{
-        display: none;
-    }    
-    .bg_y_f h5{
-        padding: 20px 5px;
-    }
-    .eight_col_img_b {
-        width: auto;
-        height: 370px;
-    }
-    .img_size_re{
-
-        width: 142px;
-    height: auto;
-    }
-    .webstory_tab ul li:last-child{
-        display: none;
-    }
-
-    .owl_left{
-        top: -28px;
-    }
-    .owl_right{
-
-        left: 2548%;
-    position: relative;
-    top: -29px;
-    }
-    .owl-right span {
-        font-size: 43px;
+        .card-body {
+            -ms-flex: 1 1 auto;
+            flex: 1 1 auto;
+            min-height: 1px;
+            padding: 0;
+        }
+        .round_img_star {
+            position: absolute;
+            top: 110px;
+        }
+        .logo_premium {
+            height: 20px;
+            position: absolute;
+            top: 5px;
+            left: 22px;
+        }
+        /* .list-unstyled{ 
+            columns: 3;
+          -webkit-columns: 3;
+          -moz-columns: 3;
+            }
+            .list-unstyled li{
+                display: inline-block;
+                width: 100%;
+            } */
+        .card_car_none{
+            display: none;
+        }
+        .spilit_res_none{
+            display: none;
+        }
+        .d_none_mob1{
+            display: none;
+        }    
+        .bg_y_f h5{
+            padding: 20px 5px;
+        }
+        .eight_col_img_b {
+            width: auto;
+            height: 370px;
+        }
+        .img_size_re{
+    
+            width: 142px;
+        height: auto;
+        }
+        .webstory_tab ul li:last-child{
+            display: none;
+        }
+    
+        .owl_left{
+            top: -28px;
+        }
+        .owl_right{
+    
+            left: 2548%;
         position: relative;
-        top: -19px;
-        opacity: 0.5;
+        top: -29px;
+        }
+        .owl-right span {
+            font-size: 43px;
+            position: relative;
+            top: -19px;
+            opacity: 0.5;
+        }
+        .d_none_mob{
+            display: none;
+        }
+        .btn-bold_bt {
+            position: absolute;
+            left: 19px;
+            width: 153px;
+            height: 24px;
+            top: -27px;
+            margin: 0px;
+        }
+    
+}
+@media only screen and (max-width: 1200px) and (min-width: 1191px){
+    .d_none_mob{
+        display: none;
     }
-  }
-
-  @media only screen and (max-width: 1200px) and (min-width: 1024px){
     .dropdown-menu{
         left: -204px !important;
      }
@@ -186,10 +203,123 @@
 }
   }
 
+@media only screen and (max-width: 1190px) and (min-width: 1024px){
+    .dropdown-menu{
+        left: -204px !important;
+     }
+     
+     .d_none_mob{
+        display: none;
+     }
+     .nav_list {
+    font-size: 14px;
+}
+.list-unstyled{ 
+        columns: 3;
+      -webkit-columns: 3;
+      -moz-columns: 3;
+        }
+        .list-unstyled li{
+            display: inline-block;
+            width: 100%;
+        }
+     .second_drop_menu:after, .third_drop_menu:after {
+        content: '';
+        position: absolute;
+        top: 8px;
+        left: 208px;
+        margin-left: -30px;
+        margin-top: -7px;
+        width: 0;
+        z-index: 1;
+        height: 0;
+        border-bottom: solid 9px transparent;
+        border-right: 18px solid #fff;
+        border-left: 4px solid transparent;
+        border-top: 9px solid transparent;
+        filter: drop-shadow(0px 3px 3px rgba(0,0,0,0.16 ));
+    }
 
+    .card-body {
+        -ms-flex: 1 1 auto;
+        flex: 1 1 auto;
+        min-height: 1px;
+        padding: 0;
+    }
+    .round_img_star {
+        position: absolute;
+        top: 110px;
+    }
+    .navbar_ul_parent .nav-link {
+        color: #520F0F;
+        font-size: 13px;
+        padding: 2px 9px;
+        font-family: 'Roboto-Bold';
+        border-radius: 11px;
+    }
+    .spilit_none{
+        display: none;
+    }
+    section.webstory-section.d_none {
+        margin-top: 10px;
+    }
+    .webstory_tab ul li:last-child{
+        display: none;
+    }
+    .webstory_tab ul li:first-child{
+        display: none;
+    }
+    .opinion_grid h6 {
+        color: #520f0f;
+        font-size: 20px;
+        margin-left: 18px;
+        /* width: 63px; */
+    }
+    .eight_col_img_b {
+        height: 207px;
+        margin-bottom: 8px;
+        overflow: hidden;
+        width: 615px;
+    }
+    .card_carousel-none{
+        display: none;
+    }
+    .owl-nav {
+        display: none;
+    }
+    /* .list-unstyled{ 
+        columns: 3;
+      -webkit-columns: 3;
+      -moz-columns: 3;
+        }
+        .list-unstyled li{
+            display: inline-block;
+            width: 100%;
+        } */
+        .navbar_ul_parent .nav-link {
+            color: #520F0F;
+            font-size: 13px;
+            padding: 2px 9px;
+            font-family: 'Roboto-Bold';
+            border-radius: 11px;
+        }
 
-  /* Styles for screens between 768px and 1023px */
-  @media only screen and (max-width: 1024px) and (min-width: 991px) {
+        .d1_none{
+            display: none;
+        }
+.vertical_img_cont {
+    width: auto;
+     height: auto;
+    overflow: hidden;
+}    
+.fault_right_side_content {
+    font-family: 'Roboto-Bold';
+    font-size: 31px;
+    color: white;
+    line-height: 45px;
+}    
+}
+@media only screen and (max-width: 1024px) and (min-width: 991px) {
     .card_carousel .owl-nav button {
         position: absolute;
         top: -282%;
@@ -294,9 +424,15 @@
             overflow: hidden;
             width: 603px;
         }
-  }
-  
-  @media only screen and (max-width: 991px) and (min-width: 768px) {
+        .d_none_mob{
+            display: none;
+        }
+    }
+@media only screen and (max-width: 990px) and (min-width: 769px) {
+    .d_none_mob{
+        display: none;
+    }
+    
     .owl-theme .owl-dots, .owl-theme .owl-nav {
         text-align: center;
         -webkit-tap-highlight-color: transparent;
@@ -387,8 +523,12 @@
         position: absolute;
         top: 99px;
     }
+    .vertical_img_cont img {
+        min-width: 100%;
+       min-height: auto; 
+    }
     .opinion_grid {
-        display: grid;
+        /* display: grid; */
         grid-template-columns: auto auto auto auto auto;
         grid-gap: 0px;
     }
@@ -419,12 +559,11 @@
         left: 662px;
         top: -30px;
     }
-    
-  }
+}
 
 
-  /* Styles for screens narrower than 768px */
-  @media only screen and (max-width: 768px) and (min-width: 400px) {
+/* Styles for screens narrower than 768px */
+@media only screen and (max-width: 768px) and (min-width: 480px) {
     .four_col_img_c { height:280px ; overflow: hidden; position: relative;}
     .dropdown-menu {
         position: absolute;
@@ -841,7 +980,7 @@
  
 }
   }
-  @media only screen and (max-width: 400px) {
+  @media only screen and (max-device-width: 480px)  {
     .dropdown-menu {
         position: absolute;
         top: 100%;
@@ -1320,17 +1459,3 @@ justify-content: flex-start !important;
 }
   
   
-@media only screen and (min-device-width: 400px) and (orientation: landscape) {
-    /* Your CSS styles for devices with a width of 400px in landscape mode */
-  } 
-  
-  
-  @media only screen and (min-width: 767px) {
-    .carousel {
-        position: relative;
-        display: none;
-    }
-    .d_none_mob{
-        display: none;
-    }
-}
