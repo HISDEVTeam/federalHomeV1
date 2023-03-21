@@ -355,10 +355,7 @@
         filter: drop-shadow(0px 3px 3px rgba(0,0,0,0.16 ));
     }
     .icon_position{
-        width: 68px;
-        height: 42px;
-        position: absolute;
-        right: 79px; 
+        margin: 3px 20px 0 -11px;
     }
     .dropdown-menu{
         right: 0 !important;
@@ -606,7 +603,7 @@
    .screen_nav_1{
     position: relative;
     left: auto;
-    top: -26px;
+    top: 12px;
     }
     .vertical_img_cont img {
         min-width: 100%;
