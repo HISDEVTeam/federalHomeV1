@@ -941,3 +941,41 @@ img.img-fluid.rounded-circle.img-opacity {
 .footer_section{
   font-family: 'Roboto-Medium';
 }
+.btn-bold_bt{
+  position: absolute;
+    left: 20px;
+    width: 181px;
+    height: 24px;
+    top: -27px;
+    margin: 0px;
+}
+.logo_premium1{
+  height: 20px;
+    position: absolute;
+    top: 1px;
+    left: 2px;
+}
+
+
+
+
+.my-button::before {
+  content: "Click me!";
+}
+
+.btn-bold_bt::after {
+  content: "Don't Click Me!";
+  position: absolute;
+  top: 0;
+  left: 60px;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.btn-bold_bt:hover::before {
+  opacity: 0;
+}
+
+.btn-bold_bt:hover::after {
+  opacity: 1;
+}
