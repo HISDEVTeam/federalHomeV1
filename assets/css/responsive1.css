@@ -429,7 +429,25 @@
     .d_none_mob{
         display: none;
     }
-    
+    .fault_right_side_content_1 {
+        font-family: 'Roboto-Light';
+        font-size: 18px;
+        line-height: 23px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .faultline_img_cont {
+        height: 412px;
+        /* overflow: hidden; */
+        margin-bottom: 20px;
+        width: 100%;
+    }
+    .fault_right_side_content {
+        font-family: 'Roboto-Bold';
+        font-size: 18px;
+        color: white;
+        line-height: 27px;
+    }
     .owl-theme .owl-dots, .owl-theme .owl-nav {
         text-align: center;
         -webkit-tap-highlight-color: transparent;
