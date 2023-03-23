@@ -2211,7 +2211,7 @@ justify-content: flex-start !important;
 }
 
 }
-@media only screen and (max-width: 479px) and (min-width: 400px) {
+@media only screen and (max-width: 479px) and (min-width: 270px) {
     .four_col_img_c {
         height: 250px;
         overflow: hidden;
