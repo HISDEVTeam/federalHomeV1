@@ -763,6 +763,10 @@
 
 /* Styles for screens narrower than 768px */
 @media only screen and (max-width: 768px) and (min-width: 480px) {
+    .federal_plalist {
+        width: 100%;
+        overflow: hidden;
+    }
     .second_drop_menu:after, .third_drop_menu:after {
      display: none;
     }
@@ -813,7 +817,7 @@
     
     
     
-    .four_col_img_c { height:280px ; overflow: hidden; position: relative;}
+    .four_col_img_c { height:280px ; overflow: hidden; position: relative;}
     
     .screen_nav{
         display: none;
@@ -1079,7 +1083,7 @@
     scroll-snap-type: x mandatory;
 }
 #slider_x{
-    width: 46%;
+    width: 37%;
     flex-shrink: 0;
     height: auto;
     margin: 20px 9px 0 0;
@@ -1210,7 +1214,11 @@
 
   }
   @media only screen and (max-width: 480px) and (min-width: 270px)  {
-    
+    .banner_img_cont {
+        height: 296px;
+        width: 100%;
+        overflow: hidden;
+    }
     .second_drop_menu:after, .third_drop_menu:after {
         display: none;
        }
@@ -1282,7 +1290,7 @@
     }
     .screen_nav_1{
      position: absolute;
-    left: 16px;
+    left: 0px;
     top: 10px;
     }
     
@@ -1326,7 +1334,7 @@
     color: #520f0f;
     font-family: 'Roboto-Bold';
     font-size: 10px;
-    padding: 2px 11px 2px 14px !important;
+    padding: 3px 6px 1px 21px !important;
     text-transform: uppercase;
     }
     .img_15-start {
@@ -1555,7 +1563,7 @@
     scroll-snap-type: x mandatory;
 }
 #slider_x{
-    width: 46%;
+    width: 37%;
     flex-shrink: 0;
     height: auto;
     margin: 20px 9px 0 0;
@@ -1637,10 +1645,13 @@
 .round_img_star {
     position: relative;
     top: 62px;
-    left: -86px;
+    left: -73px;
     /* display: none; */
 }
-
+.container{
+    width: auto;
+    overflow: hidden;
+}
 
 /* footer section */
 .mr-2, .mx-2 {
@@ -1710,10 +1721,30 @@ justify-content: flex-start !important;
 }
 .space_add{
     margin-top: -33px;
+
+}
+.owl-left {
+    border-radius: 50%;
+    width: 36px;
+    border: none;
+    opacity: 0.2;
+    height: 37px;
+    position: absolute;
+    font-size: -16px;
+    left: -12px;
+    top: -28px;
+}
+.federal_plalist {
+    width: 100%;
+    overflow: hidden;
 }
 }
   
 @media only screen and (max-width: 269px){
+    .federal_plalist {
+        width: 100%;
+        overflow: hidden;
+    }
     
     .headline_below_content {
         font-family: 'Roboto-Regular';
@@ -1738,7 +1769,7 @@ justify-content: flex-start !important;
     }
     .screen_nav_1{
      position: absolute;
-    left: 16px;
+    left: auto;
     top: 10px;
     }
     
@@ -1777,13 +1808,13 @@ justify-content: flex-start !important;
     }
     .Category_tag span {
         background: #d7b763;
-    border-radius: 21px;
-    border: 1px solid #d7b763;
-    color: #520f0f;
-    font-family: 'Roboto-Bold';
-    font-size: 10px;
-    padding: 5px 13px 5px 24px !important;
-    text-transform: uppercase;
+        border-radius: 21px;
+        border: 1px solid #d7b763;
+        color: #520f0f;
+        font-family: 'Roboto-Bold';
+        font-size: 7px;
+        padding: 5px 10px 2px 21px !important;
+        text-transform: uppercase;
     }
     .img_15-start {
         position: absolute;
@@ -2011,7 +2042,7 @@ justify-content: flex-start !important;
     scroll-snap-type: x mandatory;
 }
 #slider_x{
-    width: 46%;
+    width: 37%;
     flex-shrink: 0;
     height: auto;
     margin: 20px 9px 0 0;
@@ -2066,6 +2097,17 @@ justify-content: flex-start !important;
 }
 .left_ul ul li {
     padding-top: 6px !important;
+}
+.owl-left {
+    border-radius: 50%;
+    width: 36px;
+    border: none;
+    opacity: 0.2;
+    height: 37px;
+    position: absolute;
+    font-size: -16px;
+    left: -10px;
+    top: 36px;
 }
 .owl-nav .owl-right{
     position: absolute;
@@ -2167,4 +2209,30 @@ justify-content: flex-start !important;
 .space_add{
     margin-top: -33px;
 }
+
 }
+@media only screen and (max-width: 479px) and (min-width: 400px) {
+    .four_col_img_c {
+        height: 250px;
+        overflow: hidden;
+        position: relative;
+    }
+ 
+}
+@media only screen and (max-width: 575px) and (min-width: 481px){
+ .federal_logo_cont{
+    position: absolute;
+ }
+
+}
+@media only screen and (max-width: 575px){
+    .class {
+        -ms-overflow-style: none;  /* Internet Explorer 10+ */
+        scrollbar-width: none;  /* Firefox */
+    }
+    .class::-webkit-scrollbar { 
+        display: none;  /* Safari and Chrome */
+    }
+}
+
+
