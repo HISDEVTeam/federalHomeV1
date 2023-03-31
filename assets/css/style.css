@@ -27,7 +27,9 @@ body{
   font-size: 16px;
   font-family: 'Roboto-Regular';
   background-color: #fff;
+
 }
+
 .federal_logo_cont img{
   height: 50px;
 }
@@ -979,3 +981,6 @@ img.img-fluid.rounded-circle.img-opacity {
 .btn-bold_bt:hover::after {
   opacity: 1;
 }
+ 
+
+
