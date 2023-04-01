@@ -1521,7 +1521,7 @@ ul .nav_list {
 .tab_button_active {
     background: #520F0F 0% 0% no-repeat padding-box;
     border-radius: 43px;
-    font-size: 11px;
+    font-size: 10px;
     padding: 0px 4px;
     margin-top: 11px;
     color: #FFFFFF !important;
@@ -2354,3 +2354,15 @@ text-transform: uppercase;
 }
 
 
+@media only screen and (max-width: 251px) and (min-width: 270px){
+.tab_button_active {
+    background: #520F0F 0% 0% no-repeat padding-box;
+    border-radius: 43px;
+    font-size: 9px;
+    padding: 0px 4px;
+    margin-top: 11px;
+    color: #FFFFFF !important;
+    text-transform: uppercase;
+    font-family: 'Roboto-Bold';
+}
+}
