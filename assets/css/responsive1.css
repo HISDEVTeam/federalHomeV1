@@ -1535,7 +1535,7 @@ ul .nav_list {
     left: -22px;
 }
 ul .nav_list {
-    margin-right: 7px;
+    margin-right: 4px;
 }
 .grid_states_items {
     display: inline-grid;
@@ -1806,7 +1806,7 @@ justify-content: flex-start !important;
 }
 .federal_plalist {
     width: 100%;
-    overflow: auto;
+    /* overflow: auto; */
 }
  .state_hide{
     display: none;
@@ -2341,7 +2341,10 @@ text-transform: uppercase;
  .federal_logo_cont{
     position: absolute;
  }
-
+  .federal_plalist{
+    width:100%;
+    overflow: none;
+  }
 }
 @media only screen and (max-width: 575px){
     .class {
