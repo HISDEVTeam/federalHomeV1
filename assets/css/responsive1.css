@@ -1852,6 +1852,11 @@ justify-content: flex-start !important;
 }
   
 @media only screen and (max-width: 269px){
+    .owl-nav .owl-right {
+        position: absolute;
+        left: 253px;
+        top: -14px;
+    }
     .federal_plalist {
         width: 100%;
         overflow: hidden;
@@ -2390,7 +2395,7 @@ text-transform: uppercase;
 }
 
 
-@media only screen and (max-width: 251px) and (min-width: 270px){
+@media only screen and (max-width: 351px) and (min-width: 270px){
 .tab_button_active {
     background: #520F0F 0% 0% no-repeat padding-box;
     border-radius: 43px;
@@ -2400,5 +2405,10 @@ text-transform: uppercase;
     color: #FFFFFF !important;
     text-transform: uppercase;
     font-family: 'Roboto-Bold';
+}
+.owl-nav .owl-right {
+    position: absolute;
+    left: 291px;
+    top: -14px;
 }
 }
