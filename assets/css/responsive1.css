@@ -1591,15 +1591,15 @@ ul .nav_list {
 
 /* webstory-section */
 .slider_r {
-    width: 518px;
-    height: 60%;
+    width: 100%;
+    height: 100%;
     display: flex;
-    overflow-x: none;
-    /* overflow-y: hidden; */
-    scroll-snap-type: x mandatory;
+    overflow-x: auto;
+    /* overflow-y: hidden;
+    scroll-snap-type: x mandatory; */
 }
 .slide_n {
-    width: 46%;
+    /* width: 46%; */
     flex-shrink: 0;
     height: auto;
     margin: 20px 9px 0 0;
@@ -1623,29 +1623,27 @@ ul .nav_list {
 }
 
 .slider_z{
-    width: 518px;
-    height: 60%;
+    width: 100%;
+    height: 100%;
     display: flex;
     overflow-x: none;
     overflow-y: hidden;
     scroll-snap-type: x mandatory;
 }
 .slide_y{
-    width: 46%;
+    width: 67%;
     flex-shrink: 0;
     height: auto;
     margin: 9px 9px 0 0;
 }
 #slider_w{
-    width: 518px;
-    height: 60%;
+    width: 100%;
+    height: 100%;
     display: flex;
-    overflow-x: none;
-    /* overflow-y: hidden; */
-    scroll-snap-type: x mandatory;
+    overflow-x: auto;
 }
 #slider_x{
-    width: 37%;
+    width: 56%;
     flex-shrink: 0;
     height: auto;
     margin: 20px -35px 0 0;
@@ -2110,7 +2108,7 @@ justify-content: flex-start !important;
     width: 518px;
     height: 60%;
     display: flex;
-    overflow-x: none;
+    overflow-x: scroll;
     overflow-y: hidden;
     scroll-snap-type: x mandatory;
 }
