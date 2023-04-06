@@ -1595,7 +1595,7 @@ ul .nav_list {
     height: 60%;
     display: flex;
     overflow-x: none;
-    overflow-y: hidden;
+    /* overflow-y: hidden; */
     scroll-snap-type: x mandatory;
 }
 .slide_n {
@@ -1641,7 +1641,7 @@ ul .nav_list {
     height: 60%;
     display: flex;
     overflow-x: none;
-    overflow-y: hidden;
+    /* overflow-y: hidden; */
     scroll-snap-type: x mandatory;
 }
 #slider_x{
@@ -2157,7 +2157,7 @@ justify-content: flex-start !important;
     height: 60%;
     display: flex;
     overflow-x: none;
-    overflow-y: hidden;
+    /* overflow-y: hidden; */
     scroll-snap-type: x mandatory;
 }
 #slider_x{
