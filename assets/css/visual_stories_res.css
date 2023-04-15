@@ -1,0 +1,10 @@
+
+@media only screen and (max-width: 767px) {
+    .webstory_tab{
+        position:absolute !important;
+    }
+ 
+.WEB-NONE{
+display: none !important;
+}
+}
