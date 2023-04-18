@@ -869,7 +869,7 @@ display: block;
     color: #7f4e4e;
     font-size: 14px;
     line-height: 1.5;
-    margin-left: 97px
+   
   }
   .sub_category_button_one{
     font-family: 'Roboto-Bold';
@@ -1259,7 +1259,7 @@ display: block;
 }
 .update_font_size {
   padding-top: 30px;
-  margin-left: 78px;
+ 
 }
 .content_position {
   position: relative;
@@ -1285,11 +1285,11 @@ display: block;
   margin-left: 19px;
 }
 #category_eight_bg_image {
-  background-image: url(/assets/images/Mysore_Palace_Morning.jpg);
+  background: linear-gradient(rgba(250,250,250, 0.3),rgba(250,250,250, 0.6)),url(../images/Mysore_Palace_Morning.jpg);
   background-repeat: no-repeat;
-  background-size: 100% 161%;
- 
-}
+  background-size: cover;
+  background-position: center;
+  }
 /* Catgeory page 5 */
 .six_c_six img{
   border-radius:20px;
@@ -1340,7 +1340,7 @@ padding-top: 17%;
   color: #7f4e4e;
   font-size: 14px;
   line-height: 1.5;
-  margin-left: 97px
+  /* margin-left: 97px */
 }
 .sub_category_button_one{
   font-family: 'Roboto-Bold';
@@ -1706,3 +1706,63 @@ line-height: 14px;
     left: 0 !important;
   }
 }
+
+category_eight_bg_image */
+
+/* start about us and term use page 13.04.2023 */
+.about_size {
+  font-size: 71px;
+  text-transform: capitalize;
+  color: #DEDEDE;
+  line-height: 1;
+  margin: 0px;
+}
+.about_content_one{
+  font-size:20px;
+  font-family: 'Roboto-Regular';
+  font-weight: 400!important;
+}
+/* end about us page and term use 13.04.2023 */
+/* register page */
+.buton_label_color{
+ color: #e7e7e7;
+}
+.form-control_1 {
+  display: block;
+  width: 100%;
+  height: calc(2.5715em + 0.875rem + 2px);
+  padding: 0.4375rem 0.875rem;
+  font-size: .875rem;
+  font-weight: 400;
+  line-height: 1.5715;
+  color: #333;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.button_size_sign{
+  width:100%;
+  height:auto;
+  background-color: #FC9F00!important;
+  color: white!important;
+  font-size: 20px;
+  border-radius: 9px
+}
+.sign_font_size p:nth-child(1){
+  font-size:20px;
+}
+.sign_font_size p:nth-child(2){
+  font-size:20px;
+  color:#FC9F00;
+  margin-left:90px;
+}
+
+
+section.navigation-bar-section1.screen_nav.d1_none {
+  position: absolute;
+  top: 75px;
+}
+
+
