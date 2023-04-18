@@ -34,11 +34,60 @@
       <link href="assets/css/icomoon/styles.min.css" rel="stylesheet"/> 
       <link href="assets/css/style.css" rel="stylesheet"/>
       <link href="assets/css/responsive1.css" rel="stylesheet">
+      
+      <style>
+          .half_color {
+      background: linear-gradient(176deg, #FFFFFF, rgba(0,255,102,0.3337710084033614) 183%, rgba(135,231,157,1) -226%);
+      height: 1129px;
+      background-repeat: no-repeat;
+  }
+    @media screen and (max-width:768px){
+      .half_color {
+      background: linear-gradient(176deg, #FFFFFF, rgba(0,255,102,0.3337710084033614) 183%, rgba(135,231,157,1) -226%);
+      height: 868px;
+      background-repeat: no-repeat;
+  }
+  .social_media_icons{
+   display:none;
+  }
+  .top_s_hide{
+   display: none;
+  }
+    }
+
+    @media screen and (max-width: 768px){
+button.btn.btn-warning.sub_category_button.btn_position {
+    position: relative;
+    top: -35px;
+    left: 20px;
+}
+.article_page_three_last_image {
+    margin-top: 20px;
+}
+.slider_c.d_none_mob {
+    margin-top: -31px;
+}
+.card_content {
+    font-family: 'Roboto-Bold';
+    font-size: 18px;
+    color: #363636;
+    padding: 15px 0px;
+    line-height: 25px;
+}
+.ad_img_with_bg {
+    padding: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    background: #f6f6f6;
+    margin-top: 33px;
+}
+}
+      </style>
    </head>
 
 
 
-   <body>
+   <body  class="half_color" >
         <!-- Top Navbar-->
         <section class="navbar-section screen_nav screen_nav_1 d1_none">
          <div class="container">
@@ -629,8 +678,8 @@
 
 
       <!-- mobile respose navbar section end -->
-      
-      <section id="sponsor_page">
+      <div>
+      <section>
 
          <div class="container">
             <div class="row">
@@ -657,7 +706,7 @@
                </div>
             </div>
          </div>
-
+      </section>
          <div class="container-fluid">
             <div class="social_icons_wrapper">
                <div class="d-flex align-items-center justify-content-center flex-column social_media_icons_2">  
@@ -693,19 +742,19 @@
                         </div>
                         <div class="col-md-4">
                            <div class="author_name_icon_sec text-right">
-                              <img src="assets/images/NrithyaPillai-696x392.jpg" class="img-fluid">
-                              <img src="assets/images/NrithyaPillai-696x392.jpg" class="img-fluid">
-                              <img src="assets/images/NrithyaPillai-696x392.jpg" class="img-fluid">
-                              <img src="assets/images/NrithyaPillai-696x392.jpg" class="img-fluid">
-                              <img src="assets/images/NrithyaPillai-696x392.jpg" class="img-fluid">
+                              <img src="./assets/images/foo_whatsapp.png" class="img-fluid">
+                              <img src="./assets/images/foo_facebook.png" class="img-fluid">
+                              <img src="./assets/images/foo_twitter.png" class="img-fluid">
+                              <img src="./assets/images/foo_linkedin.png" class="img-fluid">
+                              <img src="./assets/images/foo_facebook.png" class="img-fluid">
                            </div>
                         </div>
                      </div>
-
+                 
 
                 
-               <div class="row py-4">
-                  <div class="col-md-12 ">
+                    <div class="row py-4">
+                          <div class="col-md-12 ">
                       <div class="row">
                          <div class="col-md-1 col-sm-2 col-2 d-flex justify-content-center">
                            <div>
@@ -842,22 +891,22 @@
                         <div class="col-md-12">                          
                            <div class="top_story_wrapper">
                               <h2 class="title_1">TOP STROIES</h2>
-                              <div class="ad_imgbox_sec">
+                              <div class="ad_imgbox_sec top_s_hide">
                                  <img  src="assets/images/16X9.png" class="img-fluid"/>
                                  <button type="button" class="btn btn-warning sub_category_button btn_position">CATEGORY TAG</button>
                                  <p class="text-dark">How a Sri Lankan Tamil novel ‘foretold’ Vengaivasal caste atrocity</p>
                               </div>
-                              <div class="ad_imgbox_sec">
+                              <div class="ad_imgbox_sec top_s_hide">
                                  <img  src="assets/images/16X9.png" class="img-fluid"/>
                                  <button type="button" class="btn btn-warning sub_category_button btn_position">CATEGORY TAG</button>
                                  <p class="text-dark">How a Sri Lankan Tamil novel ‘foretold’ Vengaivasal caste atrocity</p>
                               </div>
-                              <div class="ad_imgbox_sec">
+                              <div class="ad_imgbox_sec top_s_hide">
                                  <img  src="assets/images/16X9.png" class="img-fluid"/>
                                  <button type="button" class="btn btn-warning sub_category_button btn_position">CATEGORY TAG</button>
                                  <p class="text-dark">How a Sri Lankan Tamil novel ‘foretold’ Vengaivasal caste atrocity</p>
                               </div>
-                              <div class="ad_imgbox_sec">
+                              <div class="ad_imgbox_sec top_s_hide">
                                  <img  src="assets/images/16X9.png" class="img-fluid"/>
                                  <button type="button" class="btn btn-warning sub_category_button btn_position">CATEGORY TAG</button>
                                  <p class="text-dark">How a Sri Lankan Tamil novel ‘foretold’ Vengaivasal caste atrocity</p>
@@ -865,7 +914,57 @@
                            </div>
                         </div>
                      </div>
-
+                    <!-- cardpart mobile responsive start -->
+             <div class="slider_c d_none_mob">
+               <div class="slide_f">
+                  <div class="card">
+                     <div class="position-relative">
+                        <img src="./assets/images/Banner_img_1.png" class="card-img-top" alt="...">
+                        <button type="button" class="btn btn-warning sub_category_button btn_position">CATEGORY TAG</button>
+                     </div>
+                     
+                     <div class="card-body card_content">
+                        <p class="card-text">How a Sri Lankan Tamil novel ‘foretold’ Vengaivasal caste atrocity</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="slide_f">
+                  <div class="card">
+                     <div class="position-relative">
+                        <img src="./assets/images/Banner_img_1.png" class="card-img-top" alt="...">
+                        <button type="button" class="btn btn-warning sub_category_button btn_position">CATEGORY TAG</button>
+                     </div>
+                     <div class="card-body card_content">
+                        <p class="card-text">How a Sri Lankan Tamil novel ‘foretold’ Vengaivasal caste atrocity</p>
+                     </div>
+                  </div>
+               </div>
+              <div class="slide_f">
+                  <div class="card">
+                     <div class="position-relative">
+                        <img src="./assets/images/Banner_img_1.png" class="card-img-top" alt="...">
+                        <button type="button" class="btn btn-warning sub_category_button btn_position">CATEGORY TAG</button>
+                     </div>
+                     <div class="card-body card_content">
+                        <p class="card-text">How a Sri Lankan Tamil novel ‘foretold’ Vengaivasal caste atrocity</p>
+                        
+                     </div>
+                  </div>
+               </div>
+               <div class="slide_f">
+                  <div class="card">
+                     <div class="position-relative">
+                        <img src="./assets/images/Banner_img_1.png" class="card-img-top" alt="...">
+                        <button type="button" class="btn btn-warning sub_category_button btn_position">CATEGORY TAG</button>
+                     </div>
+                     <div class="card-body card_content">
+                        <p class="card-text">How a Sri Lankan Tamil novel ‘foretold’ Vengaivasal caste atrocity</p>
+                        
+                     </div>
+                  </div>
+               </div>
+            </div>
+              <!-- cardpart mobile responsive start -->
 
                      <div class="row">
                         <div class="col-md-12">
@@ -881,9 +980,10 @@
          </div>
          </section>
 
-      </section>
+     
+   </div>
         <!-- Footer Section STRAT -->
-        <div class="footer_section py-5">
+         <div class="footer_section py-5">
          <div class="container">
             <div class="row row-xs">
                <div class="col-md-5 ">
@@ -975,7 +1075,7 @@
                </div>
             </div>
          </div>
-      </div>
+      </div> -->
       <!-- Footer Section END --> 
        
       <script src="./assets/js/jquery.min.js" type="text/javascript"></script>

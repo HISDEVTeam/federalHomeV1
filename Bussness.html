@@ -91,31 +91,55 @@
           font-size: 12px;
           border-radius: 20px;
           line-height: 14px;
+        
       }
-      .button_pos_two{
+      /* .button_pos_two{s
          position: relative;
           top: -38px;
           left: 10px;
-      }
-      
-      @media screen and (max-width:767px){
-         .nav.custom_navMenu_2 .nav-item {
-        margin: 0px 23px 5px 0px;
-        color: #520F0F;
+      } */
+      @media screen and (max-width:375px){
+         .sponsor_button_four {
+          font-family: 'Roboto-Bold';
+          background-color: #00ff00;
+          border: none;
+          color: black;
+          font-size: 12px;
+          border-radius: 20px;
+          line-height: 14px;
+          position: relative;
+    top: -28px;
       }
       .sub_category_button_five {
     font-family: 'Roboto-Bold';
     background-color: #D7B763;
     border: none;
     color: #520F0F;
-    font-size: 10px;
+    font-size: 8px;
     border-radius: 20px;
-    width: 102px;
-    height: 25px;
+    width: 86px;
+    padding-top: 3px;
+    height: 17px;
+    position: relative;
+    top: -29px;
+}
+
+}
+@media screen and (min-width: 376px) and (max-width: 767px){
+   .sub_category_button_five {
+    font-family: 'Roboto-Bold';
+    background-color: #D7B763;
+    border: none;
+    color: #520F0F;
+    font-size: 8px;
+    border-radius: 20px;
+    width: 70px;
+    height: 17px;
+    padding: 2px 6px 0px 0px;
 }
 .button_pos_one {
     position: relative;
-    top: -33px;
+    top: -28px;
     left: 10px;
 }
 .tag_overlay_16 {
@@ -123,6 +147,24 @@
     bottom: 14px;
     left: 15px;
 }
+}
+      
+      @media screen and (max-width:767px){
+         .nav.custom_navMenu_2 .nav-item {
+        margin: 0px 23px 5px 0px;
+        color: #520F0F;
+      }
+    
+.tag_overlay_16 {
+    position: absolute;
+    bottom: 14px;
+    left: 15px;
+}
+.button_pos_two{
+         position: relative;
+          top: -28px;
+          left: 10px;
+      }
       }
       @media screen and (max-width: 997px) {
    .social_media_icons {
@@ -140,10 +182,48 @@
       flex-direction: row !important;
   }
 }
-
-element.style {
+@media screen and (min-width:768px) and (max-width:1200px){
+   .sponsor_button_four {
+    font-family: 'Roboto-Bold';
+    background-color: #00ff00;
+    border: none;
+    color: black;
+    font-size: 8px;
+    border-radius: 20px;
+    width: 88px;
+    height: 17px;
+    padding: 1px 1px 0px 3px;
+} 
+.button_pos_two {
+    position: relative;
+    top: -28px;
+    left: 10px;
 }
-@media screen and (min-width: 767px) and (max-width: 996px){
+.sub_category_button_five {
+    font-family: 'Roboto-Bold';
+    background-color: #D7B763;
+    border: none;
+    color: #520F0F;
+    font-size: 9px;
+    border-radius: 20px;
+    width: 79px;
+    height: 17px;
+    padding: 2px 0px 0px 0px;
+}
+.button_pos_one {
+    position: relative;
+    top: -31px;
+    left: 10px;
+}
+.button_pos {
+    position: relative;
+    left: 17px;
+    bottom: 51px;
+}
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 996px){
 .social_media_icons_2 {
     position: fixed;
     margin-left: 109px;
@@ -162,7 +242,7 @@ element.style {
      <!-- Top Navbar-->
      <section class="navbar-section screen_nav screen_nav_1 d1_none">
       <div class="container">
-         <div class="row row-xs align-items-center py-0">
+         <div class="row row-xs align-items-center pt-2">
             <div class="col-md-10">
                <div class="federal_logo_cont">
                   <img class="img-fluid" src="./assets/images/re-image/Federal-Logo.png" alt="federalLogo"/>
@@ -494,7 +574,7 @@ element.style {
 
    <section class="navbar-section botom_gap d_none_mob1" style="box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;">
       <div class="container">
-         <div class="row row-xs align-items-center py-0">
+         <div class="row row-xs align-items-center pt-2">
             <div class=" col-sm-6">
                <div class="federal_logo_cont">
                   <img class="img-fluid" src="./assets/images/re-image/Federal-Logo.png" alt="federalLogo"/>
@@ -792,7 +872,7 @@ element.style {
                         </div>
                         <div class="col-md-6 mb-3 order_position_two  ">
                            <div class="ad_imgbox_sec">
-                              <div class="imgPosition_1">
+                              <div class="imgPosition_2">
                                  <img src="assets/images/16X9.png" class="img-fluid"/>
                                  <div class="Category_tag_16 tag_overlay_16">
                                     <div class="Category_tag_16_im">
@@ -811,7 +891,7 @@ element.style {
                            <div class="row">
                               <div class="col-md-12 col-sm-6 col-6">
                            <div class="ad_imgbox_sec">
-                              <div class="imgPosition_1">
+                              <div class="imgPosition_2">
                                  <img src="assets/images/16X9.png" class="img-fluid"/>
                                  <button type="button" class="btn  sub_category_button_five button_pos_one ">SUB CATEGORY</button>
                               </div>
@@ -828,7 +908,7 @@ element.style {
                          <div class="row">
                             <div class="col-md-12 col-sm-6 col-6">
                          <div class="ad_imgbox_sec">
-                            <div class="imgPosition_1">
+                            <div class="imgPosition_2">
                                <img src="assets/images/16X9.png" class="img-fluid"/>
                                <button type="button" class="btn  sub_category_button_five button_pos_one ">SUB CATEGORY</button>
                             </div>
@@ -845,7 +925,7 @@ element.style {
                      <div class="row">
                         <div class="col-md-12 col-sm-6 col-6">
                      <div class="ad_imgbox_sec">
-                        <div class="imgPosition_1">
+                        <div class="imgPosition_2">
                            <img src="assets/images/16X9.png" class="img-fluid"/>
                           
                         </div>
@@ -892,7 +972,7 @@ element.style {
                                              <div class="row">
                                                  <div class="col-md-12 col-sm-6 col-6">
                                               <div class="ad_imgbox_sec">
-                                                 <div class="imgPosition_1">
+                                                 <div class="imgPosition_2">
                                                     <img src="assets/images/16X9.png" class="img-fluid"/>
                                                   
                                                  </div>
@@ -909,7 +989,7 @@ element.style {
                                              <div class="row">
                                                  <div class="col-md-12 col-sm-6 col-6">
                                               <div class="ad_imgbox_sec">
-                                                 <div class="imgPosition_1">
+                                                 <div class="imgPosition_2">
                                                     <img src="assets/images/16X9.png" class="img-fluid"/>
                                                    
                                                  </div>
@@ -926,7 +1006,7 @@ element.style {
                                              <div class="row">
                                                  <div class="col-md-12 col-sm-6 col-6">
                                               <div class="ad_imgbox_sec">
-                                                 <div class="imgPosition_1">
+                                                 <div class="imgPosition_2">
                                                     <img src="assets/images/16X9.png" class="img-fluid"/>
                                                    
                                                  </div>
@@ -943,7 +1023,7 @@ element.style {
                                              <div class="row">
                                                  <div class="col-md-12 col-sm-6 col-6">
                                               <div class="ad_imgbox_sec">
-                                                 <div class="imgPosition_1">
+                                                 <div class="imgPosition_2">
                                                     <img src="assets/images/16X9.png" class="img-fluid"/>
                                                     
                                                  </div>
@@ -962,7 +1042,7 @@ element.style {
                                            <div class="row">
                                                <div class="col-md-12 col-sm-6 col-6">
                                             <div class="ad_imgbox_sec">
-                                               <div class="imgPosition_1">
+                                               <div class="imgPosition_2">
                                                   <img src="assets/images/16X9.png" class="img-fluid"/>
                                                  
 
@@ -981,7 +1061,7 @@ element.style {
                                            <div class="row">
                                                <div class="col-md-12 col-sm-6 col-6">
                                             <div class="ad_imgbox_sec">
-                                               <div class="imgPosition_1">
+                                               <div class="imgPosition_2">
                                                   <img src="assets/images/16X9.png" class="img-fluid"/>
                                                   
                                                </div>
@@ -998,7 +1078,7 @@ element.style {
                                            <div class="row">
                                                <div class="col-md-12 col-sm-6 col-6">
                                             <div class="ad_imgbox_sec">
-                                               <div class="imgPosition_1">
+                                               <div class="imgPosition_2">
                                                   <img src="assets/images/16X9.png" class="img-fluid"/>
                                                  
                                                </div>
@@ -1015,7 +1095,7 @@ element.style {
                                            <div class="row">
                                                <div class="col-md-12 col-sm-6 col-6">
                                             <div class="ad_imgbox_sec">
-                                               <div class="imgPosition_1">
+                                               <div class="imgPosition_2">
                                                   <img src="assets/images/16X9.png" class="img-fluid"/>
                                                   
                                                </div>
@@ -1034,7 +1114,7 @@ element.style {
                                            <div class="row">
                                                <div class="col-md-12 col-sm-6 col-6">
                                             <div class="ad_imgbox_sec">
-                                               <div class="imgPosition_1">
+                                               <div class="imgPosition_2">
                                                   <img src="assets/images/16X9.png" class="img-fluid"/>
                                                
                                                </div>
@@ -1051,7 +1131,7 @@ element.style {
                                            <div class="row">
                                                <div class="col-md-12 col-sm-6 col-6">
                                             <div class="ad_imgbox_sec">
-                                               <div class="imgPosition_1">
+                                               <div class="imgPosition_2">
                                                   <img src="assets/images/16X9.png" class="img-fluid"/>
                                               
                                                </div>
@@ -1068,7 +1148,7 @@ element.style {
                                            <div class="row">
                                                <div class="col-md-12 col-sm-6 col-6">
                                             <div class="ad_imgbox_sec">
-                                               <div class="imgPosition_1">
+                                               <div class="imgPosition_2">
                                                   <img src="assets/images/16X9.png" class="img-fluid"/>
                                                  
                                                </div>
@@ -1085,7 +1165,7 @@ element.style {
                                            <div class="row">
                                                <div class="col-md-12 col-sm-6 col-6">
                                             <div class="ad_imgbox_sec">
-                                               <div class="imgPosition_1">
+                                               <div class="imgPosition_2">
                                                   <img src="assets/images/16X9.png" class="img-fluid"/>
                                                   
                                                </div>
@@ -1103,7 +1183,7 @@ element.style {
                                         <div class="row">
                                            <div class="col-md-6">
                                              <div class="ad_imgbox_sec">
-                                                <div class="imgPosition_1">
+                                                <div class="imgPosition_2">
                                                    <img src="assets/images/16X9.png" class="img-fluid"/>
                                                 </div>
                                                 <p class="party_text_1 font20 text-dark">Demonetisation verdict: BJP feels vindicated; Cong leans on only dissenting voice</p>
@@ -1121,7 +1201,7 @@ element.style {
                                                  <div class="row">
                                                      <div class="col-md-12 col-sm-6 col-6">
                                                   <div class="ad_imgbox_sec">
-                                                     <div class="imgPosition_1">
+                                                     <div class="imgPosition_2">
                                                         <img src="assets/images/16X9.png" class="img-fluid"/>
                                                         
                                                      </div>
@@ -1138,7 +1218,7 @@ element.style {
                                                  <div class="row py-0">
                                                      <div class="col-md-12 col-sm-6 col-6">
                                                   <div class="ad_imgbox_sec">
-                                                     <div class="imgPosition_1">
+                                                     <div class="imgPosition_2">
                                                         <img src="assets/images/16X9.png" class="img-fluid"/>
                                                         
                                                      </div>
@@ -1157,7 +1237,7 @@ element.style {
                                                  <div class="row">
                                                      <div class="col-md-12 col-sm-6 col-6">
                                                   <div class="ad_imgbox_sec">
-                                                     <div class="imgPosition_1">
+                                                     <div class="imgPosition_2">
                                                         <img src="assets/images/16X9.png" class="img-fluid"/>
                                                         
                                                      </div>
@@ -1174,7 +1254,7 @@ element.style {
                                                  <div class="row">
                                                      <div class="col-md-12 col-sm-6 col-6">
                                                   <div class="ad_imgbox_sec">
-                                                     <div class="imgPosition_1">
+                                                     <div class="imgPosition_2">
                                                         <img src="assets/images/16X9.png" class="img-fluid"/>
                                                         
                                                      </div>
@@ -1194,7 +1274,7 @@ element.style {
                                         <div class="row d-none">
                                            <div class="col-md-3">
                                              <div class="ad_imgbox_sec">
-                                                <div class="imgPosition_1">
+                                                <div class="imgPosition_2">
                                                    <img src="assets/images/16X9.png" class="img-fluid"/>
                                                 </div>
                                                 <p  class="text-dark">How a Sri Lankan Tamil novel ‘foretold’ Vengaivasal caste atrocity</p>
@@ -1203,7 +1283,7 @@ element.style {
                                            </div>
                                            <div class="col-md-3">
                                              <div class="ad_imgbox_sec">
-                                                <div class="imgPosition_1">
+                                                <div class="imgPosition_2">
                                                    <img src="assets/images/states_img_2.png" class="img-fluid"/>
                                                 </div>
                                                 <p  class="text-dark">How a Sri Lankan Tamil novel ‘foretold’ Vengaivasal caste atrocity</p>
@@ -1212,7 +1292,7 @@ element.style {
                                            </div>
                                            <div class="col-md-3">
                                              <div class="ad_imgbox_sec">
-                                                <div class="imgPosition_1">
+                                                <div class="imgPosition_2">
                                                    <img src="assets/images/16X9.png" class="img-fluid"/>
                                                 </div>
                                                 <p  class="text-dark">How a Sri Lankan Tamil novel ‘foretold’ Vengaivasal caste atrocity</p>
@@ -1221,7 +1301,7 @@ element.style {
                                            </div>
                                            <div class="col-md-3">
                                              <div class="ad_imgbox_sec">
-                                                <div class="imgPosition_1">
+                                                <div class="imgPosition_2">
                                                    <img src="assets/images/states_img_2.png" class="img-fluid"/>
                                                 </div>
                                                 <p  class="text-dark">How a Sri Lankan Tamil novel ‘foretold’ Vengaivasal caste atrocity</p>
@@ -1232,7 +1312,7 @@ element.style {
                                         <div class="row d-none">
                                            <div class="col-md-3">
                                              <div class="ad_imgbox_sec">
-                                                <div class="imgPosition_1">
+                                                <div class="imgPosition_2">
                                                    <img src="assets/images/16X9.png" class="img-fluid"/>
                                                 </div>
                                                 <p  class="text-dark">How a Sri Lankan Tamil novel ‘foretold’ Vengaivasal caste atrocity</p>
@@ -1241,7 +1321,7 @@ element.style {
                                            </div>
                                            <div class="col-md-3">
                                              <div class="ad_imgbox_sec">
-                                                <div class="imgPosition_1">
+                                                <div class="imgPosition_2">
                                                    <img src="assets/images/states_img_2.png" class="img-fluid"/>
                                                 </div>
                                                 <p  class="text-dark">How a Sri Lankan Tamil novel ‘foretold’ Vengaivasal caste atrocity</p>
@@ -1250,7 +1330,7 @@ element.style {
                                            </div>
                                            <div class="col-md-3">
                                              <div class="ad_imgbox_sec">
-                                                <div class="imgPosition_1">
+                                                <div class="imgPosition_2">
                                                    <img src="assets/images/16X9.png" class="img-fluid"/>
                                                 </div>
                                                 <p  class="text-dark">How a Sri Lankan Tamil novel ‘foretold’ Vengaivasal caste atrocity</p>
@@ -1259,7 +1339,7 @@ element.style {
                                            </div>
                                            <div class="col-md-3">
                                              <div class="ad_imgbox_sec">
-                                                <div class="imgPosition_1">
+                                                <div class="imgPosition_2">
                                                    <img src="assets/images/states_img_2.png" class="img-fluid"/>
                                                 </div>
                                                 <p  class="text-dark">How a Sri Lankan Tamil novel ‘foretold’ Vengaivasal caste atrocity</p>
@@ -1272,7 +1352,7 @@ element.style {
                                            <div class="row">
                                                <div class="col-md-12 col-sm-6 col-6">
                                             <div class="ad_imgbox_sec">
-                                               <div class="imgPosition_1">
+                                               <div class="imgPosition_2">
                                                   <img src="assets/images/16X9.png" class="img-fluid"/>
                                                  
                                                </div>
@@ -1289,7 +1369,7 @@ element.style {
                                            <div class="row">
                                                <div class="col-md-12 col-sm-6 col-6">
                                             <div class="ad_imgbox_sec">
-                                               <div class="imgPosition_1">
+                                               <div class="imgPosition_2">
                                                   <img src="assets/images/16X9.png" class="img-fluid"/>
                                                  
                                                </div>
@@ -1306,7 +1386,7 @@ element.style {
                                            <div class="row">
                                                <div class="col-md-12 col-sm-6 col-6">
                                             <div class="ad_imgbox_sec">
-                                               <div class="imgPosition_1">
+                                               <div class="imgPosition_2">
                                                   <img src="assets/images/16X9.png" class="img-fluid"/>
                                                  
                                                </div>
@@ -1323,7 +1403,7 @@ element.style {
                                            <div class="row">
                                                <div class="col-md-12 col-sm-6 col-6">
                                             <div class="ad_imgbox_sec">
-                                               <div class="imgPosition_1">
+                                               <div class="imgPosition_2">
                                                   <img src="assets/images/16X9.png" class="img-fluid"/>
                                                   
                                                </div>
@@ -1342,7 +1422,7 @@ element.style {
                                            <div class="row">
                                                <div class="col-md-12 col-sm-6 col-6">
                                             <div class="ad_imgbox_sec">
-                                               <div class="imgPosition_1">
+                                               <div class="imgPosition_2">
                                                   <img src="assets/images/16X9.png" class="img-fluid"/>
                                                  
                                                </div>
@@ -1359,7 +1439,7 @@ element.style {
                                            <div class="row">
                                                <div class="col-md-12 col-sm-6 col-6">
                                             <div class="ad_imgbox_sec">
-                                               <div class="imgPosition_1">
+                                               <div class="imgPosition_2">
                                                   <img src="assets/images/16X9.png" class="img-fluid"/>
                                                  
                                                </div>
@@ -1376,7 +1456,7 @@ element.style {
                                            <div class="row">
                                                <div class="col-md-12 col-sm-6 col-6">
                                             <div class="ad_imgbox_sec">
-                                               <div class="imgPosition_1">
+                                               <div class="imgPosition_2">
                                                   <img src="assets/images/16X9.png" class="img-fluid"/>
                                                  
                                                </div>
@@ -1393,7 +1473,7 @@ element.style {
                                            <div class="row">
                                                <div class="col-md-12 col-sm-6 col-6">
                                             <div class="ad_imgbox_sec">
-                                               <div class="imgPosition_1">
+                                               <div class="imgPosition_2">
                                                   <img src="assets/images/16X9.png" class="img-fluid"/>
                                                   
                                                </div>
@@ -1406,6 +1486,7 @@ element.style {
                                             
                                          </div>
                                          </div>
+                                        
                                       </div>
                                      </div>
                                   </div>
@@ -1414,7 +1495,20 @@ element.style {
                         </div>
                      </div>
                      
-
+                     <div class="row py-5 ">
+                        <div class="col-xl-12 d-flex justify-content-center ">
+                           <div class="pagination">
+                              <a  href="#">&laquo;</a>
+                              <a class="pagination_color"href="#">1</a>
+                              <a class="pagination_color" href="#">2</a>
+                              <a class="pagination_color" href="#">3</a>
+                              <a class="pagination_color" href="#">4</a>
+                              <a class="pagination_color" href="#">5</a>
+                              <a class="pagination_color" href="#">6</a>
+                              <a  href="#">&raquo;</a>
+                           </div>
+                        </div>
+                     </div>
 
                   </div>
                </div>

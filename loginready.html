@@ -34,6 +34,92 @@
       <link href="assets/css/icomoon/styles.min.css" rel="stylesheet"/> 
       <link href="assets/css/style.css" rel="stylesheet"/>
       <link href="assets/css/responsive1.css" rel="stylesheet">
+      <style>
+         @media screen and (max-width:375px){
+            .order-one{
+               order:1;
+            }
+            .order-two{
+               order:2;
+            }
+            .order-three{
+               order:3;
+            }
+            .list_align {
+       position: absolute;
+        left: 122px;
+        padding: 0px 0px 0px 6px;
+         font-weight: bold;
+          color: #510f10;
+}  
+   .newlogo{
+      margin-top: 22px;
+    margin-left: 30px;
+   } 
+     .social_media_icons{
+      display: none;
+     }
+         }
+         @media screen and (min-width:376px) and (max-width: 768px){
+            .order-one{
+               order:1;
+            }
+            .order-two{
+               order:2;
+            }
+            .order-three{
+               order:3;
+            }
+            .list_align {
+       position: absolute;
+        left: 122px;
+        padding: 0px 0px 0px 71px;
+         font-weight: bold;
+          color: #510f10;
+}  
+   .newlogo{
+      margin-top: 22px;
+    margin-left: 30px;
+   } 
+     .social_media_icons{
+      display: none;
+     }
+         }
+
+         @media screen and (max-width: 768px){
+button.btn.btn-warning.sub_category_button.btn_position {
+    position: relative;
+    top: -35px;
+    left: 20px;
+}
+.article_page_three_last_image {
+    margin-top: 20px;
+}
+.slider_c.d_none_mob {
+    margin-top: -31px;
+}
+.card_content {
+    font-family: 'Roboto-Bold';
+    font-size: 18px;
+    color: #363636;
+    padding: 15px 0px;
+    line-height: 25px;
+}
+.ad_img_with_bg {
+    padding: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    background: #f6f6f6;
+    margin-top: 33px;
+}
+.top_s_hide{
+   display: none;
+}
+}
+
+
+          
+      </style>
    </head>
 
 
@@ -688,13 +774,13 @@
                          </p>
                       </div>
                       <div class="col-md-4">
-                         <div class="author_name_icon_sec text-right">
-                            <img src="assets/images/NrithyaPillai-696x392.jpg" class="img-fluid">
-                            <img src="assets/images/NrithyaPillai-696x392.jpg" class="img-fluid">
-                            <img src="assets/images/NrithyaPillai-696x392.jpg" class="img-fluid">
-                            <img src="assets/images/NrithyaPillai-696x392.jpg" class="img-fluid">
-                            <img src="assets/images/NrithyaPillai-696x392.jpg" class="img-fluid">
-                         </div>
+                        <div class="author_name_icon_sec text-right">
+                           <img src="./assets/images/foo_whatsapp.png" class="img-fluid">
+                           <img src="./assets/images/foo_facebook.png" class="img-fluid">
+                           <img src="./assets/images/foo_twitter.png" class="img-fluid">
+                           <img src="./assets/images/foo_linkedin.png" class="img-fluid">
+                           <img src="./assets/images/foo_facebook.png" class="img-fluid">
+                        </div>
                       </div>
                    </div>
 
@@ -754,20 +840,20 @@
                   
                    <div class="newlogo_position mb-5">
                      <div class="row" >
-                        <div class="col-xl-10 d-flex justify-content-center">
+                        <div class="col-xl-10 d-flex justify-content-center offset-md-1">
                         <p class="payment_color">This is not a paywall ,but you need to register/login continue reading this continue reading this comment As a article .For full access article a month.For Full Access you will need to subsrcibe.</p>
                         
                     </div>
                     </div>
                     <div class="row py-4" >
-                        <div class="col-xl-10 d-flex justify-content-center">
+                        <div class="col-xl-12 d-flex justify-content-center">
                             <button type="button" class="btn   sub_category_button_one  p-1">Yes, give me full access</button>
                         
                     </div>
                     </div>
 
                     <div class="row offset-md-1  new_logo_bg_color">
-                       <div class="col-md-4">
+                       <div class="col-md-4 order-two">
                          
                           <ul class="py-2" style="list-style: none;">
                            <li class="d-flex ">
@@ -793,20 +879,22 @@
                           </ul>
                        
                        </div>
-                       <div class="col-md-4 d-flex justify-content-center">
+                       <div class="col-md-4 d-flex justify-content-center order-one">
                         <div class="newlogo">
-                           <img src="./assets/images/newlogo.PNG" alt="">
+                           <img src="./assets/images/newlogo.PNG" class="img-fluid" alt="">
                            <p class="text-muted ">* discounted original from subscription</p>
                         </div>
                         
                        </div>
-                       <div class="col-md-4">
+                       <div class="col-md-4 order-three">
                         <div>
                            <p class="rupees_font_size d-flex justify-content-center"> <sup class="rupees_position">  &#8377;</sup>  <span style="color:#510f10;"> 599</span> </p>
                               <p  class="text-muted per_year d-flex justify-content-center ">*Per Year</p>
                         </div>
                        </div>
                     </div>
+
+                    
                   </div>
                   
                   </div>
@@ -826,22 +914,22 @@
                         <div class="col-md-12">                          
                            <div class="top_story_wrapper">
                                <h2 class="title_1">TOP STROIES</h2>
-                               <div class="ad_imgbox_sec">
+                               <div class="ad_imgbox_sec top_s_hide">
                                   <img  src="assets/images/16X9.png" class="img-fluid"/>
                                   <button type="button" class="btn btn-warning sub_category_button btn_position_one ">CATEGORY TAG</button>
                                   <p>How a Sri Lankan Tamil novel ‘foretold’ Vengaivasal caste atrocity</p>
                                </div>
-                               <div class="ad_imgbox_sec">
+                               <div class="ad_imgbox_sec top_s_hide">
                                   <img  src="assets/images/16X9.png" class="img-fluid"/>
                                   <button type="button" class="btn btn-warning sub_category_button btn_position_one ">CATEGORY TAG</button>
                                   <p>How a Sri Lankan Tamil novel ‘foretold’ Vengaivasal caste atrocity</p>
                                </div>
-                               <div class="ad_imgbox_sec">
+                               <div class="ad_imgbox_sec top_s_hide">
                                   <img  src="assets/images/16X9.png" class="img-fluid"/>
                                   <button type="button" class="btn btn-warning sub_category_button btn_position_one ">CATEGORY TAG</button>
                                   <p>How a Sri Lankan Tamil novel ‘foretold’ Vengaivasal caste atrocity</p>
                                </div>
-                               <div class="ad_imgbox_sec">
+                               <div class="ad_imgbox_sec top_s_hide">
                                   <img  src="assets/images/16X9.png" class="img-fluid"/>
                                   <button type="button" class="btn btn-warning sub_category_button btn_position_one ">CATEGORY TAG</button>
                                   <p>How a Sri Lankan Tamil novel ‘foretold’ Vengaivasal caste atrocity</p>
@@ -849,7 +937,60 @@
                            </div>
                         </div>
                      </div>
- 
+                    
+
+<!-- cardpart mobile responsive start -->
+<div class="slider_c d_none_mob">
+   <div class="slide_f">
+      <div class="card">
+         <div class="position-relative">
+            <img src="./assets/images/Banner_img_1.png" class="card-img-top" alt="...">
+            <button type="button" class="btn btn-warning sub_category_button btn_position">CATEGORY TAG</button>
+         </div>
+         
+         <div class="card-body card_content">
+            <p class="card-text">How a Sri Lankan Tamil novel ‘foretold’ Vengaivasal caste atrocity</p>
+         </div>
+      </div>
+   </div>
+   <div class="slide_f">
+      <div class="card">
+         <div class="position-relative">
+            <img src="./assets/images/Banner_img_1.png" class="card-img-top" alt="...">
+            <button type="button" class="btn btn-warning sub_category_button btn_position">CATEGORY TAG</button>
+         </div>
+         <div class="card-body card_content">
+            <p class="card-text">How a Sri Lankan Tamil novel ‘foretold’ Vengaivasal caste atrocity</p>
+         </div>
+      </div>
+   </div>
+  <div class="slide_f">
+      <div class="card">
+         <div class="position-relative">
+            <img src="./assets/images/Banner_img_1.png" class="card-img-top" alt="...">
+            <button type="button" class="btn btn-warning sub_category_button btn_position">CATEGORY TAG</button>
+         </div>
+         <div class="card-body card_content">
+            <p class="card-text">How a Sri Lankan Tamil novel ‘foretold’ Vengaivasal caste atrocity</p>
+            
+         </div>
+      </div>
+   </div>
+   <div class="slide_f">
+      <div class="card">
+         <div class="position-relative">
+            <img src="./assets/images/Banner_img_1.png" class="card-img-top" alt="...">
+            <button type="button" class="btn btn-warning sub_category_button btn_position">CATEGORY TAG</button>
+         </div>
+         <div class="card-body card_content">
+            <p class="card-text">How a Sri Lankan Tamil novel ‘foretold’ Vengaivasal caste atrocity</p>
+            
+         </div>
+      </div>
+   </div>
+</div>
+  <!-- cardpart mobile responsive start -->
+
  
                      <div class="row">
                         <div class="col-md-12">

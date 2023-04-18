@@ -62,6 +62,7 @@ right: -536px;
       .social_media_icons {
          color: #D7B763;
          margin-right: 20px;
+         display: none;
      }
      .social_media_icons_2 {
          position: fixed;
@@ -72,8 +73,74 @@ right: -536px;
          z-index: 1;
          display: flex !important;
          flex-direction: row !important;
-     }
-   }
+         
+     }}
+     @media screen and (max-width: 997px){
+      .social_media_icons_2 {
+         background-color: rgb(247, 247, 247);
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    left: 198px;
+    transform: translateX(-50%);
+    margin-top: 217px;
+}
+.bg-clrr{
+   bottom: 0;
+}
+}
+@media screen and (max-width: 768px) {
+   .download_img_withBg {
+    padding: 30px;
+    background: #fff;
+}
+.article_section_middle_image {
+    background-color: #fff;
+    position: relative;
+    top: -49px;
+}
+.ad_imgbox_sec {
+    position: relative;
+    margin-bottom: 0px;
+    display: none;
+}
+.card_content {
+    font-family: 'Roboto-Bold';
+    font-size: 18px;
+    color: #363636;
+    padding: 15px 0px;
+    line-height: 25px;
+}
+}
+@media screen and (max-width: 768px){
+button.btn.btn-warning.sub_category_button.btn_position {
+    position: relative;
+    top: -35px;
+    left: 20px;
+} 
+.download_img_sec {
+    margin: 0px 0px -36px;
+}
+}
+
+@media only screen and (max-width: 991px) and (min-width: 769px){
+.ad_imgbox_sec p {
+    padding: 0px 0px 0px;
+    margin: 0px 0px -48px;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.3;
+}
+.audio_minus .img-fluid {
+    width: 77px;
+}
+.foo_ul h5 {
+    font-size: 20px;
+    color: #fc9f00;
+    line-height: 23px;
+}
+}
+
  </style>  
    </head>
 
@@ -680,19 +747,7 @@ right: -536px;
 
 
 
-      <div class="container-fluid">
-         <div class="social_icons_wrapper">
-           <div class="d-flex align-items-center justify-content-center flex-column social_media_icons_2">  
-               <i class="fa-brands fa-facebook py-2 fa-2x social_media_icons"></i>
-               <i class="fa-brands fa-square-whatsapp fa-2x py-2 social_media_icons"></i>
-               <i class="fa-brands fa-twitter fa-2x py-2 social_media_icons"></i>
-               <i class="fa-brands fa-linkedin fa-2x py-2 social_media_icons"></i>  
-               <i class="fa-regular fa-envelope fa-2x py-2 social_media_icons"></i>
-               <i class="fa-solid fa-plus-large fa-2x py-1 social_media_icons"></i>
-               <i class="fa-sharp fa-solid fa-plus fa-2x py-1 social_media_icons"></i>
-            </div>
-         </div>
-      </div>
+     
    
 
 
@@ -920,7 +975,58 @@ right: -536px;
                      </div>
                   </div>
                </div>
-
+             <!-- cardpart mobile responsive start -->
+             <div class="slider_c d_none_mob">
+               <div class="slide_f">
+                  <div class="card">
+                     <div class="position-relative">
+                        <img src="./assets/images/Banner_img_1.png" class="card-img-top" alt="...">
+                        <button type="button" class="btn btn-warning sub_category_button btn_position">CATEGORY TAG</button>
+                     </div>
+                     
+                     <div class="card-body card_content">
+                        <p class="card-text">How a Sri Lankan Tamil novel ‘foretold’ Vengaivasal caste atrocity</p>
+                     </div>
+                  </div>
+               </div>
+               <div class="slide_f">
+                  <div class="card">
+                     <div class="position-relative">
+                        <img src="./assets/images/Banner_img_1.png" class="card-img-top" alt="...">
+                        <button type="button" class="btn btn-warning sub_category_button btn_position">CATEGORY TAG</button>
+                     </div>
+                     <div class="card-body card_content">
+                        <p class="card-text">How a Sri Lankan Tamil novel ‘foretold’ Vengaivasal caste atrocity</p>
+                     </div>
+                  </div>
+               </div>
+              <div class="slide_f">
+                  <div class="card">
+                     <div class="position-relative">
+                        <img src="./assets/images/Banner_img_1.png" class="card-img-top" alt="...">
+                        <button type="button" class="btn btn-warning sub_category_button btn_position">CATEGORY TAG</button>
+                     </div>
+                     <div class="card-body card_content">
+                        <p class="card-text">How a Sri Lankan Tamil novel ‘foretold’ Vengaivasal caste atrocity</p>
+                        
+                     </div>
+                  </div>
+               </div>
+               <div class="slide_f">
+                  <div class="card">
+                     <div class="position-relative">
+                        <img src="./assets/images/Banner_img_1.png" class="card-img-top" alt="...">
+                        <button type="button" class="btn btn-warning sub_category_button btn_position">CATEGORY TAG</button>
+                     </div>
+                     <div class="card-body card_content">
+                        <p class="card-text">How a Sri Lankan Tamil novel ‘foretold’ Vengaivasal caste atrocity</p>
+                        
+                     </div>
+                  </div>
+               </div>
+            </div>
+              <!-- cardpart mobile responsive start -->
+               
 
                <div class="row">
                   <div class="col-md-12">
@@ -929,7 +1035,35 @@ right: -536px;
                      </div>
                   </div>
                </div>
-
+               <div class="row">
+                  <div class="col-md-12">
+                     <div class="slider_imgbox_wrapper">
+                        <img src="assets/images/Rounded_vertical_img.png" class="img-fluid tab_mainImage" alt="...">
+                        <div class="tab_img_cont_sec">
+                           <div class="webstory_tab">
+                              <nav class="nav custom_slider_1 dflex_box_1">
+                                 <a class="nav-link active" href="#"></a>
+                                 <a class="nav-link" href="#"></a>
+                                 <a class="nav-link" href="#"></a>
+                                 <a class="nav-link" href="#"></a>
+                                 <a class="nav-link" href="#"></a>
+                                 <a class="nav-link" href="#"></a>
+                                 </nav>
+                                 <div class="story_logo">
+                                    <img class="img-fluid" src="assets/images/The_Federal_white_new.png" alt="Federal-Logo.png">
+                                    <!-- <img class="img-fluid story_icon_send" src="assets/images/icon_send.png" alt="Icon_send"> -->
+                                 </div>
+                           </div>
+                           <div class="tab_overlay_cont">
+                              <h5>Heading Line</h5>
+                              <p>
+                                 We should have the option to remove the text and the tags and just have the image.
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+              </div>
             </div>
          </div>
       </div>
@@ -1040,7 +1174,21 @@ right: -536px;
       </div>
      </div>
    <!-- Footer Section END-->
-
+   <div class="container-fluid">
+      <div class="social_icons_wrapper">
+         <div class="bg-clrr">
+        <div class="d-flex align-items-center justify-content-center flex-column social_media_icons_2">  
+            <i class="fa-brands fa-facebook py-2 fa-2x social_media_icons"></i>
+            <i class="fa-brands fa-square-whatsapp fa-2x py-2 social_media_icons"></i>
+            <i class="fa-brands fa-twitter fa-2x py-2 social_media_icons"></i>
+            <i class="fa-brands fa-linkedin fa-2x py-2 social_media_icons"></i>  
+            <i class="fa-regular fa-envelope fa-2x py-2 social_media_icons"></i>
+            <i class="fa-solid fa-plus-large fa-2x py-1 social_media_icons"></i>
+            <i class="fa-sharp fa-solid fa-plus fa-2x py-1 social_media_icons"></i>
+         </div>
+      </div>
+   </div>
+   </div>
 
 
 

@@ -56,22 +56,12 @@ h2.bigImg_quotes_text_position {
    .mOB{
       display: none;
    }
-   
+
 }
 
 @media screen and (max-width: 768px)
 
 {
-   .article_section_middle_image {
-    background-color: transparent !important;
-    position: relative;
-    top: -49px;
-}
-.download_img_withBg {
-    padding: 30px;
-    background: transparent;
-    margin-bottom: -44px;
-}
    .DES_VIEW{
       display: none;
    }
@@ -105,9 +95,6 @@ button.btn.btn-warning.sub_category_button.btn_position {
 }
 
 }   
-
-
-
 @media screen and (max-width: 997px) {
    .social_media_icons {
       color: #D7B763;
@@ -133,6 +120,11 @@ button.btn.btn-warning.sub_category_button.btn_position {
   .article_page_image_content{
    display: none;
   }
+  .pix {
+    position: absolute;
+    top: 63px;
+    left: 11px !important;
+}
 }
 
 .row.dflex_box_1.align-items-center {
@@ -187,6 +179,33 @@ button.btn.btn-warning.sub_category_button.btn_position {
     bottom: 105px;
 }
 }
+@media screen and (max-width: 767px) {
+   .download_img_withBg {
+    padding: 30px;
+    background: transparent;
+}
+.article_section_middle_image {
+    background-color: transparent;
+    position: relative;
+    top: -49px;
+    margin-bottom: -62px;
+}
+}
+@media screen and (max-width: 997px){
+.image_content_rounded img {
+    width: 122px;
+    height: 127px;
+    margin-left: 5px;
+    border-radius: 50%;
+}}
+.image_content_rounded img {
+    width: 161px;
+    height: 183px;
+    margin-left: 5px;
+    border-radius: 50%;
+}
+</style>
+
 </style>
    </head>
 
@@ -831,12 +850,15 @@ button.btn.btn-warning.sub_category_button.btn_position {
                    
      
                 <div class="row">
-                   <div class="col-md-3 col-sm-4 col-4 ">
+                  <div class="col-md-3 col-sm-4 col-4">
  
-                      <div class="image_content_rounded mt-5">
-                         <img src="assets/images/16X9.png"  alt=""  class="img-fluid img-responsive">
-                     </div>
-                   </div>
+                     <div class="image_content_rounded">
+                        <img src="assets/images/16X9.png"  alt=""  class="img-fluid img-responsive">
+                    </div>
+                    <div class="image_content_rounded pix">
+                        <img src="assets/images/16X9.png"  alt=""  class="img-fluid img-responsive">
+                    </div>
+                  </div>
                    <div class="col-md-9  col-sm-8 col-8">
  
                       <button type="button" class="btn  sub_category_button_three ">SUB CATEGORY</button>
