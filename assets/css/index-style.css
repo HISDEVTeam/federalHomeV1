@@ -344,6 +344,18 @@ height: 89px;
 border: 0;
 position: relative;
 }
+.Category_tag_1 span {
+  background: #d7b763;
+  border-radius: 21px;
+  border: 1px solid #d7b763;
+  color: #520f0f;
+  font-weight: bold;
+  font-size: 15px;
+  padding: 0px 12px 0px 20px;
+  text-transform: uppercase;
+}
+
+
 .Category_tag span{
   background: #d7b763;
   border-radius: 21px;
@@ -351,7 +363,7 @@ position: relative;
   color: #520f0f;
   font-weight: bold;;
   font-size: 15px;
-  padding: 1px 16px 0px 29px;
+  padding: 1px 10px 0px 12px;
   text-transform: uppercase;
 }
 .tag_overlay{
@@ -370,10 +382,10 @@ left: 10px;
   text-transform: uppercase;
   position: relative;
 }
-.tag_overlay_16{
+.tag_overlay_16 {
   position: absolute;
-  bottom: 35px;
-  left: 28px;  
+  bottom: 17px;
+  left: 11px;
 }
 .Category_tag_16_im {
   position: relative;
@@ -520,13 +532,13 @@ margin: 0;
 text-transform: uppercase;
 }
 
-.fault_rightside_bgcolor{
-background-color: #520F0F;
-padding: 0 15px;
-padding-top: 4px;
+.fault_rightside_bgcolor {
+  background-color: #520F0F;
+  padding: 0 15px;
+  padding-top: 13px;
 }
 .logo_text{
-font-family: 'Roboto-Light';
+font-weight: 300;
 font-size: 22px;
 color:#D7B763;
 text-transform: uppercase;
@@ -574,11 +586,11 @@ min-width: 100%;
 .eightLogo{
 height: 32px;
 }
-.eight_col_img_b{
-  height: 448px;
+.eight_col_img_b img {
+  height: 445px;
   margin-bottom: -65px;
   overflow: hidden;
-  width: 831px;
+  width: 847px;
 }
 .eight_col_img_b img{
 min-height: 100%;
@@ -979,7 +991,7 @@ ul .nav_list{
 }
 
 .margin_space_com{
-margin-bottom: 40px;
+margin-bottom: 13px;
 }
 
   .im_16_star {
@@ -1087,4 +1099,34 @@ card_carousel_section{
 }
 .custom_navMenu_2 .nav-link{
   color:#520F0F !important;
+}
+
+ul.nav.nav-pills.d-flex.justify-content-between.align-items-baseline {
+  margin-left: -20px;
+  margin-right: -20px;
+}
+
+.footer_para {
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 500;
+}
+.foo_ul li a {
+  color: #f6f6f6;
+  font-size: 15px;
+}
+.button_grp span {
+  background: #520f0f;
+  color: #d7b763;
+  text-transform: uppercase;
+  border-color: #520f0f;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  font-size: 16px;
+  font-weight: 500;
+}
+.button_grp p {
+  font-size: 15px;
+  font-weight: 300;
+  color: #f6f6f6;
 }

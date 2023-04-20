@@ -1,5 +1,5 @@
 /* @font-face {
-    font-family: 'Roboto-Light';
+    font-weight: 300;
     font-style: normal;
     font-weight: 500;
     src: url('./fonts/Roboto-Light.ttf'); 
@@ -264,7 +264,7 @@ border: 0;
 }
 .dropdown li a.active_nav{
 color: #fc9f00;
-font-family: 'Roboto-Bold';
+font-weight: bold;
 }
 .dropdown_thrid:hover .third_drop_menu{
 display: block;
@@ -335,6 +335,10 @@ display: block;
 .entire_block .font_medium {
   font-family: inherit;
 }
+ul.nav.nav-pills.d-flex.justify-content-between.align-items-baseline {
+  margin-left: -20px;
+  margin-right: -20px;
+}
 /** Header Section CSS END **/
 
 
@@ -348,6 +352,11 @@ display: block;
 
 
 /** Footer Section CSS START **/
+.footer_para .foo_ul{
+  font-size: 15px;
+  font-weight: 500;
+}  
+
 
 .footer_section{
   background-color: #1E1E1E;
@@ -355,7 +364,7 @@ display: block;
   font-size: 15px;
   font-weight: 500;
   line-height: 30px;
-  font-family: 'Roboto-Bold';
+  font-weight: bold;
   margin-top: 20px;
 }
 .federal_logo_f_cont{
@@ -447,7 +456,7 @@ font-weight: bold;
   border:none;
 }
 .card_content{
-  font-family: 'Roboto-Bold';
+  font-weight: bold;
   font-size: 21px;
   color:#363636;
   margin: -20px;
@@ -457,7 +466,7 @@ font-weight: bold;
   font-weight: normal;
   font-size: 14px !important;
   letter-spacing: 0px;
-  font-weight: bold;
+  
   line-height: 1.3;
 }
 .text_card{
@@ -484,7 +493,7 @@ font-weight: bold;
  /* FaultLine */
  .fault_heading_color{
   font-size: 30px;
-  font-family: 'Roboto-Bold';
+  font-weight: bold;
   color:#520F0F;
   text-transform: uppercase;
  }
@@ -492,23 +501,23 @@ font-weight: bold;
   background-color: #520F0F;
  }
  .logo_text{
-  font-family: 'Roboto-Light';
+  font-weight: 300;
   font-size: 22px;
   color:#D7B763;
   text-transform: uppercase;
  }
  .eight_text{
-  font-family: 'Roboto-Bold';
+  font-weight: bold;
  }
  .fault_right_side_content{
-  font-family: 'Roboto-Bold';
+  font-weight: bold;
   font-size: 30px;
   color:white;
   word-spacing: -2px;
   line-height: 1.2;
 }
   .fault_right_side_content_1{
-    font-family: 'Roboto-Light';
+    font-weight: 300;
     font-size:20px;
     line-height: 1.3;
   }
@@ -531,7 +540,7 @@ font-weight: bold;
     color:black;
   }
    .font_light{
-    font-family: 'Roboto-Light';
+    font-weight: 300;
     color:black;
    }
 .category_size{
@@ -551,7 +560,7 @@ font-weight: bold;
 }
 /* 
 .sub_category_button{
-  font-family: 'Roboto-Bold';
+  font-weight: bold;
     background-color:#D7B763;
     border:none;
     color: #520F0F;
@@ -660,7 +669,7 @@ font-weight: bold;
         margin-bottom: 8px;
         }
         .carousel_card p{
-        font-family: 'Roboto-Light';
+        font-weight: 300;
         font-size: 16px;
         color: #fc9f00;
         }
@@ -679,7 +688,7 @@ font-weight: bold;
           margin-bottom: 8px;
           }
           .carousel_card p{
-          font-family: 'Roboto-Light';
+          font-weight: 300;
           font-size: 16px;
           color: #fc9f00;
           }
@@ -858,7 +867,7 @@ font-weight: bold;
     letter-spacing: 0px;
     }
     .content_size_two{
-      font-size: 20px;
+      font-size: 23px;
       margin: 0px;
       font-weight: normal;
     }
@@ -978,7 +987,7 @@ font-weight: bold;
     width: 100%;
   }
 .sub_category_button {
-  font-family: 'Roboto-Bold';
+  font-weight: bold;
     background-color:#D7B763;
     border:none;
     color: #520F0F;
@@ -1174,7 +1183,7 @@ font-weight: bold;
   margin: 0px 0px 5px 0px;
 }
 .carousel_card_one h5 {
-  font-family: 'Roboto-Light';
+  font-weight: 300;
   font-size: 16px;
   color: #f6f6f6;
   line-height: 24px;
@@ -1284,7 +1293,7 @@ font-weight: bold;
 }
 .content_demo{
   font-size:17px! important;
-  font-family: 'Roboto-Regular'!important;
+  font-weight: normal!important;
   color:black;
 }
 
@@ -1295,7 +1304,7 @@ font-weight: bold;
     bottom: 7px;
 }
 .sub_category_button {
-  font-family: 'Roboto-Bold';
+  font-weight: bold;
   background-color: #D7B763;
   border: none;
   padding: 1px 6px 1px 5px;
@@ -1308,7 +1317,7 @@ font-weight: bold;
    padding: 0px 0px 0px; 
   margin: 0px 0px 15px;
   font-size: 17px;
-  font-family: 'Roboto-Light';
+  font-weight: 300;
   line-height: 1.3;
 }
 }
@@ -1327,7 +1336,7 @@ font-weight: bold;
   top: -30px;
 }
 .time_update {
-  font-family: 'Roboto-Bold';
+  font-weight: bold;
   background-color: #fc9f00;
   border: none;
   color: black;
@@ -1336,7 +1345,7 @@ font-weight: bold;
   height: 37px;
 }
 .date_update {
-  font-family: 'Roboto-Bold';
+  font-weight: bold;
   background-color: #520f0f;
   border: none;
   color: white;
@@ -1365,7 +1374,7 @@ font-weight: bold;
 .ad_date{
   color:#FC9F00 !important;
   font-size: 18px !important;
-  font-weight: normal;
+ 
  font-weight: 400!important;
 }
 
@@ -1404,7 +1413,7 @@ padding-top: 17%;
   /* margin-left: 97px */
 }
 .sub_category_button_one{
-  font-family: 'Roboto-Bold';
+  font-weight: bold;
   background-color: #D7B763;
   border: none;
   color: #520F0F;
@@ -1414,7 +1423,7 @@ padding-top: 17%;
   height: 35px;
 }
 .sub_category_button_two{
-  font-family: 'Roboto-Bold';
+  font-weight: bold;
     background-color:#D7B763;
     border:none;
     color: #520F0F;
@@ -1424,7 +1433,7 @@ padding-top: 17%;
   height: 35px;
 }
 .sub_category_button_three {
-  font-family: 'Roboto-Bold';
+  font-weight: bold;
   background-color: #D7B763;
   border: none;
   color: #520F0F;
@@ -1737,10 +1746,10 @@ padding-top: 17%;
 .carousel_text_1 {
   color: #FC9F00;
   font-size: 20px;
-  font-family: 'Roboto-Bold';
+  font-weight: bold;
 }
 .carousel_card h5 {
-  font-family: 'Roboto-Regular' !important;
+  font-weight: normal !important;
   font-size: 16px !important;
   color: #f6f6f6;
   line-height: 23px !important;
@@ -1757,7 +1766,7 @@ padding-top: 17%;
 }
 
 .sub_category_button_four {
-font-family: 'Roboto-Bold';
+font-weight: bold;
 background-color: #00ff00;
 border: none;
 color: #FFFFFF;
@@ -1878,7 +1887,7 @@ flex-direction: row !important;
 .card.carousel_card.switch p {
   font-size: 22px;
   line-height: 1.3;
-  font-family: 'Roboto-Bold';
+  font-weight: bold;
   color: black;
   
 }

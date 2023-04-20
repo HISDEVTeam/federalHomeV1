@@ -1,4 +1,12 @@
 @media screen and (max-width: 768px) {
+    
+    .eight_col_img_b img {
+        height: auto;
+        margin-bottom: -65px;
+        overflow: hidden;
+        width: 847px;
+    }
+    
     .Category_tag span {
         background: #d7b763;
         border-radius: 21px;
@@ -9,17 +17,16 @@
         padding: 1px 16px 0px 29px;
         text-transform: uppercase;
     }    
+    
 
-
-    .Category_tag_modify span{
-
+    .Category_tag_modify span {
         background: #d7b763;
         border-radius: 21px;
         border: 1px solid #d7b763;
         color: #520f0f;
         font-weight: bold;
         font-size: 15px;
-        padding: 1px 16px 0px 29px;
+        padding: 0px 11px 0px 15px;
         text-transform: uppercase;
     }
 
@@ -75,10 +82,14 @@
     font-size: 21px;
     font-weight: normal;
     line-height: 25px;
+    padding: 0px;
     }
     .side_content{
         font-size: 18px;
         font-weight: normal;
+    }
+    .headline_yellow {
+        margin-top: 20px;
     }
 }
 
@@ -276,7 +287,7 @@
         color: #520F0F;
         font-size: 13px;
         padding: 2px 9px;
-        font-family: 'Roboto-Bold';
+        font-weight: bold;
         border-radius: 11px;
     }
     .spilit_none{
@@ -322,7 +333,7 @@
             color: #520F0F;
             font-size: 13px;
             padding: 2px 9px;
-            font-family: 'Roboto-Bold';
+            font-weight: bold;
             border-radius: 11px;
         }
 
@@ -335,7 +346,7 @@
     overflow: hidden;
 }    
 .fault_right_side_content {
-    font-family: 'Roboto-Bold';
+    font-weight: bold;
     font-size: 31px;
     color: white;
     line-height: 45px;
@@ -440,7 +451,7 @@
         color: #520F0F;
         font-size: 13px;
         padding: 2px 9px;
-        font-family: 'Roboto-Bold';
+        font-weight: bold;
         border-radius: 11px;
     }
     .spilit_none{
@@ -486,7 +497,7 @@
             color: #520F0F;
             font-size: 13px;
             padding: 2px 9px;
-            font-family: 'Roboto-Bold';
+            font-weight: bold;
             border-radius: 11px;
         }
 
@@ -499,7 +510,7 @@
     overflow: hidden;
 }    
 .fault_right_side_content {
-    font-family: 'Roboto-Bold';
+    font-weight: bold;
     font-size: 31px;
     color: white;
     line-height: 45px;
@@ -724,7 +735,7 @@
         display: none;
     }
     .fault_right_side_content_1 {
-        font-family: 'Roboto-Light';
+        font-weight: 300;
         font-size: 18px;
         line-height: 23px;
         margin-top: 20px;
@@ -737,7 +748,7 @@
         width: 100%;
     }
     .fault_right_side_content {
-        font-family: 'Roboto-Bold';
+        font-weight: bold;
         font-size: 18px;
         color: white;
         line-height: 27px;
@@ -790,6 +801,16 @@
     .list-unstyled li{
         display: inline-block;
         width: 100%;
+    }
+    .side_img_star {
+        width: 19px;
+        top: -34px;
+        position: absolute;
+    }
+    .side_img_star1 {
+        width: 19px;
+        top: -33px;
+        position: absolute;
     }
     .flex-grow-1 h5 {
         top: -5px !important;
@@ -1021,17 +1042,17 @@
     margin-top: 5px;
 }
 .h_89 img {
-    height: 130px;
+    height: 96px;
 }
 .side_content{
     font-size: 20px;
     top: 25px;
-    font-family: 'Roboto-Light';
+    font-weight: 300;
     color:#1E1E1E;
 }
 .side_img_star {
-    width: 30px;
-    top: 0px;
+    width: 20px;
+    top: -13px;
     position: absolute;
 }
 
@@ -1059,12 +1080,12 @@
     padding-top: 32px;
   }
   .eightLogo {
-    height: 45px;
+    height: 30px;
     margin-top: -6px;
 }
 .logo_text {
-    font-family: 'Roboto-Light';
-    font-size: 30px;
+    font-weight: 300;
+    font-size: 22px;
     color: #D7B763;
     text-transform: uppercase;
     margin-left: 15px;
@@ -1072,10 +1093,10 @@
     margin-bottom: 30px;  
 }
 .fault_right_side_content {
-    font-family: 'Roboto-Bold';
-    font-size: 47px;
+    font-weight: bold;
+    font-size: 35px;
     color: white;
-    line-height: 62px;
+    line-height: 45px;
     margin-bottom: 30px;
 }
   /* Business Section */
@@ -1089,15 +1110,15 @@
     margin-top: 50px;
 }
 .fault_heading_color_1 {
-    font-size: 35px;
-    font-family: 'Roboto-Bold';
+    font-size: 30px;
+    font-weight: bold;
     color: #FC9F00;
     margin: 0px auto 0 0;
     text-transform: uppercase;
 }
 .fault_heading_color {
     
-    font-family: 'Roboto-Bold';
+    font-weight: bold;
     color: #FC9F00;
     margin: 0;
     text-transform: uppercase;
@@ -1121,7 +1142,7 @@
 }
 .state_bold_tags_1 {
     font-size: 10px;
-    font-family: 'Roboto-Bold';
+    font-weight: bold;
     text-transform: capitalize;
 }
 ul .nav_list {
@@ -1263,7 +1284,7 @@ ul .nav_list {
 
 /* federal playlist section */
 .gray_bg_title h1 {
-    font-family: 'Roboto-Bold';
+    font-weight: bold;
     color: #AFAFAF;
     font-size: 35px;
     text-transform: uppercase;
@@ -1291,9 +1312,8 @@ ul .nav_list {
     background-color: #1E1E1E;
     color: #e0d0d0;
     font-size: 18px;
-    font-weight: 500;
     line-height: 30px;
-    font-family: 'Roboto-Light';
+    font-weight: normal;
     margin-top: 20px;
 }
 .button_grp p{
@@ -1470,7 +1490,7 @@ ul .nav_list {
     border-radius: 21px;
     border: 1px solid #d7b763;
     color: #520f0f;
-    font-family: 'Roboto-Bold';
+    font-weight: bold;
     font-size: 10px;
     padding: 3px 6px 1px 21px !important;
     text-transform: uppercase;
@@ -1516,9 +1536,9 @@ ul .nav_list {
     height: 17vh
 }
 .side_content{
-    font-size: 18px;
+    font-size: 17px;
     top: 0px;
-    font-family: 'Roboto-Light';
+    font-weight: 300;
     color: #1E1E1E;
 }
 .felx_Val h5 {
@@ -1550,7 +1570,7 @@ ul .nav_list {
     height: auto;
 }
 .side_img_star {
-    width: 23px;
+    width: 20px;
     top: 0px;
     position: absolute;
 }
@@ -1568,7 +1588,7 @@ ul .nav_list {
     width: auto;
 }
 .h_89 img {
-    height: 99px;
+    height: 64px;
 }
 
 .content_hide{
@@ -1587,7 +1607,7 @@ ul .nav_list {
     margin-top: -6px;
 }
 .logo_text {
-    font-family: 'Roboto-Light';
+    font-weight: 300;
     font-size: 18px;
     color: #D7B763;
     text-transform: uppercase;
@@ -1596,7 +1616,7 @@ ul .nav_list {
     margin-bottom: 30px;  
 }
 .fault_right_side_content {
-    font-family: 'Roboto-Bold';
+    font-weight: bold;
     font-size: 28px;
     color: white;
     line-height: 38px;
@@ -1615,14 +1635,14 @@ ul .nav_list {
 
 .fault_heading_color_1 {
     font-size: 30px;
-    font-family: 'Roboto-Bold';
+    font-weight: bold;
     color: #FC9F00;
     margin: 0px auto 0 0;
     text-transform: uppercase;
 }
 .fault_heading_color {
     font-size: 30px;
-    font-family: 'Roboto-Bold';
+    font-weight: bold;
     color: #FC9F00;
     margin: 0;
     text-transform: uppercase;
@@ -1660,7 +1680,7 @@ ul .nav_list {
     margin-top: 11px;
     color: #FFFFFF !important;
     text-transform: uppercase;
-    font-family: 'Roboto-Bold';
+    font-weight: bold;
 }
 .states_explore{
     display: flex;
@@ -1830,12 +1850,12 @@ ul .nav_list {
     top: -47px!important;
 } */
 .y_title {
-    font-family: 'Roboto-Bold';
+    font-weight: bold;
     font-size: 23px;}
 
 /* federal playlist section */
 .gray_bg_title h1 {
-    font-family: 'Roboto-Bold';
+    font-weight: bold;
     color: #AFAFAF;
     font-size: 28px;
     text-transform: uppercase;
@@ -1869,7 +1889,7 @@ ul .nav_list {
     font-size: 18px;
     font-weight: 500;
     line-height: 30px;
-    font-family: 'Roboto-Light';
+    font-weight: 300;
     margin-top: 20px;
 }
 .button_grp p{
@@ -1879,7 +1899,7 @@ ul .nav_list {
     font-size: 18px;
     }
     .vertical_overlay_content h5 {
-        font-family: 'Roboto-Bold';
+        font-weight: bold;
         font-size: 23px;
         line-height: 28px;
         color: #fc9f00;
@@ -1961,7 +1981,7 @@ justify-content: flex-start !important;
     left: -6px;
 }
 .carousel_card h5 {
-    font-family: 'Roboto-Bold';
+    font-weight: bold;
     font-size: 25px;
     color: #f6f6f6;
     line-height: 29px;
@@ -2049,7 +2069,7 @@ justify-content: flex-start !important;
         border-radius: 21px;
         border: 1px solid #d7b763;
         color: #520f0f;
-        font-family: 'Roboto-Bold';
+        font-weight: bold;
         font-size: 7px;
         padding: 5px 10px 2px 21px !important;
         text-transform: uppercase;
@@ -2096,7 +2116,7 @@ justify-content: flex-start !important;
 .side_content{
     font-size: 18px;
     top: 0px;
-    font-family: 'Roboto-Light';
+    font-weight: 300;
     color: #1E1E1E;
 }
 .three_col_img_c img {
@@ -2140,7 +2160,7 @@ justify-content: flex-start !important;
     margin-top: -6px;
 }
 .logo_text {
-    font-family: 'Roboto-Light';
+    font-weight: 300;
     font-size: 18px;
     color: #D7B763;
     text-transform: uppercase;
@@ -2149,7 +2169,7 @@ justify-content: flex-start !important;
     margin-bottom: 30px;  
 }
 .fault_right_side_content {
-    font-family: 'Roboto-Bold';
+    font-weight: bold;
     font-size: 28px;
     color: white;
     line-height: 38px;
@@ -2168,14 +2188,14 @@ justify-content: flex-start !important;
 
 .fault_heading_color_1 {
     font-size: 30px;
-    font-family: 'Roboto-Bold';
+    font-weight: bold;
     color: #FC9F00;
     margin: 0px auto 0 0;
     text-transform: uppercase;
 }
 .fault_heading_color {
     font-size: 30px;
-    font-family: 'Roboto-Bold';
+    font-weight: bold;
     color: #FC9F00;
     margin: 0;
     text-transform: uppercase;
@@ -2355,12 +2375,12 @@ justify-content: flex-start !important;
     right: auto !important;
 }
 .y_title {
-    font-family: 'Roboto-Bold';
+    font-weight: bold;
     font-size: 23px;}
 
 /* federal playlist section */
 .gray_bg_title h1 {
-    font-family: 'Roboto-Bold';
+    font-weight: bold;
     color: #AFAFAF;
     font-size: 28px;
     text-transform: uppercase;
@@ -2391,7 +2411,7 @@ justify-content: flex-start !important;
     font-size: 18px;
     font-weight: 500;
     line-height: 30px;
-    font-family: 'Roboto-Light';
+    font-weight: 300;
     margin-top: 20px;
 }
 .button_grp p{
@@ -2401,7 +2421,7 @@ justify-content: flex-start !important;
     font-size: 18px;
     }
     .vertical_overlay_content h5 {
-        font-family: 'Roboto-Bold';
+        font-weight: bold;
         font-size: 23px;
         line-height: 28px;
         color: #fc9f00;
@@ -2455,7 +2475,7 @@ justify-content: flex-start !important;
 border-radius: 21px;
 border: 1px solid #d7b763;
 color: #520f0f;
-font-family: 'Roboto-Bold';
+font-weight: bold;
 font-size: 10px;
 padding: 3px 6px 1px 10px !important;
 text-transform: uppercase;
@@ -2477,7 +2497,7 @@ text-transform: uppercase;
         color: #520f0f;
         font-weight: bold;
         font-size: 10px;
-        padding: 0px 16px 0px 10px !important;
+        padding: 0px 10px 0px 10px !important;
         text-transform: uppercase;
         position: relative;
         bottom: -7px;
@@ -2493,7 +2513,7 @@ text-transform: uppercase;
        text-transform: uppercase;
        }
     .footer_para{
-        font-size: 13px !important;
+        font-size: 12px !important;
         line-height: 1.8 !important;
       }
 
@@ -2528,7 +2548,7 @@ text-transform: uppercase;
     margin-top: 11px;
     color: #FFFFFF !important;
     text-transform: uppercase;
-    font-family: 'Roboto-Bold';
+    font-weight: bold;
 }
 .owl-nav .owl-right {
     position: absolute;
@@ -2536,3 +2556,39 @@ text-transform: uppercase;
     top: -14px;
 }
 }
+
+@media only screen and (max-width: 768px){
+
+    .footer_para {
+        font-size: 12px;
+        line-height: 20px;
+        font-weight: normal;
+    }
+    .left_ul ul {
+        font-size: 18px;
+        font-weight: 300;
+        color: #dedede;
+    }
+    .button_grp p {
+        font-size: 10px;
+        font-weight: 300;
+        color: #f6f6f6;
+    }
+    .button_grp span {
+        
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .foo_ul h5 {
+        font-size: 15px;
+        color: #fc9f00;
+        line-height: 12px;
+        font-weight: bold;
+    }
+    .foo_ul li a {
+        color: #f6f6f6;
+        font-size: 15px;
+        font-weight: 500;
+    }
+}
+
