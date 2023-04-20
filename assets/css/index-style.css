@@ -399,7 +399,7 @@ left: 10px;
   height: 11px;
   top: -4px;
   z-index: 99;
-  left: -17px;
+  left: -20px;
 }
 
 .vertical_img_cont{
@@ -1135,4 +1135,8 @@ ul.nav.nav-pills.d-flex.justify-content-between.align-items-baseline {
   font-size: 15px;
   font-weight: 300;
   color: #f6f6f6;
+}
+
+.carousel_card {
+  margin-right: -29px;
 }

@@ -1491,8 +1491,8 @@ ul .nav_list {
         border: 1px solid #d7b763;
         color: #520f0f;
         font-weight: bold;
-        font-size: 14px;
-        padding: 3px 6px 1px 21px !important;
+        font-size: 15px;
+        padding: 3px 9px 1px 21px !important;
         text-transform: uppercase;
     }
     .img_15-start {
@@ -1558,10 +1558,11 @@ ul .nav_list {
 }
 .img_15-start {
     position: absolute;
-    top: -6px;
-    left: -6px;
-    width: 40px;
+    top: -12px;
+    left: -8px;
+    width: 50px;
     height: 20px;
+    /* padding: 0 0px 0 0; */
 }
 .three_col_img_c img {
     height: auto;
