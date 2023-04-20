@@ -356,7 +356,7 @@
         display: none;
     }
     .headline_below_content{
-        font-family: 'Roboto-Regular';
+        font-weight: normal;
         margin-top: 20px;
     }
     .headline_below_content_1{
@@ -386,7 +386,7 @@
     }
     .card_content{
            font-size:19px;
-           font-family: 'Roboto-Regular';
+           font-weight: normal;
     }
 /* section 3 */
 .bg_y_f {

@@ -342,13 +342,42 @@ ul.nav.nav-pills.d-flex.justify-content-between.align-items-baseline {
 /** Header Section CSS END **/
 
 
+/* article page 3 */
+
+.Category_tag_16_im1{
+  position: relative;
+  width: 46px;
+  height: 11px;
+  top: -4px;
+  z-index: 99;
+  left: -17px;
+  padding: 0px 0 0 0;
+}
 
 
+/* artlcle page 3 */
 
 
+.sub_category_button_three {
+  font-weight: bold;
+  background-color: #D7B763;
+  border: none;
+  color: #520F0F;
+  font-size: 15px;
+  border-radius: 20px;
+  line-height: -6px;
+  width: 160px;
+    height: 25px;
+  /* padding: 27px 18px 15px 29px; */
+}
 
-
-
+img.img-fluid.logo_premium_16 {
+  position: absolute;
+  top: -28px;
+  left: 0px;
+  width: 50px;
+  height: 50px;
+}
 
 
 /** Footer Section CSS START **/

@@ -1487,13 +1487,13 @@ ul .nav_list {
     }
     .Category_tag span {
         background: #d7b763;
-    border-radius: 21px;
-    border: 1px solid #d7b763;
-    color: #520f0f;
-    font-weight: bold;
-    font-size: 10px;
-    padding: 3px 6px 1px 21px !important;
-    text-transform: uppercase;
+        border-radius: 21px;
+        border: 1px solid #d7b763;
+        color: #520f0f;
+        font-weight: bold;
+        font-size: 14px;
+        padding: 3px 6px 1px 21px !important;
+        text-transform: uppercase;
     }
     .img_15-start {
         position: absolute;
@@ -1531,10 +1531,7 @@ ul .nav_list {
     font-family: 'Roboto-Medium';
     margin-top: -20px;
 }
-.h_89 img {
-    width: 20vh;
-    height: 17vh
-}
+
 .side_content{
     font-size: 17px;
     top: 0px;
@@ -1587,9 +1584,7 @@ ul .nav_list {
     overflow: hidden;
     width: auto;
 }
-.h_89 img {
-    height: 64px;
-}
+
 
 .content_hide{
     display: none;

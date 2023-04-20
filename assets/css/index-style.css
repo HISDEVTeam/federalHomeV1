@@ -93,7 +93,14 @@ background: #fff;
   padding-left: 32px;
 
 }
-
+.Category_tag_16_im {
+  position: relative;
+  width: 58px;
+  height: 12.2px;
+  top: -4px;
+  z-index: 99;
+  left: -18px;
+}
 .btn_gold{
 width: 89%;
 }
@@ -223,9 +230,8 @@ margin-top: 15px;
 margin-bottom: 8px;
 }
 
-.card_body_rspace{
-
-  margin-right: 4px;
+.card_body_rspace {
+  margin-right: -15px;
 }
 .carousel_card p{
 font-weight: 300;
@@ -376,9 +382,9 @@ left: 10px;
   border-radius: 21px;
   border: 3px solid #d7b763;
   color: #520f0f;
-  font-weight: bold;;
+  font-weight: bold;
   font-size: 15px;
-  padding: 1px 11px 0px 30px;
+  padding: 0px 5px 0px 23px;
   text-transform: uppercase;
   position: relative;
 }
@@ -1029,7 +1035,7 @@ img.img-fluid.rounded-circle.img-opacity {
   filter: grayscale(100%);
 }
 .footer_section{
-  font-family: 'Roboto-Medium';
+  font-weight: 500;
 }
 .btn-bold_bt{
   position: absolute;
