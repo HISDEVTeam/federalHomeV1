@@ -4,7 +4,7 @@
   src: url('./fonts/Roboto-Light.ttf'); /* IE9 Compat Modes */
 }
 @font-face {
-  font-family: 'Roboto-Medium';
+  font-weight: 500;
   font-style: normal;
   src: url('./fonts/Roboto-Medium.ttf'); /* IE9 Compat Modes */
 }
@@ -435,7 +435,7 @@ img.img-fluid.rounded-circle.img-opacity {
   filter: grayscale(100%);
 }
 .footer_section{
-  font-family: 'Roboto-Medium';
+  font-weight: 500;
 }
 .btn-bold_bt{
   position: absolute;

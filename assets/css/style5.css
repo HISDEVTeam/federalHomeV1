@@ -50,6 +50,16 @@
   font-display: swap;
 }
 
+body{
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  height: 100%;
+  width: 100%;
+  font-size: 16px;
+  font-family: 'Roboto';
+  background-color: #fff;
+}
 
 
 
@@ -529,7 +539,7 @@ align-items: baseline;
     color:#363636;
    }
   .font_medium{
-    font-family: 'Roboto-Medium';
+    font-weight: 500;
     color:black;
   }
    .font_light{
@@ -1721,11 +1731,14 @@ top: -30px;
 
 
 @media only screen and (max-width: 767px) {
+ 
+
+
   .bor_rad img {
     width: 872px !important;
     height: auto;
 }
-para_text_1{
+.para_text_1{
   margin-top: -23px;
 }
 .premium_img_cont {
@@ -1788,7 +1801,7 @@ para_text_1{
     position: relative;
     top: 27px;
     left: 21px;
-    margin-bottom: 55px;
+    margin-bottom: -15px;
 }
 .button_position {
   position: relative;
@@ -1912,3 +1925,43 @@ para_text_1{
     line-height: 1.3;
 }
   }
+
+
+
+  /* new edit 21.04.2023 */
+/* Article page 2 */
+.image_size_con img{
+  border-radius: 17px;
+}
+.bor_rad img{
+  border-radius: 17px;
+}
+
+/* articlepage 4 */
+.space_remove{
+  margin: 0;
+  padding: 0;
+}
+.card.carousel_card.switch p {
+  font-size: 22px;
+  line-height: 1.3;
+  font-family: 'Roboto-Bold';
+  color: black;
+  
+}
+p.tenJan {
+  font-size: 18px !important;
+  color: gray !important;
+  font-family: sans-serif !important;
+}
+.six_c_six img {
+  border-radius: 0px;
+}
+.federal_logo_cont_1{
+  position: absolute;
+   width: 200px;
+   top: 20px;
+}
+
+
+

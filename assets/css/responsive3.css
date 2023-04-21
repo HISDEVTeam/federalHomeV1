@@ -403,7 +403,7 @@
     filter: grayscale(100%);
   }
   .footer_section{
-    font-family: 'Roboto-Medium';
+    font-weight: 500;
   }
   .btn-bold_bt{
     position: absolute;
