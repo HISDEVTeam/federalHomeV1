@@ -1541,13 +1541,12 @@ ul .nav_list {
     background:none;
 }
 .bg_y_f h5 {
-    font-size: 23px;
-    padding: 23px 5px;
+    font-size: 18px;
+    padding: 11px 0px !important;
     line-height: 1.1;
     font-family: 'Roboto-Medium';
-    margin-top: -20px;
+    /* margin-top: -20px; */
 }
-
 .side_content{
     font-size: 17px;
     top: 0px;
@@ -2579,9 +2578,22 @@ text-transform: uppercase;
     top: -14px;
 }
 }
-
-@media only screen and (max-width: 768px){
-
+@media only screen and (min-width: 768px){
+    .spilit_none1{
+        display: none;
+     }
+     .spilit_none{
+        display: block;
+     }
+}
+@media only screen and (max-width: 767px){
+    
+    .spilit_none1{
+       display: block;
+    }
+    .spilit_none{
+        display: none;
+     }
     .footer_para {
         font-size: 12px;
         line-height: 20px;
