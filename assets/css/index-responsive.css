@@ -1544,7 +1544,7 @@ ul .nav_list {
     font-size: 18px;
     padding: 11px 0px !important;
     line-height: 1.1;
-    font-family: 'Roboto-Medium';
+    font-weight: normal;
     /* margin-top: -20px; */
 }
 .side_content{
