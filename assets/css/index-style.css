@@ -231,7 +231,10 @@ margin-bottom: 8px;
 }
 
 .card_body_rspace {
-  margin-right: -15px;
+  margin-right: 10px;
+}
+.card-body.card_body_rspace1 {
+  margin-right: -3px;
 }
 .carousel_card p{
 font-weight: 300;
