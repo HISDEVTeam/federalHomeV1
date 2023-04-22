@@ -1313,7 +1313,7 @@ font-weight: bold;
   border: none;
   padding: 1px 6px 1px 5px;
   color: #520F0F;
-  font-size: 8px;
+  font-size: 12px;
   border-radius: 20px;
   line-height: 14px;
 }
@@ -2003,7 +2003,15 @@ h2.bigImg_quotes_text_position {
   left: -21px;
   padding: 0px 0px 0px 0px;
 }
-
+.Category_tag_16_im_twM {
+  position: absolute;
+  width: 59px;
+  /* height: 11px; */
+  top: -17px;
+  z-index: 99;
+  left: -20px;
+  padding: 0px 0px 0px 0px;
+}
 
 .sub_category_button_three_1 {
   font-weight: bold;
