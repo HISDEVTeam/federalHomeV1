@@ -916,7 +916,7 @@ position: absolute;
 
  /* Dhiva's working start date 08.03.2023  ( article styling)*/
  .image_content img {
-  width: 957px;
+  width: 970px;
 }
  #artice_page_one{
   background: linear-gradient(#171717, #520F0F);
@@ -2015,3 +2015,20 @@ h2.title_nb {
   margin-bottom: 22px;
   margin-top: -31px;
 }
+
+@media only screen and (max-width: 768px){
+  .also_read_sec {
+      font-size: 18px;
+      padding: 10px 0px;
+      margin: 15px 0px 30px;
+      border-top: 1px solid #CCC;
+      border-bottom: 1px solid #CCC;
+  }
+ 
+  .article_bg_color{
+    background-color: #F6F6F6;
+     margin-bottom: 15px;
+     }
+    }
+
+

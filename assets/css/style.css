@@ -1315,6 +1315,9 @@ font-weight: bold;
   padding: 0px 0px;
   margin: 30px 0px 0px 0px !important;
 }
+p.font_regular.article_cont_size.texspace {
+  margin-top: 49px !important;
+}
 .sub_category_button {
   font-weight: bold;
   background-color: #D7B763;
@@ -2043,4 +2046,10 @@ h2.bigImg_quotes_text_position {
 
 .nwadd{
   margin-top: -96px !important;
+}
+.savetag img {
+  position: absolute;
+  width: 30px;
+  height: 34px;
+  margin-top: 3px;
 }
