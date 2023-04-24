@@ -948,7 +948,7 @@ button.btn.btn_gold.btn_hover:hover {
 .owl-right{
 
   position: relative;
-  left: 1269px;
+  left: 1277px;
   border-radius: 50%;
   width: 36px;
   height: 37px;
@@ -970,7 +970,7 @@ font-size: 43px;
   height: 37px;
   position: absolute;
   font-size: -16px;
-  left: -12px;
+  left: 6px;
 }
 
 .owl-left span{

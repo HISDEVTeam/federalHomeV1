@@ -2679,8 +2679,11 @@ articlepage4 */
  p.font_light.text.image_caption.text-muted.px-5.py-1 {
      /* margin-top: 20px; */
      position: absolute;
-     top: -256px!important;
+     top: -197px!important;
      left: -16px !important;
+ }
+ .content_down{
+    position: relative;
  }}
  
  
@@ -2990,16 +2993,16 @@ articlepage4 */
            display: none;
         }
         h2.bigImg_quotes_text_position {
-         position: relative;
-         top: 39px;
-         left: -40px;
-         font-size: 21px;
-         color: #FC9F00;
-         width: 478px;
-         margin-bottom: 45px;
-         font-weight: bold;
-         letter-spacing: 0px;
-         padding-bottom: 23px;
+            position: relative;
+            top: 66px;
+            left: -82px;
+            font-size: 30px;
+            color: #FC9F00;
+            width: 478px;
+            margin-bottom: 45px;
+            font-weight: bold;
+            letter-spacing: 0px;
+            padding-bottom: 23px;
      }
      .card_content {
          font-size: 19px;
@@ -3099,4 +3102,7 @@ articlepage4 */
 
      
 
-    
+     @media screen and (min-width: 380px) and (max-width: 480px){
+
+        
+     }

@@ -1745,9 +1745,10 @@ top: -30px;
   p.font_regular.article_cont_size.py-2.com_sp_top {
     margin-top: -16px;
 }
-.article_page_image_content1 {
-  margin-top: 20px;
-}
+@media only screen and (max-width: 767px)
+{.article_page_image_content1 {
+    margin: 20px 5px;
+}}
   .com_sp {
     margin-top: 26px;
 }
@@ -1818,7 +1819,7 @@ top: -30px;
     color: black !important;
     line-height: 1.4;
     position: relative;
-    top: 27px;
+    top: -34px;
     left: 6px;
     margin-bottom: -15px;
 }
