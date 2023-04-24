@@ -3042,7 +3042,7 @@ articlepage4 */
     }
     ul.nav.nav-pills.d-flex.justify-content-between.align-items-baseline {
         margin-left: -20px;
-        margin-right: 0px;
+        margin-right: -20px;
     }
      }   
      
@@ -3117,10 +3117,10 @@ articlepage4 */
      }
 
      
-@media only screen and (min-width: 769px)
+@media only screen and (max-width: 769px)
 {
 	ul.nav.nav-pills.d-flex.justify-content-between.align-items-baseline {
     margin-left: -20px;
-    margin-right: -20px;
+    margin-right: -5px;
 }
 }
