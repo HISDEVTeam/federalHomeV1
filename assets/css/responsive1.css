@@ -2642,10 +2642,10 @@ articlepage4 */
  }
  @media screen and (min-width: 303px) and (max-width: 387px){
     .owl-theme .owl-nav {
-     margin-top: -89px;
+     margin-top: -125px;
  }
  .four_record_carousel .owl-nav .owl-next {
-     right: -384px !important;
+     right: -354px !important;
  }
  }
  
