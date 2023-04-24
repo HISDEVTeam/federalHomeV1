@@ -1059,7 +1059,7 @@
 }
 .side_content{
     font-size: 20px;
-    top: 25px;
+    top: 21px;
     font-weight: 300;
     color:#1E1E1E;
 }
@@ -1115,7 +1115,7 @@
   /* Business Section */
   .business_section_card .side_content {
     font-size: 24px;
-    font-family: 'Roboto-Medium';
+    font-family: normal;
    
     line-height: 33px;
 }
@@ -1550,7 +1550,7 @@ ul .nav_list {
 }
 .side_content{
     font-size: 17px;
-    top: 0px;
+    top: 9px;
     font-weight: 300;
     color: #1E1E1E;
 }
