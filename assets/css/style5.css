@@ -2020,7 +2020,7 @@ h2.title_nb {
   .also_read_sec {
       font-size: 18px;
       padding: 10px 0px;
-      margin: 15px 0px 30px;
+      margin: 15px 0px 60px!important;
       border-top: 1px solid #CCC;
       border-bottom: 1px solid #CCC;
   }
@@ -2034,6 +2034,6 @@ h2.title_nb {
 @media only screen and (max-width: 991px){
 .savetag{
 		margin-top:10px;
-		margin-bottom: 20px;
+		margin-bottom: 26px;
 	}
 }

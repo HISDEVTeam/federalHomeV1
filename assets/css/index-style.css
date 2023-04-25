@@ -301,7 +301,7 @@ color:#363636;
 overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
-  -webkit-line-clamp: 5;
+  -webkit-line-clamp: 6;
   -webkit-box-orient: vertical;
 }
 
@@ -326,7 +326,7 @@ line-height: 25px;
     font-size: 16px;
     letter-spacing: -1px;
     margin: 0;
-    top: 20px;
+    top: 11px;
     position: relative;
 }
 .text_card{
@@ -987,7 +987,7 @@ ul .nav_list{
 
 .side_img_star{
   width: 19px;
-    top: -8px;
+    top: -13px;
     position: absolute;
 }
 .felx_Val{
@@ -995,7 +995,7 @@ ul .nav_list{
 }
 .side_img_star1{
   width: 19px;
-  top: -10px;  
+  top: -15px;  
   position: absolute;
 }
 
