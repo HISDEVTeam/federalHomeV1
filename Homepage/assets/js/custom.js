@@ -26,7 +26,18 @@ $(document).ready(function() {
 
 
 
+//--- Header Premium Tag button Hover text change ----//
 
+$(".premium_access_btn").hover(
+  function() {
+    $(".hover_text_change").text("Only ₹599/year");
+  },
+  function() {
+    $(".hover_text_change").text('Premium Access');
+  }
+);
+
+//--- Header Premium Tag button Hover text change ----//
 
 
 
@@ -35,9 +46,7 @@ $(document).ready(function() {
 //--- Vertical Hamburger Menu ----//
 
 $('.vertical_menu_sec .dropdown-menu a.dropdown-toggle').on('click', function(e) {
-
   if (!$(this).next().hasClass('show')) {
-  // if (!$(this).find(".dropdown-menu").hasClass('show')) {
     $(this).parents('.dropdown-menu').first().find('.show').removeClass("show");
   }
   var $subMenu = $(this).next(".dropdown-menu");
@@ -130,6 +139,56 @@ $('.federal_playlist_four_card').owlCarousel({
 
 
 
+
+
+
+
+$('.federal_playlist_six_card').owlCarousel({
+  loop: false,
+  margin: 15,
+  dots: false,
+  nav: true,
+  navText: [
+    "<i class='fa fa-angle-left'></i>", 
+    "<i class='fa fa-angle-right'></i>"
+  ],
+  responsive: {
+        0: {
+           items: 2
+        },
+        600: {
+           items: 3
+        },
+        1000: {
+           items: 6
+        }
+  }
+});
+
+
+
+
+
+
+
+$('.four_record_carousel_1').owlCarousel({
+  loop: false,
+  margin: 15,
+  dots: false,
+  nav: true,
+  responsive: {
+      0: {
+       items: 2
+      },
+      600: {
+       items: 3
+      },
+      1000: {
+       items: 6
+      }
+  }
+ });
+
 //--- Event Card Carousel ----//
 
 
@@ -171,16 +230,6 @@ $('#back-to-top').click(function () {
 
 
 
-
-
-// $(this).find($(".fa")).removeClass('fa-bars').addClass('fa-close');
-
-
-/*
-$('.custom_toggleIcon').click(function() {
-  $(this).find('.fa-bars,.fa-close').toggleClass('fa-bars').toggleClass('fa-close');
-});
-*/
 
 
 
@@ -304,20 +353,8 @@ $( ".carousel .carousel-inner" ).swipe( {
 
 
 
-//--- Navbar Sticky bg color scrollable change ----//
-/*
 
-$(window).on('scroll',function(){
-  if($(window).scrollTop()){
-      $('.mega_menu_wrapper').addClass('sticky-top');
-  }
-  else{
-      $('.mega_menu_wrapper').removeClass('sticky-top');
-  }
-})
 
-*/
-//--- Navbar Sticky bg color scrollable change ----//
 
 
 
@@ -329,23 +366,7 @@ $(window).on('scroll',function(){
 
 
 
-/*
-function enableDisable() {
-  if ($("#qtyBtnEdit i").hasClass("fa-bars")) {
-      // Is edit, so change
-      $("#qtyBtnEdit").text("Save");
-  }
-  else {
-      // Back to edit
-      $("#qtyBtnEdit").text("Edit");
-  }
-  $("#qtyBtnEdit i").toggleClass("fa-bars fa-close")
-}
 
-function enableDisable() {
-  $("#qtyBtnEdit i").toggleClass("fa-bars fa-close")
-}
-*/
 
 
 
@@ -407,5 +428,6 @@ $(window).resize(function() {
 
 */
 //--- DIV Height Set to 100% ---//
+
 
 
