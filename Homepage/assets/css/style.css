@@ -2925,7 +2925,19 @@ margin-top: 20px;
     background: linear-gradient(88deg, rgba(240,233,199,0.3337710084033614) 103%, rgba(246,219,149,1) -23%, rgba(248,248,249,0.7931547619047619) 149%);
 }
 
+
 .op_profileImgBox1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 101px;
+    width: 100%;
+    left: -28px;
+}
+
+
+.op_profileImgBox_shot {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -2934,6 +2946,7 @@ margin-top: 20px;
     width: 100%;
     left: -28px;
 }
+
 
 .op_profileImgBox1_5{
     display: flex;
@@ -3574,7 +3587,15 @@ border-radius: 15px;
     line-height: 30px;
 }
 /*** Dhivakar Category Page CSS END ***/
-
+.op_profileImgBox_shot {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 169px;
+    width: 100%;
+    left: 13px;
+}
 
 
 
@@ -3631,9 +3652,30 @@ border-radius: 15px;
         padding: 3px 10px 6px;
         margin: 3px 8px 0px;
     }
+
+    .op_profileImgBox1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 84px;
+        width: 100%;
+        left: -1px;
+    }
+
 }
 
 @media only screen and (device-width: 1024px) {
+
+    .op_profileImgBox1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 88px;
+        width: 100%;
+        left: -4px;
+    }
 
     /*** Responsive HOME Page CSS START ***/
     .mega_menu_list_sec.navbar-nav .nav-link {
@@ -3825,7 +3867,15 @@ border-radius: 15px;
     
 
     /*** Responsive HOME Page CSS END ***/
-
+    .op_profileImgBox1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 156px;
+        width: 92%;
+        left: 7px;
+    }
 
 }
 
@@ -3836,6 +3886,15 @@ border-radius: 15px;
     .carousel_nav_ctrl.owl-carousel .owl-nav .owl-next,
     .carousel_nav_ctrl.owl-carousel .owl-nav .owl-prev {
 	    top: 20%;
+    }
+    .op_profileImgBox_shot {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 218px;
+        width: 100%;
+        left: 13px;
     }
 }
 
@@ -3950,7 +4009,35 @@ padding-bottom: 48px;
 
 @media only screen and (min-width: 667px) and (max-width: 768px) {
   
-    
+    .op_profileImgBox1_5 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 107px;
+        width: 84%;
+        left: 6px;
+    }
+
+    .op_profileImgBox_shot {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 197px;
+        width: 100%;
+        left: 13px;
+    }
+
+    .op_profileImgBox2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 65px;
+        width: 100%;
+        left: 12px;
+    }
 /* articlepages code by bala */
 /* .owl-nav {
     position: relative;
@@ -4357,15 +4444,25 @@ padding-bottom: 48px;
         font-size: 32px;
         line-height: 42px;
     }
+
+    .op_profileImgBox1 {
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 123px;
+    width: 92%;
+    left: 13px;
+    }
 /* articlepage5_1 */
-.op_profileImgBox1 {
+/* .op_profileImgBox1 {
     display: flex;
     align-items: center;
     justify-content: center;
     position: absolute;
     top: 41px;
     width: 79%;
-}
+} */
 .op_profileImgBox2 {
     display: flex;
     align-items: center;
@@ -4579,6 +4676,15 @@ padding-bottom: 48px;
     }
     .title_4 {
         font-size: 24px;
+    }
+    .op_profileImgBox_shot {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 201px;
+        width: 100%;
+        left: 13px;
     }
 }
 
