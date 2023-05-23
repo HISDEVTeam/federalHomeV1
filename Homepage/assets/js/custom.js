@@ -8,6 +8,23 @@ $(document).ready(function() {
 
 
 
+//--- Premium star toggle Icon ----//
+
+$('.pre_icon_toggle').hide()
+$(".two_category_toggle_tab").click(function() {
+  $(this).find('img').toggle();
+  // $(this).find('img').animate({width: 'toggle'});
+  $(this).find('.sub_1').toggleClass('sub_padding_add');
+  $(this).find('.sub_2').toggleClass('sub_padding_add');
+});
+
+//--- Premium star toggle Icon ----//
+
+
+
+
+
+
 //--- Megamenu Hover ----//
 
   $('.hover_mengamenu').hover(function () {
@@ -64,6 +81,25 @@ $('.vertical_menu_sec .dropdown-menu a.dropdown-toggle').on('click', function(e)
 
 //--- Vertical Hamburger Menu ----//
 
+
+
+
+
+
+
+
+//--- Banner Type Sectcion Navbar Sticky and bg color scrollable change ----//
+
+$(window).on('scroll',function(){
+  if($(window).scrollTop()){
+      $('.header_with_banner_wrapper .header_wrapper').addClass('navbar_bgColor_scroll_changed');
+  }
+  else{
+      $('.header_with_banner_wrapper .header_wrapper').removeClass('navbar_bgColor_scroll_changed');
+  }
+})
+
+//--- Banner Type Sectcion Navbar Sticky and bg color scrollable change ----//
 
 
 
@@ -234,12 +270,21 @@ $('#back-to-top').click(function () {
 
 
 
+
 /*
 $('.custom_toggleIcon').click(function(){
   // $(this).next('ul').slideToggle('500');
-  $(this).find('i').toggleClass('fa-plus-circle fa-minus-circle')
+  // $(this).find('i').toggleClass('fa-plus-circle fa-minus-circle');
+  $(this).find('i').toggleClass('fa-bars fa-close');
+  
 });
 
+$(window).click(function() {
+  $(this).find('i').hide('fa-close')
+});
+*/
+
+/*
 $(document).on('click', function(){
   $('.vertical_menu_sec ul .dropdown-menu').hide();
 });
@@ -248,6 +293,7 @@ $(".dropdown-menu").on("click", function(e) {
   e.stopPropagation();
 });
 */
+
 
 
 

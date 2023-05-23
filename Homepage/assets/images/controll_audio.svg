@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="479" height="29" viewBox="0 0 479 29">
+  <g id="Group_1100" data-name="Group 1100" transform="translate(-677 -1296)">
+    <g id="Group_567" data-name="Group 567" transform="translate(676.555 1296)">
+      <rect id="Rectangle_1717" data-name="Rectangle 1717" width="479" height="29" rx="9" transform="translate(0.445)" fill="#dedede"/>
+      <path id="Icon_awesome-play" data-name="Icon awesome-play" d="M11.416,5.776,1.947.179A1.284,1.284,0,0,0,0,1.29V12.482a1.29,1.29,0,0,0,1.947,1.111L11.416,8A1.29,1.29,0,0,0,11.416,5.776Z" transform="translate(5.818 7.611)"/>
+      <text id="_0:00_2:35" data-name="0:00 / 2:35" transform="translate(29.445 21)" fill="#1e1e1e" font-size="17" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">0:00 / 2:35</tspan></text>
+      <path id="Icon_material-volume-up" data-name="Icon material-volume-up" d="M4.5,11.438v6.856H9.07l5.713,5.713V5.725L9.07,11.438Zm15.425,3.428a5.142,5.142,0,0,0-2.857-4.6v9.2a5.112,5.112,0,0,0,2.857-4.593ZM17.069,4.845V7.2a8,8,0,0,1,0,15.334v2.354a10.276,10.276,0,0,0,0-20.041Z" transform="translate(424.31 -0.366)"/>
+      <g id="Icon_feather-more-vertical" data-name="Icon feather-more-vertical" transform="translate(461.81 7.444)">
+        <path id="Path_25" data-name="Path 25" d="M18.264,17.382a.882.882,0,1,1-.882-.882A.882.882,0,0,1,18.264,17.382Z" transform="translate(-16.5 -10.326)" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+        <path id="Path_26" data-name="Path 26" d="M18.264,6.882A.882.882,0,1,1,17.382,6,.882.882,0,0,1,18.264,6.882Z" transform="translate(-16.5 -6)" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+        <path id="Path_27" data-name="Path 27" d="M18.264,27.882A.882.882,0,1,1,17.382,27,.882.882,0,0,1,18.264,27.882Z" transform="translate(-16.5 -14.651)" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      </g>
+    </g>
+    <path id="Path_43" data-name="Path 43" d="M67.57,0H337.405" transform="translate(752.471 1310.5)" fill="none" stroke="#afafaf" stroke-linecap="round" stroke-width="3"/>
+    <line id="Line_58" data-name="Line 58" x2="219.521" transform="translate(800.5 1310.5)" fill="none" stroke="#1e1e1e" stroke-linecap="round" stroke-width="3"/>
+  </g>
+</svg>
