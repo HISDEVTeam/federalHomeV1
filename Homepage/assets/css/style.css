@@ -3343,10 +3343,11 @@ a.socialIcon:hover,
     }
     .also_read_sec {
     font-size: 18px;
-    padding:5px 0px;;
+    padding:5px 0px;
     margin: 30px 0;
     border-top: 1px solid #CCC;
     border-bottom: 1px solid #CCC;
+	text-align: center;
     }
     .also_read_color {
     color: #FC9F00;
