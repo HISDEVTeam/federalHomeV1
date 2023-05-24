@@ -2159,10 +2159,13 @@ span.iconStar_box {
 }
 .federal_playlist_dataBox .playlist_detail .para_text_2 {
     color: #f6f6f6;
-    padding: 0px 0px 10px;
+	padding: 0px 0px 10px;
+	font-size: 16px;
+	line-height: 22px;
 }
 .federal_playlist_dataBox .playlist_detail .date_time {
     color: #fc9f00;
+    font-size: 16px;
 }
 .title_1.yellow_color {
     color: #d7b763;
