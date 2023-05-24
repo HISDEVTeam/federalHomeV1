@@ -2373,7 +2373,7 @@ span.iconStar_box {
 
     .col-md-12.bread_bottom_spcae {
         margin-bottom: -20px;
-		margin-top: -20px;
+		margin-top: 0px;
     }
     /* articlebroadcast */
     .row.dflex_box_1.mt-3.aut_bot {
@@ -4008,6 +4008,13 @@ a.socialIcon:hover,
     margin: 0px 0px;
     line-height: 1;
     }
+      /* video taglist  new update*/
+    .nav.custom_navMenu_1.video_tagList_menu .nav-item
+    { 
+        margin: 0px 0 5px 3px !important;
+    }
+    /* video taglist */
+
     .nav.custom_navMenu_1 .nav-link:hover,
     .nav.custom_navMenu_1 .nav-link.active {
     color: #520F0F!important;
@@ -4283,7 +4290,7 @@ h2.font_bold.mb-3.pt-2.left_size {
     /* E-6_  End*/
     /* Video page 7 */
     .imgPosition_2 img {
-    border-radius: 14px;
+    border-radius: 17px;  /* new update */
     }
     .ad_imgbox_sec_three p {
     padding: 0px 0px 0px;
@@ -4332,7 +4339,7 @@ h2.font_bold.mb-3.pt-2.left_size {
     font-size: 21px;
     font-weight: normal;
     line-height: 25px;
-    color: #3d3d3d;
+    color: #F6F6F6;
     }
     .pagination {
     display: inline-block;
@@ -5577,12 +5584,15 @@ ul.nav.custom_navMenu_3.brandstudio{
 
 /* password page */
 .password_page {
-    font-size: 15px;
-    color: #707070;
-    font-weight: normal;
-    opacity: 50%;
-    margin-left: 7px;
-    /* margin-right: -23px; */
+ font-size: 15px;
+ color: #707070;
+ font-weight: normal; opacity: 50%;
+ margin-left: 7px;
+ /* margin-right: -23px; */
+}
+.img_bg_color img{
+    background: lightgrey;
+    padding: 10px;
 }
 
 
@@ -6765,6 +6775,9 @@ h3.dr_h3 {
     top: -28px;
     left: 10px;
     }
+    .imgPosition_2 img {
+        border-radius:10px;   /*new update*/
+    }
     .button_pos {
     position: relative;
     left: 13px;
@@ -6822,6 +6835,7 @@ h3.dr_h3 {
     font-weight: 300;
     line-height: 22px;
     color: #3d3d3d;
+	margin:0 auto;
     }
     .vide_six_bg_colo {
     background-color: #520F0F;
@@ -7130,15 +7144,15 @@ h3.dr_h3 {
 
 
         .nav.custom_navMenu_1 .nav-item {
-            margin: 5px 36px 5px 0px;
+            margin: 5px 15px 5px 0px;
         }
 
 
         ul.nav.custom_navMenu_1.menu_color.article_1 {
             flex-wrap: nowrap;
-            width: 118%;
+            width: 100%;
             overflow: auto;
-            contain-intrinsic-block-size: none;
+			contain-intrinsic-block-size: none;
             scroll-behavior: smooth;
     
         }
@@ -8087,7 +8101,12 @@ i.icomoon.icon-quotes-left.repit.newquor.icon_repos{
             text-align: center;
             font-family: Roboto, 'Roboto-Bold';
         }
-
+		
+		.breadcrumbs_modify {
+			margin-left: 0;
+			padding: 30px 0px 15px 0px;
+		}
+		
         .category_tag.without_icon span {
             padding: 2px 0px -1px 0px;
             display: block;
