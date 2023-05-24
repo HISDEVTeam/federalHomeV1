@@ -5576,6 +5576,20 @@ ul.nav.custom_navMenu_3.brandstudio{
     scroll-behavior: smooth;
     display: flex; 
 }
+/* aRTICLE PAGE UPDATION */
+
+.article_text_2 {
+  font-size: 16px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
 
 
 
@@ -6339,7 +6353,7 @@ ul.nav.custom_navMenu_3.brandstudio{
             align-items: start!important;
             position: relative;
             left: 14px;
-            top: -10px;
+            top: -1px;       /* new update*/
         }
         
 
@@ -6894,7 +6908,7 @@ h3.dr_h3 {
     padding: 0px;
     }
     .pre_lis_style li {
-    font-size: 13px;
+    font-size: 15px;
     border-bottom: 1px solid grey;
     position: relative;
     padding-top: 11px;
@@ -7870,6 +7884,23 @@ h1.font_bold.main_header4 {
 
      
     @media only screen and (max-width: 480px) {
+          /* premium updation */
+         .image_pos img {
+    width: 29px;
+    height: 29px;
+    display: flex;
+    align-items: start!important;
+    position: relative;
+    left: 16px;
+    top: -10px;
+     }
+
+
+
+        /* article updation */
+        .bg_color_article{
+         background: #520F0F;
+        }
         .ads-bg-color
         {
         background-color:unset;
@@ -7883,6 +7914,19 @@ h1.font_bold.main_header4 {
             left: 87px;
             position: absolute;
         }
+
+        /* premium page updation */
+        .pre_lis_style li {
+            font-size: 13px;
+            border-bottom: 1px solid grey;
+            position: relative;
+            padding-top: 11px;
+            padding-bottom: 2px;
+            padding-left: 15px;
+        }
+
+
+
 
           /* payment updation */
           .table_modify {
@@ -8354,6 +8398,41 @@ i.icomoon.icon-quotes-left.repit.newquor.icon_repos{
 
     }
     @media only screen and (max-width: 375px) {
+        /* premium updation */
+        .year_font p {
+            font-size: 17px;
+            color: #520F0F;
+            font-weight: bold;
+        }
+        .monthly_font p {
+            font-size: 17px;
+            color: #520F0F;
+            font-weight: bold;
+        }
+        .pre_buton {
+            padding: 4px 9px 2px 15px;
+            border-radius: 20px;
+            background-color: #520F0F!important;
+            color: white!important;
+            font-size: 16px;
+            font-weight: bold;
+            position: absolute;
+            right: 28px;
+        }
+        .belo_buton {
+            padding: 3px 7px 3px 5px;
+            border-radius: 20px;
+            background-color: #520F0F!important;
+            color: white!important;
+            font-size: 16px;
+            font-weight: bold;
+            position: absolute;
+            right: 22px;
+        }
+          /* premium */
+
+
+
         .ads-bg-color
         {
         background-color:unset;
