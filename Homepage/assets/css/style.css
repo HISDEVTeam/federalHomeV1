@@ -1436,6 +1436,11 @@ strong.eignt_spa {
     left: 15px;
     bottom: 15px;
 }
+.opinion_page_imgOverTag_btn {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
 .category_scroll_divBox {
     margin-bottom: 30px;
 }
@@ -2165,7 +2170,7 @@ span.iconStar_box {
 }
 .federal_playlist_dataBox .playlist_detail .date_time {
     color: #fc9f00;
-    font-size: 16px;
+    font-size: 16px;
 }
 .title_1.yellow_color {
     color: #d7b763;
@@ -2665,13 +2670,15 @@ a.socialIcon:hover,
         }
         .yellowBox_left_sec {
             background: #ffeccc;
-        padding: 22px;
-        margin: 0px -29px 0px -7px;
+            padding: 29px 60px 30px 30px;
         }
         /* .imgPosition_1 img {
             width: 553px;
             height: 292px;
         } */
+        .opinion_user_mainIng {
+            width: 243px;
+        }
     
     
         .right_img{
@@ -2696,19 +2703,19 @@ a.socialIcon:hover,
             width: 100%;
         }
     
-    
         .title_with_para_1 h3 {
-        font-size: 20px;
-        font-weight: bold;
-        color: #520F0F;
-        line-height: 1.2;
-        margin-bottom: 15px;
+            color: #520F0F;
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 15px;
+            line-height: 20px;
         }
         .title_with_para_1 p {
-        font-size: 40px;
-        color: #000000;
-        margin-bottom: 0px;
-        line-height: 1.2;
+            color: #000000;
+            font-size: 40px;
+            font-weight: 300;
+            margin-bottom: 0px;
+            line-height: 52px;;
         }
         .nav.custom_navMenu_1.opniion_listMenu .nav-link:hover, .nav.custom_navMenu_1.opniion_listMenu .nav-link.active {
         color: #fff !important;
@@ -2736,14 +2743,18 @@ a.socialIcon:hover,
         .imgOver_tag_img_content{
         position: relative;
         }
+
         .opinion_card_details .opinion_userImg {
         position: absolute;
-		left: 22px;
-		top: 127px;
-        width: 30%;
-        outline-style: auto;
-        outline-color:#ffeccc;
-        border-radius: 58px;
+		left: 10px;
+		top: -50px;
+        width: 93px;
+        height: 93px;
+        border: 3px solid #FFECCC;
+        border-radius: 50%;
+        }
+        .opinion_card_details .opinion_userImg.opinion_2_userImg {
+		    left: 110px;
         }
         .opinion_card_details .opinion_userImg_second {
             position: absolute;
@@ -2771,30 +2782,39 @@ a.socialIcon:hover,
         .opinion_card_details h3 {
             color: #520F0F;
             font-size: 18px;
-            padding: 0px 10px;
-            margin: 25px 0px 0px;
-            line-height: 1.2;
-            /* width: 60%; */
-            position: absolute;
-            top: 211px;
-            left: 20px;
-            font-weight:bold;
+            font-weight: bold;
+            padding: 0px 0px 0px;
+            margin: 0px 0px 5px;
+            line-height: 20px;
         }
         .opinion_card_details p {
-            position: relative;
-        color: #363636;
-        font-size: 22px;
-        margin: -27px auto;
-        line-height: 1.2;
-        font-weight: 500;
-        
+            color: #000;
+            font-size: 22px;
+            font-weight: normal;
+            padding: 10px 0px 0px;
+            margin: 0px 0px 0px;
+            line-height: 30px;        
         }
+
         .opinion_card_divBox{
             background: #ffeccc;
+            /* margin-bottom: 15px; */
+            height: 100%;
         }
         .opinion_card_details {
-            padding: 123px 20px 80px 20px;
+            padding: 50px 10px 20px 10px;
+            /* min-height: 220px; */
        
+        }
+        .mediumBanner_divBox {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #dedede;
+            /* min-height: 394px; */            
+            height: 100%;
+            padding: 15px;
+            /* margin-bottom: 15px; */
         }
         .opinion_card_details1 .opinion_userImg {
         position: absolute;
@@ -2885,13 +2905,23 @@ a.socialIcon:hover,
         .pre_member_btn {
         position: absolute;
         right: 15px;
-        bottom: 15px;
+        bottom: 30px;
         display: flex;
         align-items: center;
-        justify-content: center;
-        padding: 10px 20px 10px;
+        justify-content: space-between;
+        padding: 3px 20px 3px 3px;
         background: #D7B763;
         border-radius: 50px;
+        }
+        .pre_member_btn img {
+            width: 50px;
+            margin-right: 10px;
+        }
+        .pre_member_btn span {
+            color: #fff;
+            font-size: 20px;
+            font-weight: bold;
+            line-height: 20px;
         }
         .imgOver_tag_btn_btn1 {
         position: absolute;
@@ -3581,27 +3611,55 @@ a.socialIcon:hover,
     .image_content img {
     width: 100%;
     }
+    /*     
     i.icomoon.icon-quotes-left {
     color: #d3d3d3;
     font-size: 10rem;
     font-weight: bold;
-    }
+    } */
     i.icomoon.icon-quotes-left.repit {
         color: #e4e4e5 !important;
         font-size: 10rem;
         font-weight: bold;
     }
-    h2.bigImg_quotes_text_position {
-        position: relative;
-        top: 39px;
-        left: -72px;
-        font-size: 40px;
-        color: #FC9F00;
-        width: 582px;
-        margin-bottom: 58px;
-        font-weight: bold;
-        letter-spacing: 0px;
+
+    .opinion_bigImg_sec {
+        background: #e2e9ea;
+        background: -moz-linear-gradient(top,  #e2e9ea 0%, #f8f7fc 100%);
+        background: -webkit-linear-gradient(top,  #e2e9ea 0%,#f8f7fc 100%);
+        background: linear-gradient(to bottom,  #e2e9ea 0%,#f8f7fc 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e9ea', endColorstr='#f8f7fc',GradientType=0 );
     }
+    .opinion_bigImg_sec .bigImg_size {
+        width: 98%;
+    }
+    h2.bigImg_quotes_text_position {
+        position: absolute;
+        top: 5%;
+        right: 10px;
+        z-index: 1;
+        width: 52%;
+        color: #4a4a4a;
+        font-size: 40px;
+        font-weight: bold;
+        padding: 15px 15px;
+        margin: 0px;
+        text-align: center;
+        line-height: 50px;
+    }
+    .bigImg_quotes_text_position span {
+        position: absolute;
+        top: 0%;
+        right: 70%;
+        z-index: -1;
+        width: auto;
+    }
+    .bigImg_quotes_text_position span i {
+        color: #d3d3d3;
+        font-size: 6rem;
+        font-weight: bold;
+    }
+
     button.btn.btn-warning.sub_category_button.btn_position1 {
     position: absolute;
     left: 11px;
@@ -4002,7 +4060,7 @@ a.socialIcon:hover,
     background: linear-gradient(to top, #520F0F 60%, #1E1B1B 100%);
     }
     .nav.custom_navMenu_1 .nav-item {
-        margin: 0px 0 5px 30px;
+        margin: 0px 29px 5px 0px;
     }
     .nav.custom_navMenu_1 .nav-link {
     color: #FFF;
@@ -4468,8 +4526,6 @@ h2.font_bold.mb-3.pt-2.left_size {
     justify-content: center;
     }
     button.btn.btn-secondary.sign_in_button_res {
-    /* display: flex; */
-    align-content: ;
     margin: 0px 24px 0 24px;
     border-radius: 10px;
     width: 50px;
@@ -5820,11 +5876,11 @@ ul.nav.custom_navMenu_3.brandstudio{
     background: #ffeccc;
     min-height: 16em;
     }
-    .opinion_card_details h3 {
+    /* .opinion_card_details h3 {
     top: 158px;
     width: 61%;
     right: 0px;
-    }
+    } */
     .opinion_card_details1 h3 {
     top: 195px;
     right: 6px;
@@ -5835,12 +5891,13 @@ ul.nav.custom_navMenu_3.brandstudio{
     bottom: 186px;
     right: 145px;
     }
+/*     
     .opinion_card_details .opinion_userImg {
     position: absolute;
     left: 22px;
     top: 127px;
     width: 30%;
-    }
+    } */
     }
     @media only screen and (min-width: 993px) and (max-width: 1350px) {
     /*** Banner type Header CSS START ***/
@@ -5979,6 +6036,10 @@ ul.nav.custom_navMenu_3.brandstudio{
     width: 100%;
     }
     /*** Banner type Header CSS END ***/
+
+        h2.bigImg_quotes_text_position {
+            width: 43%;
+        }
     }
     @media only screen and (min-width: 812px) and (max-width: 992px) {
     .carousel_nav_ctrl.owl-carousel .owl-nav .owl-next,
@@ -6598,6 +6659,7 @@ i.icomoon.icon-quotes-left.repit.newquor {
     /* opinion start  */
     .title_with_para_1 p {
     font-size: 21px;
+    line-height: 1.2;
     }
     .title_with_name p {
        
@@ -6611,7 +6673,7 @@ i.icomoon.icon-quotes-left.repit.newquor {
     left: 224px;
     top: 19px !important;
     }
-    .opinion_card_details h3 {
+    /* .opinion_card_details h3 {
         color: #520F0F;
     font-size: 18px;
     padding: 0px 10px;
@@ -6621,7 +6683,7 @@ i.icomoon.icon-quotes-left.repit.newquor {
     position: absolute;
     top: 272px;
     left: 20px;
-    }
+    } */
     .opinion_card_details1 .opinion_userImg {
         position: absolute;
         left: 34px;
@@ -6686,13 +6748,13 @@ h3.dr_h3 {
     bottom: 28px;
     right: 40px;
 }
-
+/* 
     .opinion_card_details .opinion_userImg {
         position: absolute;
         left: 48px;
         top: 183px;
         width: 63px;
-    }
+    } */
     .goup_img {
     width: 10%;
     position: absolute;
@@ -7719,15 +7781,15 @@ h1.font_bold.main_header4 {
     left: 10px;
     bottom: 10px;
     }
-    .category_tag_resp_ctrl.category_tag {
+
+    /* .category_tag_resp_ctrl.category_tag {
     font-size: 10px;
     min-width: auto;
-    /* padding: 0px 5px 0px 6px!important; */
     height: 21px;
     position: relative;
     left: 0px;
     top: 6px;
-    }
+    } */
     h1.title_1.yellow_color.flex_box_1 {
         margin-bottom: 54px;
     }
@@ -7760,6 +7822,9 @@ h1.font_bold.main_header4 {
     align-items: flex-end;
     margin-bottom: 16px;
     }
+        h2.bigImg_quotes_text_position {
+            width: 50%;
+        }
     }
     @media only screen and (min-width: 731px) and (max-width: 736px) {
 
@@ -7838,14 +7903,16 @@ h1.font_bold.main_header4 {
     left: 224px;
     top: 19px !important;
     }
+/*     
     .opinion_card_details h3 {
     top: 264px;
     width: 61%;
     left: 19px;
-    }
+    } */
+/*     
     .opinion_card_details p {
     font-size: 24px;
-    }
+    } */
     .opinion_card_details1 h3 {
     top: 280px;
     left: 22px;
@@ -7856,12 +7923,13 @@ h1.font_bold.main_header4 {
     top: 144px;
     width: 30%;
     }
+/*     
     .opinion_card_details .opinion_userImg {
     position: absolute;
     left: 34px;
     top: 135px;
     width: 30%;
-    }
+    } */
     .goup_img {
     width: 10%;
     position: absolute;
@@ -7892,10 +7960,11 @@ h1.font_bold.main_header4 {
         }
 		.opinion_card_details1 {
 			padding: 108px 15px 70px 25px;
-		}
+        }
+        /*         
 		.opinion_card_details {
 			padding: 123px 20px 0 20px;
-		}
+		} */
         #audio_size_gird
         {
         width:400px;
@@ -7929,6 +7998,10 @@ h1.font_bold.main_header4 {
     font-weight: normal;
     text-align: left;
     }
+    .opinion_user_mainIng {
+        margin-bottom: 15px;
+    }
+
     } 
     @media only screen and (min-width: 480px)  {
         /* Home page Updation */
@@ -8170,11 +8243,11 @@ i.icomoon.icon-quotes-left.repit.newquor.icon_repos{
     left: 10px;
     bottom: 13px;
     }
-    .category_tag_resp_ctrl.category_tag {
+    /* .category_tag_resp_ctrl.category_tag {
     font-size: 12px;
     min-width: auto;
     padding: 0px 10px 2px;
-    }
+    } */
     .detail_box_1 .date_time, .date_time_4c {
     font-size: 14px;
     }
@@ -8193,7 +8266,13 @@ i.icomoon.icon-quotes-left.repit.newquor.icon_repos{
     line-height: 32px;
     }
     /*** Banner type Header CSS END ***/
+
+        h2.bigImg_quotes_text_position {
+            font-size: 30px;
+            line-height: 40px;
+        }
     }
+
     @media screen and (min-width: 471px) and (max-width: 767px){
     /* Category Eight Page start */
     .update_font_size span {
@@ -8255,7 +8334,21 @@ i.icomoon.icon-quotes-left.repit.newquor.icon_repos{
     min-width: auto;
     }
     /*** Banner type Header CSS END ***/
+
+        h2.bigImg_quotes_text_position {
+            font-size: 22px;
+            line-height: 35px;
+        }
+        .bigImg_quotes_text_position span {
+            top: 2%;
+            right: 65%;
+        }
+        .bigImg_quotes_text_position span i {
+            font-size: 4rem;
+        }
     }
+
+
     @media only screen and (min-width: 411px) and (max-width: 414px) {
     }
     @media only screen and (min-width:376px) and (max-width: 480px) {  
@@ -8274,7 +8367,7 @@ i.icomoon.icon-quotes-left.repit.newquor.icon_repos{
         width:225px;
          max-width: none;
         }
-
+/* 
         .opinion_card_details p {
             position: relative;
             color: #363636;
@@ -8284,7 +8377,7 @@ i.icomoon.icon-quotes-left.repit.newquor.icon_repos{
             line-height: 1.2;
             font-weight: 500;
             bottom: 30px;
-        }
+        } */
 
         h1.font_bold.main_header4 {
             font-weight: bold;
@@ -8338,12 +8431,13 @@ i.icomoon.icon-quotes-left.repit.newquor.icon_repos{
         outline-color: #ffeccc;
         border-radius: 58px;
     }
+/*     
     .opinion_card_details .opinion_userImg {
         position: absolute;
         left: 33px;
         top: 167px;
         width: 93px;
-    }
+    } */
     }
     @media only screen and (min-width: 375px) and (max-width: 390px) {
         .ads-bg-color
@@ -8372,7 +8466,7 @@ i.icomoon.icon-quotes-left.repit.newquor.icon_repos{
            
         }
 
-        . opinion_card_details. second_opinion_img .opinion_userImg_second {
+        .opinion_card_details.second_opinion_img .opinion_userImg_second {
             position: absolute;
             left: 138px !important;
             top: 167px;
@@ -8421,9 +8515,8 @@ i.icomoon.icon-quotes-left.repit.newquor.icon_repos{
     /* bottom: 0; */
     top: 85px !important;
     }
-    .opinion_card_details h3 {
-    color: #520F0F;
- 
+    /* .opinion_card_details h3 {
+    color: #520F0F; 
     padding: 0px 10px;
     margin: 15px 0px 0px;
     line-height: 1.2;
@@ -8431,7 +8524,7 @@ i.icomoon.icon-quotes-left.repit.newquor.icon_repos{
     position: absolute;
     top: 259px;
     left: 21px;
-    }
+    } */
     .category_tag_10 img {
         width: 50px;
         height: 50px;
@@ -8564,7 +8657,7 @@ i.icomoon.icon-quotes-left.repit.newquor.icon_repos{
             font-size: 17px;
         }
 
-        .opinion_card_details p {
+        /* .opinion_card_details p {
             position: relative;
             color: #363636;
             font-size: 22px;
@@ -8573,7 +8666,7 @@ i.icomoon.icon-quotes-left.repit.newquor.icon_repos{
             line-height: 1.2;
             font-weight: 500;
             bottom: 70px;
-        }
+        } */
 
         h3.dr_h3 {
             color: #520F0F;
@@ -8762,27 +8855,31 @@ h1.font_bold.main_header4 {
     top: 0px;
     width: 12rem;
     }
+/*     
     i.icomoon.icon-quotes-left {
     color: #d3d3d3;
     font-size: 4rem;
     font-weight: bold;
-    }
+    } */
     button.btn.btn-warning.sub_category_button.btn_position.position_chan {
     position: absolute;
     left: 224px;
     top: 19px !important;
     }
+/*     
     .opinion_card_details h3 {
     top: 252px;
     width: 84%;
     left: 20px;
-    }
+    } */
+
+/*     
     .opinion_card_details .opinion_userImg {
         position: absolute;
         left: 34px;
         top: 157px;
         width: 93px;
-    }
+    } */
     .opinion_card_details1.second_opinion_img .opinion_userImg_second {
         position: absolute;
         left: 110px;
@@ -8818,9 +8915,9 @@ h1.font_bold.main_header4 {
         right: 24px;
         width: 49%;
     }
-    .opinion_card_details p {
+    /* .opinion_card_details p {
     font-size: 21px;
-    }
+    } */
     .opinion_card_details1 h3 {
     top: 259px;
     left: 22px;
@@ -8902,7 +8999,21 @@ h1.font_bold.main_header4 {
     text-align: center;
     padding-left: 5px;
     }
+
+        h2.bigImg_quotes_text_position {
+            font-size: 18px;
+            line-height: 30px;
+        }
+        .bigImg_quotes_text_position span {
+            top: 5%;
+            right: 65%;
+        }
+        .bigImg_quotes_text_position span i {
+            font-size: 3rem;
+        }
     }
+
+
     @media only screen and (max-width: 320px) {
 
         button.btn.time_update.p-1 {
@@ -9039,6 +9150,21 @@ h1.font_bold.main_header4 {
     line-height: 20px;
     }
     /*** Banner type Header CSS END ***/
+
+    
+
+        h2.bigImg_quotes_text_position {
+            font-size: 15px;
+            line-height: 24px;
+        }
+        .bigImg_quotes_text_position span i {
+            font-size: 3rem;
+        }
+        .pre_member_btn span {
+            font-size: 16px;
+            line-height: 18px;
+        }
+
     }
     /***** Responsive CSS END *****/
     /***** Responsive CSS END *****/
