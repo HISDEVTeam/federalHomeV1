@@ -7782,14 +7782,14 @@ h1.font_bold.main_header4 {
     bottom: 10px;
     }
 
-    /* .category_tag_resp_ctrl.category_tag {
+     .category_tag_resp_ctrl.category_tag {
     font-size: 10px;
     min-width: auto;
     height: 21px;
     position: relative;
     left: 0px;
     top: 6px;
-    } */
+    } 
     h1.title_1.yellow_color.flex_box_1 {
         margin-bottom: 54px;
     }
@@ -8243,11 +8243,11 @@ i.icomoon.icon-quotes-left.repit.newquor.icon_repos{
     left: 10px;
     bottom: 13px;
     }
-    /* .category_tag_resp_ctrl.category_tag {
+     .category_tag_resp_ctrl.category_tag {
     font-size: 12px;
     min-width: auto;
     padding: 0px 10px 2px;
-    } */
+    } 
     .detail_box_1 .date_time, .date_time_4c {
     font-size: 14px;
     }
