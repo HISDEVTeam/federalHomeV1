@@ -1451,7 +1451,7 @@ strong.eignt_spa {
     min-width: 228px;
 }
 .category_scroll_divBox1 {
-    overflow-x: clip;
+    overflow-x: scroll;
     margin-bottom: 30px;
 }
 .para_text_45 {
