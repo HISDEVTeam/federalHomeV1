@@ -7782,7 +7782,7 @@ h1.font_bold.main_header4 {
     bottom: 10px;
     }
 
-     .category_tag_resp_ctrl.category_tag {
+   .category_tag_resp_ctrl.category_tag_new {
     font-size: 10px;
     min-width: auto;
     height: 21px;
@@ -8243,7 +8243,7 @@ i.icomoon.icon-quotes-left.repit.newquor.icon_repos{
     left: 10px;
     bottom: 13px;
     }
-     .category_tag_resp_ctrl.category_tag {
+     .category_tag_resp_ctrl.category_tag_new {
     font-size: 12px;
     min-width: auto;
     padding: 0px 10px 2px;
