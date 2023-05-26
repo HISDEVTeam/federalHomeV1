@@ -1219,7 +1219,7 @@
     .para_text_2 {
     color: #363636;
     font-size: 21px;
-    font-weight: 300;
+    font-weight: normal;
     padding: 0px 0px 0px;
     margin: 0px 0px 0px;
     text-align: left;
@@ -1876,6 +1876,12 @@
     .carousel_nav_ctrl1.owl-carousel .owl-nav .owl-next,
     .carousel_nav_ctrl1.owl-carousel .owl-nav .owl-prev {
     position: absolute;
+    }
+
+    .newRight.owl-carousel .owl-nav button.owl-next i {
+        position: absolute;
+        top: 2px;
+        left: 8px;
     }
     .carousel_nav_ctrl1.owl-carousel .owl-nav .owl-next {
     right: -30px;
