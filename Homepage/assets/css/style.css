@@ -1219,7 +1219,7 @@
     .para_text_2 {
     color: #363636;
     font-size: 21px;
-    font-weight: bold;
+    font-weight: 300;
     padding: 0px 0px 0px;
     margin: 0px 0px 0px;
     text-align: left;
@@ -1292,8 +1292,8 @@
     min-width: 228px;
     }
     .category_scroll_divBox1 {
-    overflow-x: scroll;
-    margin-bottom: 30px;
+        overflow-x: hidden;
+        margin-bottom: 8px;
     }
     .para_text_45 {
     color: #363636;
@@ -1949,9 +1949,47 @@
     margin: 0px 0px 15px;
     }
     .federal_playlist_dataBox .playlist_detail .para_text_2 {
-    color: #f6f6f6;
-    padding: 0px 0px 10px;
+        color: #f6f6f6;
+        padding: 0px 0px 10px;
     }
+
+    .federal_playlist_dataBox img, .federal_playlist_dataBox6 img{
+        border-radius: 17px;
+        }
+
+      
+     .federal_playlist_dataBox .playlist_detail, .federal_playlist_dataBox6 .playlist_detail {
+    padding: 15px 0px 15px;
+    margin: 0px 0px 15px;
+     }
+    
+     .federal_playlist_dataBox6 .playlist_detail .para_text_2 {
+     color: #f6f6f6;
+     padding: 0px 0px 10px;
+     font-size: 16px;
+     line-height: 22px;
+     font-weight: 300;
+     }
+     .federal_playlist_dataBox .playlist_detail .date_time, .federal_playlist_dataBox6 .playlist_detail .date_time {
+     color: #fc9f00;
+     font-size: 16px;
+     }
+
+
+
+
+
+
+    
+    p.para_text_2.paratext3 {
+        font-size: 21px !important;
+        line-height: 26px !important;
+    }
+
+    p.date_time.new_date_update {
+        font-size: 16px !important;
+    }
+
     .federal_playlist_dataBox .playlist_detail .date_time {
     color: #fc9f00;
     font-size: 16px;
@@ -2105,18 +2143,13 @@
     .transClr {
     color: #520f0f;
     }
-    .carousel_nav_ctrl1.owl-carousel .owl-nav button.owl-prev i {
-    position: absolute;
-    top: 7px;
-    font-size: 16px;
-    left: 9px;
-    }
-    .carousel_nav_ctrl1.owl-carousel .owl-nav .owl-next i{
-    left: 11px;
-    font-size: 16px;
-    top: 7px;
-    position: absolute;
-    } 
+   
+     
+
+
+
+
+
     /*** Article 4 Page CSS START ***/
     .col-md-12.bread_bottom_spcae {
     margin-bottom: -20px;
@@ -2360,6 +2393,18 @@
     }
     /** Footer Section CSS END **/
     /*home2 section **/
+
+    .video_part.video_part12 img {
+        height: 93px;
+    }
+    .sub_fig1 {
+        width: 53px;
+        position: absolute;
+        top: 139px;
+    }
+    .userOpinion_scroll_divBox.table-responsive.hidden_scroll {
+        overflow-x: clip;
+    }
     .container-fluid.full_widhsection {
     width: 100%;
     padding-right: 0;
@@ -2374,7 +2419,7 @@
     .video_part_player{
     border: none;
     width: 345px;
-    height: 81px;
+    height: 93px;
     background: #FC9F00;
     border-radius: 1px;
     }
@@ -2387,14 +2432,14 @@
     }
     .play_icon{
     position: absolute;
-    width: 37px;
+    width: 40px;
     height: auto;
     left: 168px;
-    top: 38px;
+    top: 46px;
     }
     ul.list-group.list-group-flush.list-group-horizontal.custome_horizontalList.ul_vdo {
     display: flex;
-    overflow-x: scroll;
+    overflow-x: hidden;
     white-space: normal;
     }
     .category_tag_home2.without_icon span {
@@ -3804,7 +3849,7 @@
     background: linear-gradient(to top, #520F0F 60%, #1E1B1B 100%);
     }
     .nav.custom_navMenu_1 .nav-item {
-    margin: 0px 29px 5px 0px;
+    margin: 0px 0px 5px 30px;
     }
     .nav.custom_navMenu_1 .nav-link {
     color: #FFF;
@@ -3876,9 +3921,7 @@
     align-items: center;
     justify-content: flex-end;
     }
-    .playlist_detail .para_text_2{
-    font-weight: 300;
-    }
+    
     .category_six_font_size{
     font-size: 59px;
     text-transform: uppercase;
@@ -4422,7 +4465,7 @@
     }
     /* part3 12.04.2023  sponsor */
     .nav.custom_navMenu_3 .nav-item {
-    margin: 0px 40px 5px 0px;
+    margin: 0px 15px 5px 15px;
     color:#520F0F;
     }
     .nav.custom_navMenu_3 .nav-link {
@@ -5269,7 +5312,7 @@
     }
     ul.nav.custom_navMenu_3.brandstudio{
     flex-wrap: nowrap;
-    width: 118%;
+    width: 85%;
     overflow: auto;
     contain-intrinsic-block-size: none;
     scroll-behavior: smooth;
@@ -5357,6 +5400,9 @@
     .para_text_4.line_height_21 {
     line-height: 21px;
     }
+    .para_text_4.line_height_24 {
+        line-height: 28px;
+    }
     .download_img_withBg_1 {
     background: #f6f6f6;
     padding: 15px 15px;
@@ -5374,6 +5420,7 @@
     .audio_volum_btn {
     margin: -5px 0px 0px 5px;
     }
+    
     /* Toggle icon CSS END */
     /***** Responsive CSS START *****/
     @media only screen and (min-width: 1920px) {
@@ -5384,7 +5431,7 @@
     .video_part_player {
     border: none;
     width: 364px;
-    height: 86px;
+    height: 93px;
     background: #FC9F00;
     border-radius: 1px;
     }
@@ -5409,7 +5456,7 @@
     .video_part_player {
     border: none;
     width: 364px;
-    height: 84px;
+    height: 118px;
     background: #FC9F00;
     border-radius: 1px;
     }
@@ -6478,7 +6525,21 @@
     top: -28px;
     left: 10px;
     }
+  
+
+
+
     /* category  page 7 end*/
+
+   /* brand studion start*/
+    ul.nav.custom_navMenu_3.brandstudio{
+     width: 100%;
+     }
+    .brandstudio .nav-item{
+       margin: 0px 5px 5px 0px !important;
+}
+/* brand studion End*/
+
     /*Business Page START */
     .nav.custom_navMenu_2 .nav-item {
     margin: 0px 23px 5px 0px;
@@ -6501,7 +6562,8 @@
     font-weight: 500;
     color:#363636;
     }
-    .ad_date_one {
+
+   .ad_date_one {
     color: #363636 !important;
     font-size: 15px !important;
     font-weight: 300!important;
@@ -6726,6 +6788,11 @@
     }
     }
     @media only screen and (max-width: 767px) {
+
+        .col-md-12.bread_bottom_spcae.manualSpace {
+            margin-top: -31px !important;
+        }
+
     .respon_trend1{
     display: none;
     }
@@ -6737,6 +6804,10 @@
     }
     /* A-home-2 */
     /* home2section */
+
+    .userOpinion_scroll_divBox.table-responsive.hidden_scroll {
+        overflow-x: scroll;
+    }
     .m_custom {
     margin-top: -62px;
     }
@@ -6817,6 +6888,9 @@
     text-align: center;
     }
     /* article 2-2 */
+
+    
+
     .ex_content {
     margin-left: 20px;
     font-size: 20px;
