@@ -8124,6 +8124,11 @@
             bottom: 0;
         } */
 
+         .category_tag_resp_ctrl.category_tag_new {
+           left: 0px;
+            top: -21px;
+        }
+        
     /* premium updation */
     .year_font p {
     font-size: 17px;
