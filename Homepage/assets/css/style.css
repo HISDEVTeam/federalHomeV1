@@ -6802,6 +6802,9 @@
     }
     }
     @media only screen and (max-width: 767px) {
+        .top_space {
+            margin-top: 20px;
+        }
 
         .col-md-12.bread_bottom_spcae.manualSpace {
             margin-top: -31px !important;
@@ -8118,17 +8121,18 @@
     }
     @media only screen and (max-width: 375px) {
 
+        .category_tag_resp_ctrl.category_tag_new {
+           
+            left: 0px;
+            top: -21px;
+        }
+
         /* a.category_tag.sponser_tag.without_icon.category_tag_resp_ctrl.newSponser {
            position: absolute;
             left: 5px;
             bottom: 0;
         } */
 
-         .category_tag_resp_ctrl.category_tag_new {
-           left: 0px;
-            top: -21px;
-        }
-        
     /* premium updation */
     .year_font p {
     font-size: 17px;
