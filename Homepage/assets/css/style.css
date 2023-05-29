@@ -5558,7 +5558,7 @@
     width: 37px;
     height: auto;
     left: 109px;
-    top: 38px;
+    top: 59px;
     }
     /*** Banner type Header CSS START ***/
     .header_with_banner_wrapper {
@@ -5797,6 +5797,20 @@
     line-height: 1;
     margin: 0px;
     }
+
+
+    .video_part.video_part12 img {
+        height: 116px;
+    }
+    .video_part_player {
+        border: none;
+        width: 258px;
+        height: 118px;
+        background: #FC9F00;
+        border-radius: 1px;
+    }
+
+
     }
     @media screen and (min-width: 769px) and (max-width: 1188px){
     /* Category Eight Page start */
