@@ -5335,7 +5335,7 @@
     flex-wrap: nowrap;
     width: 100px;
     min-width: 400px;
-    overflow: auto;
+    /* overflow: auto; */
     contain-intrinsic-block-size: none;
     scroll-behavior: smooth;
     display: flex; 
@@ -5474,6 +5474,14 @@
     background: #FC9F00;
     border-radius: 1px;
     }
+
+    .play_icon {
+        position: absolute;
+        width: 37px;
+        height: auto;
+        left: 112px;
+        top: 40px;
+    }
     /* new updation */
     button.btn.btn-warning.sub_category_button.btn_position.vale_hg {
     top: 82px;
@@ -5543,22 +5551,29 @@
     bottom: 186px;
     right: 145px;
     }
+    .play_icon {
+    position: absolute;
+    width: 37px;
+    height: auto;
+    left: 121px;
+    top: 54px;
+}
     }
     @media only screen and (min-width: 993px) and (max-width: 1350px) {
     /* A-home-2 */
     .video_part_player {
     border: none;
-    width: 260px;
+    width: 334px;
     height: 92px;
     background: #FC9F00;
     border-radius: 1px;
     }
     .play_icon {
-    position: absolute;
-    width: 37px;
-    height: auto;
-    left: 109px;
-    top: 59px;
+        position: absolute;
+        width: 37px;
+        height: auto;
+        left: 164px;
+        top: 40px;
     }
     /*** Banner type Header CSS START ***/
     .header_with_banner_wrapper {
@@ -6821,6 +6836,17 @@
     }
     }
     @media only screen and (max-width: 767px) {
+
+        .visual_story{
+            flex-wrap: nowrap;
+            width: 100px;
+            min-width: 340px;
+            overflow: auto;
+            contain-intrinsic-block-size: none;
+            scroll-behavior: smooth;
+            display: flex; 
+            }
+
         .top_space {
             margin-top: 20px;
         }
@@ -7649,7 +7675,17 @@
     }
     }
     @media only screen and (max-width: 480px) {
-    /* premium updation */
+
+        .visual_story {
+            flex-wrap: nowrap;
+            width: 100px;
+            min-width: 290px;
+            overflow: auto;
+            contain-intrinsic-block-size: none;
+            scroll-behavior: smooth;
+            display: flex;
+        }
+        /* premium updation */
     .image_pos img {
     width: 29px;
     height: 29px;
@@ -7913,9 +7949,18 @@
     margin: 0px 0px 15px 0px;
     }
     }
-    /* 
+    
     @media only screen and (min-width: 320px) and (max-width: 479px) {    
-    } */
+        .visual_story {
+            flex-wrap: nowrap;
+            width: 100px;
+            min-width: 388px;
+            overflow: auto;
+            contain-intrinsic-block-size: none;
+            scroll-behavior: smooth;
+            display: flex;
+        }
+    }
     @media only screen and (max-width: 414px) {
     .body_main_top_container {
     padding-top: 5rem !important;
@@ -8724,4 +8769,29 @@
         cursor: pointer;
         /* Hiddem scroll bar */
         scrollbar-width: none;  /* Firefox */
+      }   
+      
+      .box-scroll-1::-webkit-scrollbar {
+        display: none;
+      }
+      .box-scroll-1 {
+        display: flex;
+        flex-wrap: nowrap;
+        width: 100%;
+        overflow: auto;
+        cursor: pointer;
+        /* Hiddem scroll bar */
+        scrollbar-width: none;  /* Firefox */
       }            
+      .box-scroll-3::-webkit-scrollbar {
+        display: none;
+      }
+      .box-scroll-3 {
+        display: flex;
+        flex-wrap: nowrap;
+        width: 100%;
+        overflow: auto;
+        cursor: pointer;
+        /* Hiddem scroll bar */
+        scrollbar-width: none;  /* Firefox */
+      }
