@@ -2995,7 +2995,7 @@
     height: 33px;
     font-size: 15px;
     border: 2px solid #D7B763;
-    background: #D7B763;
+    background: #D7B763 !important;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -3679,7 +3679,7 @@
     color: white;
     }
     .ad_imgbox_sec p {
-    padding: 15px 0px 0px;
+    padding: 30px 0px 0px;
     margin: -15px 0px 15px;
     font-size: 21px;
     font-weight: bold;
@@ -6837,6 +6837,9 @@
     }
     @media only screen and (max-width: 767px) {
 
+        .col-xl-5.col-lg-5.col-md-12.col-sm-12.col-12.px-2.respon_trend {
+            margin-top: -30px;
+        }
         .visual_story{
             flex-wrap: nowrap;
             width: 100px;
@@ -8188,7 +8191,7 @@
         .category_tag_resp_ctrl.category_tag_new {
            
             left: 0px;
-            top: -21px;
+            top: 5px;
         }
         a.category_tag.sponcer_tag_green.without_icon.category_tag_resp_ctrl.category_tag_new.Spon_new {
             top: 7px;
