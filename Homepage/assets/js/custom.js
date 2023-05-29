@@ -488,3 +488,31 @@ mouseWheel.addEventListener('wheel', function(e) {
         mouseWheel.scrollLeft -= race;
 		e.preventDefault();
 });
+
+
+
+
+const mouseWheel1 = document.querySelector('.box-scroll-1');
+
+mouseWheel1.addEventListener('wheel', function(e) {
+    const race = 45; // How many pixels to scroll
+
+    if (e.deltaY > 0) // Scroll right
+    mouseWheel1.scrollLeft += race;
+    else // Scroll left
+    mouseWheel1.scrollLeft -= race;
+		e.preventDefault();
+});
+
+
+const mouseWheel3 = document.querySelector('.box-scroll-3');
+
+mouseWheel3.addEventListener('wheel', function(e) {
+    const race = 45; // How many pixels to scroll
+
+    if (e.deltaY > 0) // Scroll right
+    mouseWheel3.scrollLeft += race;
+    else // Scroll left
+    mouseWheel3.scrollLeft -= race;
+		e.preventDefault();
+});
