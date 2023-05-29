@@ -1262,8 +1262,8 @@
     }
     .date_time, .date_time_4c {
     color: #363636;
-    font-size: 20px;
-    font-weight: normal;
+    font-size: 16px;
+    font-weight: 300;
     padding: 0px 0px;
     margin: -3px 0px -3px;
     text-align: left;
