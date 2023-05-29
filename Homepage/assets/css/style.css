@@ -2414,9 +2414,9 @@
         position: absolute;
         top: 139px;
     }
-    .userOpinion_scroll_divBox.table-responsive.hidden_scroll {
+    /* .userOpinion_scroll_divBox.table-responsive.hidden_scroll {
         overflow-x: clip;
-    }
+    } */
     .container-fluid.full_widhsection {
     width: 100%;
     padding-right: 0;
@@ -2450,9 +2450,9 @@
     top: 46px;
     }
     ul.list-group.list-group-flush.list-group-horizontal.custome_horizontalList.ul_vdo {
-    display: flex;
-    overflow-x: hidden;
-    white-space: normal;
+    /* display: flex;
+    overflow-x: auto;
+    white-space: normal; */
     }
 
 
@@ -5822,6 +5822,11 @@
     /* Category Eight Page end*/
     }
     @media only screen and (min-width: 769px) and (max-width: 992px) {
+
+        section.body_main_top_container.pt_30 {
+            margin-top: -73px;
+        }
+
     .sign_in_button {
     width: 100%;
     height: 72px;
@@ -8705,3 +8710,18 @@
     /***** Responsive CSS END *****/
     /***** Responsive CSS END *****/
     /* Responsive Section */
+
+
+
+    .box-scroll::-webkit-scrollbar {
+        display: none;
+      }
+      .box-scroll {
+        display: flex;
+        flex-wrap: nowrap;
+        width: 100%;
+        overflow: auto;
+        cursor: pointer;
+        /* Hiddem scroll bar */
+        scrollbar-width: none;  /* Firefox */
+      }            
