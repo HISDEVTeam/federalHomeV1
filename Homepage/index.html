@@ -23,46 +23,48 @@
 
 
 
-<header class="header_wrapper">
-	<div class="container custom_container header_row_1_sec">
-		<div class="row">
-			<div class="col-md-12 px-2">
-				<div class="row margin_lr_ctrl">
-					<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6">
-						<a class="navbar-brand" href="#">
-							<img src="assets/images/logo.svg" class="img-fluid logo_img">
-						</a>
-					</div>
-					<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 d-flex align-items-center justify-content-end pr-xl-4 pr-3">				
-						<div class="header_top_right_sec">
-							<ul class="nav flex-lg-column">						
-								<li class="nav-item">
-									<button type="button" class="btn premium_access_btn">
-										<img src="assets/images/icon_header_premium.png" class="img-fluid premium_icon"> 
-										<span class="hover_text_change">Premium Access</span>
-									</button>
-								</li>
-								<li class="nav-item">
-									<button type="button" class="btn reg_login_btn">
-										<span class="fa fa-user header_userIcon"></span>
-										<span>Register / Login</span>
-									</button>
-								</li>
-								<li class="nav-item">
-									<div class="form-group has_search">
-										<span class="fa fa-search header_searchIcon"></span>
-										<input type="text" class="form-control" placeholder="Search Website">
-									</div>
-								</li>
-							</ul>
+
+	<header class="header_wrapper">
+		<div class="container custom_container header_row_1_sec">
+			<div class="row">
+				<div class="col-md-12 px-2">
+					<div class="row margin_lr_ctrl">
+						<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6">
+							<a class="navbar-brand" href="#">
+								<img src="assets/images/logo.svg" class="img-fluid logo_img">
+							</a>
+						</div>
+						<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 d-flex align-items-center justify-content-end pr-xl-4 pr-3">				
+							<div class="header_top_right_sec">
+								<ul class="nav flex-lg-column">						
+									<li class="nav-item">
+										<button type="button" class="btn premium_access_btn">
+											<img src="assets/images/icon_header_premium.png" class="img-fluid premium_icon"> 
+											<span class="hover_text_change">Premium Access</span>
+										</button>
+									</li>
+									<li class="nav-item">
+										<button type="button" class="btn reg_login_btn">
+											<span class="fa fa-user header_userIcon"></span>
+											<span>Register / Login</span>
+										</button>
+									</li>
+									<li class="nav-item">
+										<div class="form-group has_search">
+											<span class="fa fa-search header_searchIcon"></span>
+											<input type="text" class="form-control" placeholder="Search Website">
+										</div>
+									</li>
+								</ul>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-	</div>
-
-	<div class="container-fluid mega_menu_wrapper px-0">
+	</header>
+	
+	<div class="container-fluid mega_menu_wrapper sticky-top px-0">
 		<div class="row mx-0">
 			<div class="col-md-12 px-0">
 				<div class="navbar navbar-light mega_menu_navbar_sec navbar-expand-md">
@@ -73,7 +75,12 @@
 						
 						<button type="button" class="navbar-toggler d-none" data-toggle="collapse" data-target=".navbar-collapse">☰</button>
 						<div class="navbar-collapse collapse custom_navCollapse">
-							<ul class="nav navbar-nav mega_menu_list_sec">
+							<ul class="nav navbar-nav mega_menu_list_sec top_stickyMenu_logo_search_iconAdded">
+								<li class="nav-item list_first sticky_newMenu_added">
+									<a href="javascript:;" class="nav-link">
+										<img src="assets/images/logo_federal_sticky_menu.png" class="img-fluid logo_img_stickyMenu">
+									</a>
+								</li>
 								<li class="nav-item dropdown vertical_menu_sec hover_vertical_menu">
 									<a class="nav-link dropdown-toggle custom_toggleIcon" href="#" id="verticalDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 										<span class="change_icon">
@@ -165,8 +172,8 @@
 										</li>
 									</ul>
 								</li>
-
-
+	
+	
 								<li class="nav-item"><a href="#" class="nav-link">Home</a></li>
 								<li class="nav-item"><a href="#" class="nav-link">States</a></li>
 								<li class="nav-item"><a href="#" class="nav-link">Politics</a></li>
@@ -244,6 +251,11 @@
 								<li class="nav-item"><a href="#" class="nav-link">Entertainment</a></li>
 								<li class="nav-item"><a href="#" class="nav-link">Features</a></li>
 								<li class="nav-item"><a href="#" class="nav-link">Explainers</a></li>
+								<li class="nav-item list_last sticky_newMenu_added">
+									<a href="javascript:;" class="nav-link">
+										<span class="fa fa-search stickyMenu_searchIcon"></span>
+									</a>
+								</li>
 							</ul>
 						</div>
 					</div>
@@ -251,9 +263,8 @@
 			</div>
 		</div>
 	</div>
-
-</header>
-
+	
+	
 
 
 
@@ -2481,6 +2492,7 @@
 															<div class="card_dataBox">
 																<img src="assets/images/dummy_image_1.png" class="img-fluid thumb_img">
 																<div class="card_detail">
+																	<span class="iconStar_box withone"><img src="assets/images/icon_header_premium.png" class="img-fluid star_icon"></span>
 																	<p>GST mop-up rises 15% in Dec, crosses ₹1.4 L-Cr mark for 10th straight month</p>
 																</div>
 															</div>
@@ -2489,6 +2501,7 @@
 															<div class="card_dataBox">
 																<img src="assets/images/dummy_image_1.png" class="img-fluid thumb_img">
 																<div class="card_detail">
+																	<span class="iconStar_box withone"><img src="assets/images/icon_header_premium.png" class="img-fluid star_icon"></span>
 																	<p>Jan 2 business briefs: Electric two-wheelers sales fell by a fourth in Dec</p>
 																</div>
 															</div>
@@ -2497,6 +2510,7 @@
 															<div class="card_dataBox">
 																<img src="assets/images/dummy_image_1.png" class="img-fluid thumb_img">
 																<div class="card_detail">
+																	<span class="iconStar_box withone"><img src="assets/images/icon_header_premium.png" class="img-fluid star_icon"></span>
 																	<p>Mamaearth IPO: Unicorn’s numbers, prospects, and Shilpa Shetty link</p>
 																</div>
 															</div>
@@ -2505,6 +2519,7 @@
 															<div class="card_dataBox">
 																<img src="assets/images/dummy_image_1.png" class="img-fluid thumb_img">
 																<div class="card_detail">
+																	<span class="iconStar_box withone"><img src="assets/images/icon_header_premium.png" class="img-fluid star_icon"></span>
 																	<p>Unemployment in India hits 16-month high of 8.3% in December</p>
 																</div>
 															</div>
@@ -2513,6 +2528,7 @@
 															<div class="card_dataBox">
 																<img src="assets/images/dummy_image_1.png" class="img-fluid thumb_img">
 																<div class="card_detail">
+																	<span class="iconStar_box withone"><img src="assets/images/icon_header_premium.png" class="img-fluid star_icon"></span>
 																	<p>India’s manufacturing activity at 13-month high in Dec amid strong demand</p>
 																</div>
 															</div>
@@ -2525,6 +2541,7 @@
 															 <div class="card_dataBox">
 																 <img src="assets/images/dummy_image_1.png" class="img-fluid thumb_img">
 																 <div class="card_detail">
+																	<span class="iconStar_box withone"><img src="assets/images/icon_header_premium.png" class="img-fluid star_icon"></span>
 																	 <p>WhytheIruliga</p>
 																 </div>
 															 </div>
@@ -2533,6 +2550,7 @@
 															 <div class="card_dataBox">
 																 <img src="assets/images/dummy_image_1.png" class="img-fluid thumb_img">
 																 <div class="card_detail">
+																	<span class="iconStar_box withone"><img src="assets/images/icon_header_premium.png" class="img-fluid star_icon"></span>
 																	 <p>WhytheIruliga</p>
 																 </div>
 															 </div>
@@ -2541,6 +2559,7 @@
 															 <div class="card_dataBox">
 																 <img src="assets/images/dummy_image_1.png" class="img-fluid thumb_img">
 																 <div class="card_detail">
+																	<span class="iconStar_box withone"><img src="assets/images/icon_header_premium.png" class="img-fluid star_icon"></span>
 																	 <p>WhytheIruliga</p>
 																 </div>
 															 </div>
@@ -2549,6 +2568,7 @@
 															 <div class="card_dataBox">
 																 <img src="assets/images/dummy_image_1.png" class="img-fluid thumb_img">
 																 <div class="card_detail">
+																	<span class="iconStar_box withone"><img src="assets/images/icon_header_premium.png" class="img-fluid star_icon"></span>
 																	 <p>WhytheIruliga</p>
 																 </div>
 															 </div>
@@ -2557,6 +2577,7 @@
 															 <div class="card_dataBox">
 																 <img src="assets/images/dummy_image_1.png" class="img-fluid thumb_img">
 																 <div class="card_detail">
+																	<span class="iconStar_box withone"><img src="assets/images/icon_header_premium.png" class="img-fluid star_icon"></span>
 																	 <p>002</p>
 																 </div>
 															 </div>
@@ -2569,6 +2590,7 @@
 															  <div class="card_dataBox">
 																  <img src="assets/images/dummy_image_1.png" class="img-fluid thumb_img">
 																  <div class="card_detail">
+																	<span class="iconStar_box withone"><img src="assets/images/icon_header_premium.png" class="img-fluid star_icon"></span>
 																	  <p>WhytheIruliga</p>
 																  </div>
 															  </div>
@@ -2577,6 +2599,7 @@
 															  <div class="card_dataBox">
 																  <img src="assets/images/dummy_image_1.png" class="img-fluid thumb_img">
 																  <div class="card_detail">
+																	<span class="iconStar_box withone"><img src="assets/images/icon_header_premium.png" class="img-fluid star_icon"></span>
 																	  <p>WhytheIruliga</p>
 																  </div>
 															  </div>
@@ -2585,6 +2608,7 @@
 															  <div class="card_dataBox">
 																  <img src="assets/images/dummy_image_1.png" class="img-fluid thumb_img">
 																  <div class="card_detail">
+																	<span class="iconStar_box withone"><img src="assets/images/icon_header_premium.png" class="img-fluid star_icon"></span>
 																	  <p>WhytheIruliga</p>
 																  </div>
 															  </div>
@@ -2593,6 +2617,7 @@
 															  <div class="card_dataBox">
 																  <img src="assets/images/dummy_image_1.png" class="img-fluid thumb_img">
 																  <div class="card_detail">
+																	<span class="iconStar_box withone"><img src="assets/images/icon_header_premium.png" class="img-fluid star_icon"></span>
 																	  <p>WhytheIruliga</p>
 																  </div>
 															  </div>
@@ -2601,6 +2626,7 @@
 															  <div class="card_dataBox">
 																  <img src="assets/images/dummy_image_1.png" class="img-fluid thumb_img">
 																  <div class="card_detail">
+																	<span class="iconStar_box withone"><img src="assets/images/icon_header_premium.png" class="img-fluid star_icon"></span>
 																	  <p>003</p>
 																  </div>
 															  </div>
@@ -2624,6 +2650,7 @@
 															<div class="card_dataBox">
 																<img src="assets/images/dummy_image_1.png" class="img-fluid thumb_img">
 																<div class="card_detail">
+																	<span class="iconStar_box withone"><img src="assets/images/icon_header_premium.png" class="img-fluid star_icon"></span>
 																	<p>GST mop-up rises 15% in Dec, crosses ₹1.4 L-Cr mark for 10th straight month</p>
 																</div>
 															</div>
@@ -2632,6 +2659,7 @@
 															<div class="card_dataBox">
 																<img src="assets/images/dummy_image_1.png" class="img-fluid thumb_img">
 																<div class="card_detail">
+																	<span class="iconStar_box withone"><img src="assets/images/icon_header_premium.png" class="img-fluid star_icon"></span>
 																	<p>Jan 2 business briefs: Electric two-wheelers sales fell by a fourth in Dec</p>
 																</div>
 															</div>
@@ -2640,6 +2668,7 @@
 															<div class="card_dataBox">
 																<img src="assets/images/dummy_image_1.png" class="img-fluid thumb_img">
 																<div class="card_detail">
+																	<span class="iconStar_box withone"><img src="assets/images/icon_header_premium.png" class="img-fluid star_icon"></span>
 																	<p>Mamaearth IPO: Unicorn’s numbers, prospects, and Shilpa Shetty link</p>
 																</div>
 															</div>
@@ -2648,6 +2677,7 @@
 															<div class="card_dataBox">
 																<img src="assets/images/dummy_image_1.png" class="img-fluid thumb_img">
 																<div class="card_detail">
+																	<span class="iconStar_box withone"><img src="assets/images/icon_header_premium.png" class="img-fluid star_icon"></span>
 																	<p>Unemployment in India hits 16-month high of 8.3% in December</p>
 																</div>
 															</div>
@@ -2656,6 +2686,7 @@
 															<div class="card_dataBox">
 																<img src="assets/images/dummy_image_1.png" class="img-fluid thumb_img">
 																<div class="card_detail">
+																	<span class="iconStar_box withone"><img src="assets/images/icon_header_premium.png" class="img-fluid star_icon"></span>
 																	<p>India’s manufacturing activity at 13-month high in Dec amid strong demand</p>
 																</div>
 															</div>
@@ -2668,6 +2699,7 @@
 															 <div class="card_dataBox">
 																 <img src="assets/images/dummy_image_1.png" class="img-fluid thumb_img">
 																 <div class="card_detail">
+																	<span class="iconStar_box withone"><img src="assets/images/icon_header_premium.png" class="img-fluid star_icon"></span>
 																	 <p>WhytheIruliga</p>
 																 </div>
 															 </div>
@@ -2676,6 +2708,7 @@
 															 <div class="card_dataBox">
 																 <img src="assets/images/dummy_image_1.png" class="img-fluid thumb_img">
 																 <div class="card_detail">
+																	<span class="iconStar_box withone"><img src="assets/images/icon_header_premium.png" class="img-fluid star_icon"></span>
 																	 <p>WhytheIruliga</p>
 																 </div>
 															 </div>
@@ -2684,6 +2717,7 @@
 															 <div class="card_dataBox">
 																 <img src="assets/images/dummy_image_1.png" class="img-fluid thumb_img">
 																 <div class="card_detail">
+																	<span class="iconStar_box withone"><img src="assets/images/icon_header_premium.png" class="img-fluid star_icon"></span>
 																	 <p>WhytheIruliga</p>
 																 </div>
 															 </div>
@@ -2692,6 +2726,7 @@
 															 <div class="card_dataBox">
 																 <img src="assets/images/dummy_image_1.png" class="img-fluid thumb_img">
 																 <div class="card_detail">
+																	<span class="iconStar_box withone"><img src="assets/images/icon_header_premium.png" class="img-fluid star_icon"></span>
 																	 <p>WhytheIruliga</p>
 																 </div>
 															 </div>
@@ -2700,6 +2735,7 @@
 															 <div class="card_dataBox">
 																 <img src="assets/images/dummy_image_1.png" class="img-fluid thumb_img">
 																 <div class="card_detail">
+																	<span class="iconStar_box withone"><img src="assets/images/icon_header_premium.png" class="img-fluid star_icon"></span>
 																	 <p>002</p>
 																 </div>
 															 </div>
@@ -2712,6 +2748,7 @@
 															  <div class="card_dataBox">
 																  <img src="assets/images/dummy_image_1.png" class="img-fluid thumb_img">
 																  <div class="card_detail">
+																	<span class="iconStar_box withone"><img src="assets/images/icon_header_premium.png" class="img-fluid star_icon"></span>
 																	  <p>WhytheIruliga</p>
 																  </div>
 															  </div>
@@ -2720,6 +2757,7 @@
 															  <div class="card_dataBox">
 																  <img src="assets/images/dummy_image_1.png" class="img-fluid thumb_img">
 																  <div class="card_detail">
+																	<span class="iconStar_box withone"><img src="assets/images/icon_header_premium.png" class="img-fluid star_icon"></span>
 																	  <p>WhytheIruliga</p>
 																  </div>
 															  </div>
@@ -2728,6 +2766,7 @@
 															  <div class="card_dataBox">
 																  <img src="assets/images/dummy_image_1.png" class="img-fluid thumb_img">
 																  <div class="card_detail">
+																	<span class="iconStar_box withone"><img src="assets/images/icon_header_premium.png" class="img-fluid star_icon"></span>
 																	  <p>WhytheIruliga</p>
 																  </div>
 															  </div>
@@ -2736,6 +2775,7 @@
 															  <div class="card_dataBox">
 																  <img src="assets/images/dummy_image_1.png" class="img-fluid thumb_img">
 																  <div class="card_detail">
+																	<span class="iconStar_box withone"><img src="assets/images/icon_header_premium.png" class="img-fluid star_icon"></span>
 																	  <p>WhytheIruliga</p>
 																  </div>
 															  </div>
@@ -2744,6 +2784,7 @@
 															  <div class="card_dataBox">
 																  <img src="assets/images/dummy_image_1.png" class="img-fluid thumb_img">
 																  <div class="card_detail">
+																	<span class="iconStar_box withone"><img src="assets/images/icon_header_premium.png" class="img-fluid star_icon"></span>
 																	  <p>003</p>
 																  </div>
 															  </div>
@@ -2767,6 +2808,7 @@
 															<div class="card_dataBox">
 																<img src="assets/images/dummy_image_1.png" class="img-fluid thumb_img">
 																<div class="card_detail">
+																	<span class="iconStar_box withone"><img src="assets/images/icon_header_premium.png" class="img-fluid star_icon"></span>
 																	<p>GST mop-up rises 15% in Dec, crosses ₹1.4 L-Cr mark for 10th straight month</p>
 																</div>
 															</div>
@@ -2775,6 +2817,7 @@
 															<div class="card_dataBox">
 																<img src="assets/images/dummy_image_1.png" class="img-fluid thumb_img">
 																<div class="card_detail">
+																	<span class="iconStar_box withone"><img src="assets/images/icon_header_premium.png" class="img-fluid star_icon"></span>
 																	<p>Jan 2 business briefs: Electric two-wheelers sales fell by a fourth in Dec</p>
 																</div>
 															</div>
@@ -2792,6 +2835,7 @@
 															<div class="card_dataBox">
 																<img src="assets/images/dummy_image_1.png" class="img-fluid thumb_img">
 																<div class="card_detail">
+																	
 																	<span class="sponserTag_box">
 																		<a href="javascript:;" class="category_tag sponser_tag without_icon category_tag_resp_ctrl">
 																			<span>SPONSORED</span>
@@ -2805,6 +2849,7 @@
 															<div class="card_dataBox">
 																<img src="assets/images/dummy_image_1.png" class="img-fluid thumb_img">
 																<div class="card_detail">
+																	<span class="iconStar_box withone"><img src="assets/images/icon_header_premium.png" class="img-fluid star_icon"></span>
 																	<p>India’s manufacturing activity at 13-month high in Dec amid strong demand</p>
 																</div>
 															</div>
@@ -2817,6 +2862,7 @@
 															 <div class="card_dataBox">
 																 <img src="assets/images/dummy_image_1.png" class="img-fluid thumb_img">
 																 <div class="card_detail">
+																	<span class="iconStar_box withone"><img src="assets/images/icon_header_premium.png" class="img-fluid star_icon"></span>
 																	 <p>WhytheIruliga</p>
 																 </div>
 															 </div>
@@ -2825,6 +2871,7 @@
 															 <div class="card_dataBox">
 																 <img src="assets/images/dummy_image_1.png" class="img-fluid thumb_img">
 																 <div class="card_detail">
+																	<span class="iconStar_box withone"><img src="assets/images/icon_header_premium.png" class="img-fluid star_icon"></span>
 																	 <p>WhytheIruliga</p>
 																 </div>
 															 </div>
@@ -2833,6 +2880,7 @@
 															 <div class="card_dataBox">
 																 <img src="assets/images/dummy_image_1.png" class="img-fluid thumb_img">
 																 <div class="card_detail">
+																	<span class="iconStar_box withone"><img src="assets/images/icon_header_premium.png" class="img-fluid star_icon"></span>
 																	 <p>WhytheIruliga</p>
 																 </div>
 															 </div>
@@ -2841,6 +2889,7 @@
 															 <div class="card_dataBox">
 																 <img src="assets/images/dummy_image_1.png" class="img-fluid thumb_img">
 																 <div class="card_detail">
+																	<span class="iconStar_box withone"><img src="assets/images/icon_header_premium.png" class="img-fluid star_icon"></span>
 																	 <p>WhytheIruliga</p>
 																 </div>
 															 </div>
@@ -2849,6 +2898,7 @@
 															 <div class="card_dataBox">
 																 <img src="assets/images/dummy_image_1.png" class="img-fluid thumb_img">
 																 <div class="card_detail">
+																	<span class="iconStar_box withone"><img src="assets/images/icon_header_premium.png" class="img-fluid star_icon"></span>
 																	 <p>002</p>
 																 </div>
 															 </div>
@@ -2861,6 +2911,7 @@
 															  <div class="card_dataBox">
 																  <img src="assets/images/dummy_image_1.png" class="img-fluid thumb_img">
 																  <div class="card_detail">
+																	<span class="iconStar_box withone"><img src="assets/images/icon_header_premium.png" class="img-fluid star_icon"></span>
 																	  <p>WhytheIruliga</p>
 																  </div>
 															  </div>
@@ -2869,6 +2920,7 @@
 															  <div class="card_dataBox">
 																  <img src="assets/images/dummy_image_1.png" class="img-fluid thumb_img">
 																  <div class="card_detail">
+																	<span class="iconStar_box withone"><img src="assets/images/icon_header_premium.png" class="img-fluid star_icon"></span>
 																	  <p>WhytheIruliga</p>
 																  </div>
 															  </div>
@@ -2877,6 +2929,7 @@
 															  <div class="card_dataBox">
 																  <img src="assets/images/dummy_image_1.png" class="img-fluid thumb_img">
 																  <div class="card_detail">
+																	<span class="iconStar_box withone"><img src="assets/images/icon_header_premium.png" class="img-fluid star_icon"></span>
 																	  <p>WhytheIruliga</p>
 																  </div>
 															  </div>
@@ -2885,6 +2938,7 @@
 															  <div class="card_dataBox">
 																  <img src="assets/images/dummy_image_1.png" class="img-fluid thumb_img">
 																  <div class="card_detail">
+																	<span class="iconStar_box withone"><img src="assets/images/icon_header_premium.png" class="img-fluid star_icon"></span>
 																	  <p>WhytheIruliga</p>
 																  </div>
 															  </div>
@@ -2893,6 +2947,7 @@
 															  <div class="card_dataBox">
 																  <img src="assets/images/dummy_image_1.png" class="img-fluid thumb_img">
 																  <div class="card_detail">
+																	<span class="iconStar_box withone"><img src="assets/images/icon_header_premium.png" class="img-fluid star_icon"></span>
 																	  <p>003</p>
 																  </div>
 															  </div>
@@ -2918,6 +2973,7 @@
 															<div class="card_dataBox">
 																<img src="assets/images/dummy_image_1.png" class="img-fluid thumb_img">
 																<div class="card_detail">
+																	<span class="iconStar_box withone"><img src="assets/images/icon_header_premium.png" class="img-fluid star_icon"></span>
 																	<p>GST mop-up rises 15% in Dec, crosses ₹1.4 L-Cr mark for 10th straight month</p>
 																</div>
 															</div>
@@ -2926,6 +2982,7 @@
 															<div class="card_dataBox">
 																<img src="assets/images/dummy_image_1.png" class="img-fluid thumb_img">
 																<div class="card_detail">
+																	<span class="iconStar_box withone"><img src="assets/images/icon_header_premium.png" class="img-fluid star_icon"></span>
 																	<p>Jan 2 business briefs: Electric two-wheelers sales fell by a fourth in Dec</p>
 																</div>
 															</div>
@@ -2934,6 +2991,7 @@
 															<div class="card_dataBox">
 																<img src="assets/images/dummy_image_1.png" class="img-fluid thumb_img">
 																<div class="card_detail">
+																	<span class="iconStar_box withone"><img src="assets/images/icon_header_premium.png" class="img-fluid star_icon"></span>
 																	<p>Mamaearth IPO: Unicorn’s numbers, prospects, and Shilpa Shetty link</p>
 																</div>
 															</div>
@@ -2942,6 +3000,7 @@
 															<div class="card_dataBox">
 																<img src="assets/images/dummy_image_1.png" class="img-fluid thumb_img">
 																<div class="card_detail">
+																	<span class="iconStar_box withone"><img src="assets/images/icon_header_premium.png" class="img-fluid star_icon"></span>
 																	<p>Unemployment in India hits 16-month high of 8.3% in December</p>
 																</div>
 															</div>
@@ -2950,6 +3009,7 @@
 															<div class="card_dataBox">
 																<img src="assets/images/dummy_image_1.png" class="img-fluid thumb_img">
 																<div class="card_detail">
+																	<span class="iconStar_box withone"><img src="assets/images/icon_header_premium.png" class="img-fluid star_icon"></span>
 																	<p>India’s manufacturing activity at 13-month high in Dec amid strong demand</p>
 																</div>
 															</div>
@@ -2962,6 +3022,7 @@
 															 <div class="card_dataBox">
 																 <img src="assets/images/dummy_image_1.png" class="img-fluid thumb_img">
 																 <div class="card_detail">
+																	<span class="iconStar_box withone"><img src="assets/images/icon_header_premium.png" class="img-fluid star_icon"></span>
 																	 <p>WhytheIruliga</p>
 																 </div>
 															 </div>
@@ -2970,6 +3031,7 @@
 															 <div class="card_dataBox">
 																 <img src="assets/images/dummy_image_1.png" class="img-fluid thumb_img">
 																 <div class="card_detail">
+																	<span class="iconStar_box withone"><img src="assets/images/icon_header_premium.png" class="img-fluid star_icon"></span>
 																	 <p>WhytheIruliga</p>
 																 </div>
 															 </div>
@@ -2978,6 +3040,7 @@
 															 <div class="card_dataBox">
 																 <img src="assets/images/dummy_image_1.png" class="img-fluid thumb_img">
 																 <div class="card_detail">
+																	<span class="iconStar_box withone"><img src="assets/images/icon_header_premium.png" class="img-fluid star_icon"></span>
 																	 <p>WhytheIruliga</p>
 																 </div>
 															 </div>
@@ -2986,6 +3049,7 @@
 															 <div class="card_dataBox">
 																 <img src="assets/images/dummy_image_1.png" class="img-fluid thumb_img">
 																 <div class="card_detail">
+																	<span class="iconStar_box withone"><img src="assets/images/icon_header_premium.png" class="img-fluid star_icon"></span>
 																	 <p>WhytheIruliga</p>
 																 </div>
 															 </div>
@@ -2994,6 +3058,7 @@
 															 <div class="card_dataBox">
 																 <img src="assets/images/dummy_image_1.png" class="img-fluid thumb_img">
 																 <div class="card_detail">
+																	<span class="iconStar_box withone"><img src="assets/images/icon_header_premium.png" class="img-fluid star_icon"></span>
 																	 <p>002</p>
 																 </div>
 															 </div>
@@ -3006,6 +3071,7 @@
 															  <div class="card_dataBox">
 																  <img src="assets/images/dummy_image_1.png" class="img-fluid thumb_img">
 																  <div class="card_detail">
+																	<span class="iconStar_box withone"><img src="assets/images/icon_header_premium.png" class="img-fluid star_icon"></span>
 																	  <p>WhytheIruliga</p>
 																  </div>
 															  </div>
@@ -3014,6 +3080,7 @@
 															  <div class="card_dataBox">
 																  <img src="assets/images/dummy_image_1.png" class="img-fluid thumb_img">
 																  <div class="card_detail">
+																	<span class="iconStar_box withone"><img src="assets/images/icon_header_premium.png" class="img-fluid star_icon"></span>
 																	  <p>WhytheIruliga</p>
 																  </div>
 															  </div>
@@ -3022,6 +3089,7 @@
 															  <div class="card_dataBox">
 																  <img src="assets/images/dummy_image_1.png" class="img-fluid thumb_img">
 																  <div class="card_detail">
+																	<span class="iconStar_box withone"><img src="assets/images/icon_header_premium.png" class="img-fluid star_icon"></span>
 																	  <p>WhytheIruliga</p>
 																  </div>
 															  </div>
@@ -3030,6 +3098,7 @@
 															  <div class="card_dataBox">
 																  <img src="assets/images/dummy_image_1.png" class="img-fluid thumb_img">
 																  <div class="card_detail">
+																	<span class="iconStar_box withone"><img src="assets/images/icon_header_premium.png" class="img-fluid star_icon"></span>
 																	  <p>WhytheIruliga</p>
 																  </div>
 															  </div>
@@ -3038,6 +3107,7 @@
 															  <div class="card_dataBox">
 																  <img src="assets/images/dummy_image_1.png" class="img-fluid thumb_img">
 																  <div class="card_detail">
+																	<span class="iconStar_box withone"><img src="assets/images/icon_header_premium.png" class="img-fluid star_icon"></span>
 																	  <p>003</p>
 																  </div>
 															  </div>
@@ -3061,6 +3131,7 @@
 															<div class="card_dataBox">
 																<img src="assets/images/dummy_image_1.png" class="img-fluid thumb_img">
 																<div class="card_detail">
+																	<span class="iconStar_box withone"><img src="assets/images/icon_header_premium.png" class="img-fluid star_icon"></span>
 																	<p>GST mop-up rises 15% in Dec, crosses ₹1.4 L-Cr mark for 10th straight month</p>
 																</div>
 															</div>
@@ -3069,6 +3140,7 @@
 															<div class="card_dataBox">
 																<img src="assets/images/dummy_image_1.png" class="img-fluid thumb_img">
 																<div class="card_detail">
+																	<span class="iconStar_box withone"><img src="assets/images/icon_header_premium.png" class="img-fluid star_icon"></span>
 																	<p>Jan 2 business briefs: Electric two-wheelers sales fell by a fourth in Dec</p>
 																</div>
 															</div>
@@ -3077,6 +3149,7 @@
 															<div class="card_dataBox">
 																<img src="assets/images/dummy_image_1.png" class="img-fluid thumb_img">
 																<div class="card_detail">
+																	<span class="iconStar_box withone"><img src="assets/images/icon_header_premium.png" class="img-fluid star_icon"></span>
 																	<p>Mamaearth IPO: Unicorn’s numbers, prospects, and Shilpa Shetty link</p>
 																</div>
 															</div>
@@ -3085,6 +3158,7 @@
 															<div class="card_dataBox">
 																<img src="assets/images/dummy_image_1.png" class="img-fluid thumb_img">
 																<div class="card_detail">
+																	<span class="iconStar_box withone"><img src="assets/images/icon_header_premium.png" class="img-fluid star_icon"></span>
 																	<p>Unemployment in India hits 16-month high of 8.3% in December</p>
 																</div>
 															</div>
@@ -3093,6 +3167,7 @@
 															<div class="card_dataBox">
 																<img src="assets/images/dummy_image_1.png" class="img-fluid thumb_img">
 																<div class="card_detail">
+																	<span class="iconStar_box withone"><img src="assets/images/icon_header_premium.png" class="img-fluid star_icon"></span>
 																	<p>India’s manufacturing activity at 13-month high in Dec amid strong demand</p>
 																</div>
 															</div>
@@ -3105,6 +3180,7 @@
 															 <div class="card_dataBox">
 																 <img src="assets/images/dummy_image_1.png" class="img-fluid thumb_img">
 																 <div class="card_detail">
+																	<span class="iconStar_box withone"><img src="assets/images/icon_header_premium.png" class="img-fluid star_icon"></span>
 																	 <p>WhytheIruliga</p>
 																 </div>
 															 </div>
@@ -3113,6 +3189,7 @@
 															 <div class="card_dataBox">
 																 <img src="assets/images/dummy_image_1.png" class="img-fluid thumb_img">
 																 <div class="card_detail">
+																	<span class="iconStar_box withone"><img src="assets/images/icon_header_premium.png" class="img-fluid star_icon"></span>
 																	 <p>WhytheIruliga</p>
 																 </div>
 															 </div>
@@ -3121,6 +3198,7 @@
 															 <div class="card_dataBox">
 																 <img src="assets/images/dummy_image_1.png" class="img-fluid thumb_img">
 																 <div class="card_detail">
+																	<span class="iconStar_box withone"><img src="assets/images/icon_header_premium.png" class="img-fluid star_icon"></span>
 																	 <p>WhytheIruliga</p>
 																 </div>
 															 </div>
@@ -3129,6 +3207,7 @@
 															 <div class="card_dataBox">
 																 <img src="assets/images/dummy_image_1.png" class="img-fluid thumb_img">
 																 <div class="card_detail">
+																	<span class="iconStar_box withone"><img src="assets/images/icon_header_premium.png" class="img-fluid star_icon"></span>
 																	 <p>WhytheIruliga</p>
 																 </div>
 															 </div>
@@ -3137,6 +3216,7 @@
 															 <div class="card_dataBox">
 																 <img src="assets/images/dummy_image_1.png" class="img-fluid thumb_img">
 																 <div class="card_detail">
+																	<span class="iconStar_box withone"><img src="assets/images/icon_header_premium.png" class="img-fluid star_icon"></span>
 																	 <p>002</p>
 																 </div>
 															 </div>
@@ -3149,6 +3229,7 @@
 															  <div class="card_dataBox">
 																  <img src="assets/images/dummy_image_1.png" class="img-fluid thumb_img">
 																  <div class="card_detail">
+																	<span class="iconStar_box withone"><img src="assets/images/icon_header_premium.png" class="img-fluid star_icon"></span>
 																	  <p>WhytheIruliga</p>
 																  </div>
 															  </div>
@@ -3157,6 +3238,7 @@
 															  <div class="card_dataBox">
 																  <img src="assets/images/dummy_image_1.png" class="img-fluid thumb_img">
 																  <div class="card_detail">
+																	<span class="iconStar_box withone"><img src="assets/images/icon_header_premium.png" class="img-fluid star_icon"></span>
 																	  <p>WhytheIruliga</p>
 																  </div>
 															  </div>
@@ -3165,6 +3247,7 @@
 															  <div class="card_dataBox">
 																  <img src="assets/images/dummy_image_1.png" class="img-fluid thumb_img">
 																  <div class="card_detail">
+																	<span class="iconStar_box withone"><img src="assets/images/icon_header_premium.png" class="img-fluid star_icon"></span>
 																	  <p>WhytheIruliga</p>
 																  </div>
 															  </div>
@@ -3173,6 +3256,7 @@
 															  <div class="card_dataBox">
 																  <img src="assets/images/dummy_image_1.png" class="img-fluid thumb_img">
 																  <div class="card_detail">
+																	<span class="iconStar_box withone"><img src="assets/images/icon_header_premium.png" class="img-fluid star_icon"></span>
 																	  <p>WhytheIruliga</p>
 																  </div>
 															  </div>
@@ -3181,6 +3265,7 @@
 															  <div class="card_dataBox">
 																  <img src="assets/images/dummy_image_1.png" class="img-fluid thumb_img">
 																  <div class="card_detail">
+																	<span class="iconStar_box withone"><img src="assets/images/icon_header_premium.png" class="img-fluid star_icon"></span>
 																	  <p>003</p>
 																  </div>
 															  </div>
@@ -3204,6 +3289,7 @@
 															<div class="card_dataBox">
 																<img src="assets/images/dummy_image_1.png" class="img-fluid thumb_img">
 																<div class="card_detail">
+																	<span class="iconStar_box withone"><img src="assets/images/icon_header_premium.png" class="img-fluid star_icon"></span>
 																	<p>GST mop-up rises 15% in Dec, crosses ₹1.4 L-Cr mark for 10th straight month</p>
 																</div>
 															</div>
@@ -3212,6 +3298,7 @@
 															<div class="card_dataBox">
 																<img src="assets/images/dummy_image_1.png" class="img-fluid thumb_img">
 																<div class="card_detail">
+																	<span class="iconStar_box withone"><img src="assets/images/icon_header_premium.png" class="img-fluid star_icon"></span>
 																	<p>Jan 2 business briefs: Electric two-wheelers sales fell by a fourth in Dec</p>
 																</div>
 															</div>
@@ -3220,6 +3307,7 @@
 															<div class="card_dataBox">
 																<img src="assets/images/dummy_image_1.png" class="img-fluid thumb_img">
 																<div class="card_detail">
+																	<span class="iconStar_box withone"><img src="assets/images/icon_header_premium.png" class="img-fluid star_icon"></span>
 																	<p>Mamaearth IPO: Unicorn’s numbers, prospects, and Shilpa Shetty link</p>
 																</div>
 															</div>
@@ -3228,6 +3316,7 @@
 															<div class="card_dataBox">
 																<img src="assets/images/dummy_image_1.png" class="img-fluid thumb_img">
 																<div class="card_detail">
+																	<span class="iconStar_box withone"><img src="assets/images/icon_header_premium.png" class="img-fluid star_icon"></span>
 																	<p>Unemployment in India hits 16-month high of 8.3% in December</p>
 																</div>
 															</div>
@@ -3236,6 +3325,7 @@
 															<div class="card_dataBox">
 																<img src="assets/images/dummy_image_1.png" class="img-fluid thumb_img">
 																<div class="card_detail">
+																	<span class="iconStar_box withone"><img src="assets/images/icon_header_premium.png" class="img-fluid star_icon"></span>
 																	<p>India’s manufacturing activity at 13-month high in Dec amid strong demand</p>
 																</div>
 															</div>
@@ -3248,6 +3338,7 @@
 															 <div class="card_dataBox">
 																 <img src="assets/images/dummy_image_1.png" class="img-fluid thumb_img">
 																 <div class="card_detail">
+																	<span class="iconStar_box withone"><img src="assets/images/icon_header_premium.png" class="img-fluid star_icon"></span>
 																	 <p>WhytheIruliga</p>
 																 </div>
 															 </div>
@@ -3256,6 +3347,7 @@
 															 <div class="card_dataBox">
 																 <img src="assets/images/dummy_image_1.png" class="img-fluid thumb_img">
 																 <div class="card_detail">
+																	<span class="iconStar_box withone"><img src="assets/images/icon_header_premium.png" class="img-fluid star_icon"></span>
 																	 <p>WhytheIruliga</p>
 																 </div>
 															 </div>
@@ -3264,6 +3356,7 @@
 															 <div class="card_dataBox">
 																 <img src="assets/images/dummy_image_1.png" class="img-fluid thumb_img">
 																 <div class="card_detail">
+																	<span class="iconStar_box withone"><img src="assets/images/icon_header_premium.png" class="img-fluid star_icon"></span>
 																	 <p>WhytheIruliga</p>
 																 </div>
 															 </div>
@@ -3272,6 +3365,7 @@
 															 <div class="card_dataBox">
 																 <img src="assets/images/dummy_image_1.png" class="img-fluid thumb_img">
 																 <div class="card_detail">
+																	<span class="iconStar_box withone"><img src="assets/images/icon_header_premium.png" class="img-fluid star_icon"></span>
 																	 <p>WhytheIruliga</p>
 																 </div>
 															 </div>
@@ -3280,6 +3374,7 @@
 															 <div class="card_dataBox">
 																 <img src="assets/images/dummy_image_1.png" class="img-fluid thumb_img">
 																 <div class="card_detail">
+																	<span class="iconStar_box withone"><img src="assets/images/icon_header_premium.png" class="img-fluid star_icon"></span>
 																	 <p>002</p>
 																 </div>
 															 </div>
@@ -3292,6 +3387,7 @@
 															  <div class="card_dataBox">
 																  <img src="assets/images/dummy_image_1.png" class="img-fluid thumb_img">
 																  <div class="card_detail">
+																	<span class="iconStar_box withone"><img src="assets/images/icon_header_premium.png" class="img-fluid star_icon"></span>
 																	  <p>WhytheIruliga</p>
 																  </div>
 															  </div>
@@ -3300,6 +3396,7 @@
 															  <div class="card_dataBox">
 																  <img src="assets/images/dummy_image_1.png" class="img-fluid thumb_img">
 																  <div class="card_detail">
+																	<span class="iconStar_box withone"><img src="assets/images/icon_header_premium.png" class="img-fluid star_icon"></span>
 																	  <p>WhytheIruliga</p>
 																  </div>
 															  </div>
@@ -3308,6 +3405,7 @@
 															  <div class="card_dataBox">
 																  <img src="assets/images/dummy_image_1.png" class="img-fluid thumb_img">
 																  <div class="card_detail">
+																	<span class="iconStar_box withone"><img src="assets/images/icon_header_premium.png" class="img-fluid star_icon"></span>
 																	  <p>WhytheIruliga</p>
 																  </div>
 															  </div>
@@ -3316,6 +3414,7 @@
 															  <div class="card_dataBox">
 																  <img src="assets/images/dummy_image_1.png" class="img-fluid thumb_img">
 																  <div class="card_detail">
+																	<span class="iconStar_box withone"><img src="assets/images/icon_header_premium.png" class="img-fluid star_icon"></span>
 																	  <p>WhytheIruliga</p>
 																  </div>
 															  </div>
@@ -3324,6 +3423,7 @@
 															  <div class="card_dataBox">
 																  <img src="assets/images/dummy_image_1.png" class="img-fluid thumb_img">
 																  <div class="card_detail">
+																	<span class="iconStar_box withone"><img src="assets/images/icon_header_premium.png" class="img-fluid star_icon"></span>
 																	  <p>003</p>
 																  </div>
 															  </div>
@@ -3432,7 +3532,7 @@
 									</div>
 								</div>
 
-								<div class="row">
+								<div class="row mt-3">
 									<div class="col-md-12">
 										<div class="federal_playlist_divBox">
 											<h4 class="title_4">BUDGET 2023 (12 videos)</h4>
@@ -3460,7 +3560,7 @@
 									</div>
 								</div>
 
-								<div class="row">
+								<div class="row mt-3">
 									<div class="col-md-12">
 										<div class="federal_playlist_divBox">
 											<h4 class="title_4">PLAYLIS TITLE (12 videos)</h4>
@@ -3515,7 +3615,7 @@
 									</div>
 								</div>
 
-								<div class="row">
+								<div class="row mt-3">
 									<div class="col-md-12">
 										<div class="federal_playlist_divBox">
 											<h4 class="title_4">PLAYLIS TITLE (12 videos)</h4>
@@ -3570,7 +3670,7 @@
 									</div>
 								</div>
 								
-								<h1 class="title_1 yellow_color flex_box_1">
+								<h1 class="title_1 yellow_color flex_box_1 mt-3">
 									<span>MORE VIDEOS</span>
 									<a href="javascript:;" class="ml-4"><img src="assets/images/icon_expand_new_window.png" class="img-fluid"></a>
 								</h1>
