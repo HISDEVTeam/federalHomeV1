@@ -1631,6 +1631,20 @@
     margin: 0px 0px 0px;
     line-height: 28px;
     }
+   
+    .adver_img {
+        display: flex;
+        justify-content: center;
+    }
+    .add_Img {
+        position: absolute;
+        top: 148px;
+    }
+
+
+
+
+
     /* index-page */
     .fault_imgBox {
     border-top: 1px solid;
