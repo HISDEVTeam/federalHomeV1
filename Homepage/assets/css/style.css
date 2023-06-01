@@ -3977,11 +3977,11 @@
     .ad_img_2 img {
         border-radius: 21px;
         /* width: 382px; */
-        height: 467px;
+        height: auto;
         border-bottom: 115px solid #DEDEDE;
         border-left: 6px solid #DEDEDE;
         border-right: 6px solid #DEDEDE;
-        border-top: 137px solid #DEDEDE;
+        border-top: 103px solid #DEDEDE;
     }
 
     .spl_pg{
