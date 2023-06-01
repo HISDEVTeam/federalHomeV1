@@ -3975,14 +3975,14 @@
 
 
     .ad_img_2 img {
-        border-radius: 21px;
-        /* width: 382px; */
-        height: auto;
-        border-bottom: 115px solid #DEDEDE;
-        border-left: 6px solid #DEDEDE;
-        border-right: 6px solid #DEDEDE;
-        border-top: 103px solid #DEDEDE;
-    }
+    border-radius: 21px;
+    /* width: 382px; */
+    height: auto;
+    border-bottom: 115px solid #DEDEDE;
+    border-left: 6px solid #DEDEDE;
+    border-right: 6px solid #DEDEDE;
+    border-top: 103px solid #DEDEDE;
+}
 
     .spl_pg{
 
@@ -5275,7 +5275,8 @@
     }
     /* about page code End  */
     .error_page_found_12.text-center.mt-5 {
-    padding-top: 141px;
+    padding-top: 122px;
+    padding-bottom: 150px;
     font-size: 20px;
     font-weight: bold;
     color: #520F0F;
@@ -6248,7 +6249,8 @@
 
     /* 404 page found updation */
     .error_page_found_12.text-center.mt-5 {
-    padding-top: 36px;
+    padding-top: 18px;
+    padding-bottom: 272px;
     font-size: 20px;
     font-weight: bold;
     color: #520F0F;
@@ -7442,7 +7444,7 @@
     }
     .error_page_found_12.text-center p {
     font-size: 20px;
-    width: 345px;
+    width: auto;
     }
     .modal-dialog.modal_dialogubox {
     width: 100%;
