@@ -5962,7 +5962,7 @@
     align-items: center;
     justify-content: center;
     position: absolute;
-    top: 156px;
+    /* top: 156px; */
     width: 92%;
     left: 7px;
     }
@@ -7681,13 +7681,13 @@
     left: 13px;
     }
     .op_profileImgBox2 {
-    display: flex;
+        display: flex;
     align-items: center;
     justify-content: center;
     position: absolute;
-    top: 135px;
+    top: 123px;
     width: 100%;
-    left: 4px;
+    left: 2px;
     }
     .op_profileImgBox1.article5 {
     position: absolute;
