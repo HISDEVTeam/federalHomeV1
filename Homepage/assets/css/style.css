@@ -442,6 +442,8 @@
     width: 960px;
     margin: 0 auto;
     }
+
+    
     .btn:focus,
     .btn.focus {
     box-shadow: inherit;
@@ -2053,15 +2055,15 @@
     .newRight.owl-carousel .owl-nav button.owl-next i {
         position: absolute;
         top: 2px;
-        left: 8px;
+        left: 12px;
     }
     .carousel_nav_ctrl1.owl-carousel .owl-nav .owl-next {
     right: -30px;
-    top: 12%;
+    top: 16%;
     }
     .carousel_nav_ctrl1.owl-carousel .owl-nav .owl-prev {
     left: -30px;
-    top: 12%;
+    top: 16%;
     }
     .carousel_nav_ctrl.owl-carousel .owl-nav button.owl-next,
     .carousel_nav_ctrl.owl-carousel .owl-nav button.owl-prev,
@@ -3313,9 +3315,9 @@
     z-index: 999999;
     color: #363636;
     }
-    .image_content_w img{
+    /* .image_content_w img{
     width: 100%;
-    }
+    } */
     .title_8 {
     font-size: 30px;
     font-weight: bold;
@@ -3393,9 +3395,9 @@
     display: flex;
     justify-content: center;
     }
-    .article_page_image_content_sub img{
+    /* .article_page_image_content_sub img{
     width: 100%;
-    }
+    } */
     .slider_imgbox_wrapper .tab_overlay_cont h5 {
     color: #fc9f00;
     font-size: 24px;
@@ -3605,9 +3607,9 @@
     p.font_bold.article_author_fsize {
     font-size: 23px;
     }
-    .image_content img {
+    /* .image_content img {
     width: 100%;
-    }
+    } */
     i.icomoon.icon-quotes-left.repit {
     color: #e4e4e5 !important;
     font-size: 10rem;
@@ -3985,6 +3987,81 @@
         border-left: 6px solid #DEDEDE;
         border-right: 6px solid #DEDEDE;
         border-top: 18px solid #DEDEDE;
+    }
+
+    .img-full_224X126{
+        width: 224px;
+        height: 126px;
+    }
+    .img-full_752X423{
+        width: 752px;
+        height: 423px;
+    }
+    .img-full_256X144{
+     width: 256px;
+     height: auto; 
+    }
+
+    .img-full_320X180{
+     
+        width: 320px;
+        height: 180px;
+    }
+    .img-full_304X171{
+
+        width: 304px;
+        height: 171px;
+    }
+    
+
+    .img-full_960X540{
+        width: 960px;
+        height: 540px;
+    }
+
+    .img-full_208X117{
+
+        width: 208px;
+        height: 117px;
+    }
+
+    .img-full_304X171{
+        width: 304px;
+        height: 171px;
+    }
+    .img-full_176X99{
+        width: 176px;
+        height: 99px;
+    }
+    .img-full_312X520{
+       width: 312px;
+       height: 520px;
+    }
+    .img-full_310X174{
+      width: 310px;
+      height: 174px;
+    }
+
+    img.img-full.img-full_310X174 {
+        width: 304px;
+        height: 171px;
+    }
+    .img-full_420X385{
+        width: 420px;
+        height: 385px;
+    }
+    .img_full_16X9{
+      width: 544px;
+      height: 306px;
+    }
+    .img-full_304X171{
+     width: 304px;
+     height: 171px;
+    }
+
+    img.img-full.img_full_90X90 {
+        width: 90px;
+        height: 90px;
     }
 
     img.img_full {
@@ -7150,6 +7227,78 @@
     }
     }
     @media only screen and (max-width: 767px) {
+        .img-full_224X126 {
+            width: 100%;
+            height: auto;
+        }
+        .img-full_752X423{
+            width: 100%;
+            height: auto;
+        }
+        .img-full_256X144{
+            width: 100%;
+            height: auto; 
+           }
+
+        .img-full_304X171{
+
+            width: 100%;
+            height: auto;
+        }
+        
+        .img-full_960X540{
+            width: 100%;
+            height: auto;
+        }
+
+        .carousel_nav_ctrl1.owl-carousel .owl-nav .owl-next {
+            right: -30px;
+            top: 9%;
+            }
+            .carousel_nav_ctrl1.owl-carousel .owl-nav .owl-prev {
+            left: -30px;
+            top: 9%;
+            }
+
+        .img-full_208X117{
+
+            width: 100%;
+            height: auto;
+        }
+
+        .img-full_176X99 {
+            width: 100%;
+            height: auto;
+        }
+        img.img-full.img-full_310X174 {
+            width: 100%;
+            height: auto;
+        }
+        .img-full_312X520{
+            width: 100%;
+            height: 520px;
+         }
+         .img-full_310X174{
+            width: 100%;
+            height: auto;
+         }
+         .img-full_420X385{
+            width: 100%;
+            height: auto;
+         }
+         .img-full_960X540{
+            width: 100%;
+            height: auto;
+         }
+         .img_full_16X9{
+            width: 100%;
+            height: auto;
+         }
+         .img-full_304X171{
+            width: 100%;
+            height: auto;
+         }
+
         .imgOver_tag_btn.tag_resp_ctrl.cTaghide_mob {
             display: none;
         }
