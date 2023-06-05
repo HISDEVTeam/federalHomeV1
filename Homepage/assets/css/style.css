@@ -3316,9 +3316,9 @@
     z-index: 999999;
     color: #363636;
     }
-    .image_content_w img{
+    /* .image_content_w img{
     width: 100%;
-    }
+    } */
     .title_8 {
     font-size: 30px;
     font-weight: bold;
@@ -3608,9 +3608,9 @@
     p.font_bold.article_author_fsize {
     font-size: 23px;
     }
-    .image_content img {
+    /* .image_content img {
     width: 100%;
-    }
+    } */
     i.icomoon.icon-quotes-left.repit {
     color: #e4e4e5 !important;
     font-size: 10rem;
@@ -5990,6 +5990,10 @@
     /*** Banner type Header CSS END ***/
     }
     @media only screen and (min-width: 993px) {    
+        .table-responsive.scrollOff {
+            overflow: hidden;
+        }
+
     .px-2 .row.margin_lr_ctrl {
     margin-left: -7.5px;
     margin-right: -7.5px;
@@ -7309,6 +7313,7 @@
     }
     }
     @media only screen and (min-width: 767px) {
+
 
     .DeskView{
     display: block;
@@ -8792,9 +8797,9 @@ img.img-full.img-full_310X174 {
     }
     .ad_imgbox_sec .btn_position {
     position: absolute;
-    left: 12px;
+    left: 18px;
     /* bottom: 0; */
-    top: 85px !important;
+    top: 75px !important;
     }
     .category_tag_10 img {
     width: 50px;
