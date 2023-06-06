@@ -6049,6 +6049,7 @@
     position: fixed;
     z-index: 9;
     width: 100%;
+    -webkit-backface-visibility: hidden;
     }
     .header_top_right_sec .nav {
     flex-direction: row-reverse;
