@@ -962,14 +962,14 @@
     position: relative;
     }
     
-
-
     .vertical_menu_sec.dropdown:hover>.dropdown-menu {
     display: block;
     }
     .vertical_menu_sec .dropdown-submenu:hover>.dropdown-menu {
     display: block;
     }
+
+
 
 
     /*   
@@ -5673,6 +5673,11 @@
     .audio_volum_btn {
     margin: -5px 0px 0px 5px;
     }
+
+    .article_page_image_content img{
+     width:100%;
+     height: auto;
+    }
     
     /* Toggle icon CSS END */
     /***** Responsive CSS START *****/
@@ -5939,7 +5944,6 @@
     }
 
     
-
     /* .vertical_menu_sec .custom_toggleIcon {
     position: absolute;
     top: -44px;
@@ -5947,15 +5951,12 @@
     z-index: 9;
     } */
 
-
     .vertical_menu_sec .custom_toggleIcon {
-        position: fixed;
-        top: 15px;
-        right: 0px;
-        z-index: 9;
-        }
-    
-
+    position: fixed;
+    top: 15px;
+    right: 8px;
+    z-index: 9;
+    }
     .mega_menu_list_sec.navbar-nav .vertical_menu_sec .dropdown-menu {
     margin: 0px 0px 0px;
     }
@@ -6725,7 +6726,7 @@
     }
     /* stylepodcase */
     .stylepodcast_title p {
-    font-size: 23px;
+    font-size: 22px;
     font-weight: bold;
     color: #363636;
     }
@@ -8165,7 +8166,13 @@
                 position: absolute;
                 width: 183px;
                 top: -37px;
-                left: 46px;
+                left: 40px;
+            }
+            .op_profile_preIcon img {
+                position: absolute;
+                width: 20px;
+                top: 33%;
+                left: 46%;
             }
 
         .visual_story {
@@ -8769,7 +8776,7 @@
     max-width: none;
     }
     .article_author_fsize_one {
-    font-size: 15px!important;
+    font-size: 20px!important;
     }
     span.font_regular.article_author_fsize{
     font-size: 13px!important;
