@@ -3586,7 +3586,7 @@
     align-items: center;
     justify-content: center;
     position: absolute;
-    top: 103px;
+    top: 93px;
     width: 100%;
     left: 59px;
     }
@@ -5693,6 +5693,43 @@
      width:100%;
      height: auto;
     }
+  
+    .karnataka_section p{
+        font-size: 100px;
+        color:#520F0F;
+    
+     }
+     .kar_font{
+        font-weight: bold;
+     }
+     .update_new{
+        font-weight:300;
+     }
+     .time_change{
+        font-size:29px;
+        background-color: #FC9F00;
+        font-weight:bold;
+        border:none;
+     }
+     .date_change{
+        font-size:29px;
+        background-color: #520F0F;
+        font-weight:bold;
+        color:white;
+        border:none;
+     }
+    
+
+
+
+
+
+
+
+
+
+
+
     
     /* Toggle icon CSS END */
     /***** Responsive CSS START *****/
@@ -5725,6 +5762,11 @@
     }
     }
     @media only screen and (device-width: 1024px) {
+        .karnataka_section p{
+            font-size: 70px;
+            color:#520F0F;
+         }
+   
 
   
     /* A-home-part */
@@ -5788,9 +5830,9 @@
     align-items: center;
     justify-content: center;
     position: absolute;
-    top: 88px;
+    top: 0px;
     width: 100%;
-    left: -4px;
+    left: -17px;
     }
     /*** Responsive HOME Page CSS START ***/
     .mega_menu_list_sec.navbar-nav .nav-link {
@@ -5848,6 +5890,10 @@
 }
     }
     @media only screen and (min-width: 993px) and (max-width: 1350px) {
+        .karnataka_section p{
+            font-size: 70px;
+            color:#520F0F;
+         }
     /* A-home-2 */
     .video_part_player {
     border: none;
@@ -5887,6 +5933,10 @@
     /* A-home-part end*/
     }
     @media only screen and (max-width: 992px) {
+        .karnataka_section p {
+            font-size: 80px;
+            color: #520F0F;
+        }
     /*** Responsive HOME Page CSS START ***/
     /* A-home-part */
     section.mobile_vedeopart_1.mob_sp1 {
@@ -6349,6 +6399,32 @@
     /*** Responsive HOME Page CSS END ***/
     }
     @media only screen and (max-width: 768px) {
+        ul.nav.custom_navMenu_1.menu_color.article_1::-webkit-scrollbar {
+
+            display: none;
+          
+          }
+
+        .karnataka_section p{
+            font-size: 70px;
+            color:#520F0F;
+         }
+         .op_profileImg1 {
+            filter: grayscale(0%);
+            border-radius: 50%;
+            width: 100px;
+        }
+        .op_profileImgBox1 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            top: 33px;
+            width: 92%;
+            left: 7px;
+        }
+
+
         .ad_img_1 img {
             width: auto;
             height: auto;
@@ -8115,6 +8191,12 @@
     width: 50%;
     }
     }
+    @media only screen and (max-width: 750px) {
+        .karnataka_section p{
+            font-size: 67px;
+            color:#520F0F;
+         }
+    }
     @media only screen and (min-width: 731px) and (max-width: 736px) {
     }
 
@@ -8125,6 +8207,13 @@
     }
 
     @media only screen and (max-width: 640px) {
+        .karnataka_section p{
+            font-size: 33px;
+            color:#520F0F;
+         }
+
+
+
     .mega_menu_list_sec.navbar-nav .vertical_menu_sec .dropdown-menu {
     max-height: 380px;
     overflow-y: auto;
@@ -8281,6 +8370,33 @@
     }
     }
     @media only screen and (max-width: 480px) {
+        .op_profileImg1 {
+            filter: grayscale(0%);
+            border-radius: 50%;
+            width: 70px;
+        }
+        .op_profileImgBox2 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            top: 82px;
+            width: 100%;
+            left: 2px;
+        }
+        .time_change{
+            font-size:12px;
+            background-color: #FC9F00;
+            font-weight:bold;
+            border:none;
+         }
+         .date_change{
+            font-size:12px;
+            background-color: #520F0F;
+            font-weight:bold;
+            color:white;
+            border:none;
+         }
       
         .title_3 {
             font-size: 30px;
@@ -8948,6 +9064,11 @@
     /* 001bala */
     }
     @media only screen and (max-width: 375px) {
+        .karnataka_section p{
+            font-size: 32px;
+            color:#520F0F;
+         }
+
         /* 001bala */
         .carousel_nav_ctrl1.owl-carousel .owl-nav .owl-prev {
             left: -30px;
@@ -9419,30 +9540,12 @@
     .bigImg_quotes_text_position span i {
     font-size: 3rem;
     }
+    .carousel_nav_ctrl.index_carousel_position.owl-carousel .owl-nav .owl-next, .carousel_nav_ctrl.owl-carousel .owl-nav .owl-prev{
+        top: 11% !important;
+        /* left:0px !important; */
+    }
     }
 
-
-    @media only screen and (max-width: 360px){
-        
-        .carousel_nav_ctrl.index_carousel_position.owl-carousel .owl-nav .owl-next, .carousel_nav_ctrl.owl-carousel .owl-nav .owl-prev{
-            top: 11% !important;
-            /* left:0px !important; */
-        }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    }
     @media only screen and (max-width: 320px) {
         .carousel_nav_ctrl1.owl-carousel .owl-nav .owl-prev {
             left: -30px;
