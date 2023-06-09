@@ -1339,7 +1339,7 @@
     margin: 0px 0px 20px;
     text-align: left;
     text-transform: uppercase;
-    line-height: 28px;
+    line-height: 26px;
     }
     strong.eignt_spa {
     padding: 0 8px 0 8px;
@@ -1378,7 +1378,10 @@
     -webkit-box-orient: vertical;
     overflow: hidden;
     }
-    .para_text_2 {
+    
+
+  /* 003BHARATHI */
+  .para_text_2 {
     color: #363636;
     font-size: 21px;
     font-weight: normal;
@@ -1386,7 +1389,28 @@
     margin: 0px 0px 0px;
     text-align: left;
     line-height: 25px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
     }
+
+/* 003BHARATHI */
+.para_text_4 {
+    color: #363636;
+    font-size: 18px;
+    font-weight: normal;
+    padding: 7px 10px;
+    margin: 0px 0px 0px;
+    text-align: left;
+    line-height: 28px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    }
+
+
     .para_text_3 {
     color: #fff;
     font-size: 21px;
@@ -1396,6 +1420,23 @@
     text-align: left;
     line-height: 24px;
     }
+
+  /* 003BHARATHI */
+  .para_text_7 {
+    color: #363636;
+    font-size: 21px;
+    font-weight: bold;
+    padding: 15px 0px 0px;
+    margin: 0px 0px 10px;
+    text-align: left;
+    line-height: 25px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    }
+
+
     .para_text_4 {
     color: #363636;
     font-size: 18px;
@@ -1512,6 +1553,12 @@
     .category_tag.sponcer_tag_green:hover {
     background: #89F55D;
     }
+
+/* 003BHARATHI */
+    /* .category_tag.sponcer_tag_green.without_icon {
+    min-width: 120px;
+    } */
+
     .category_tag:hover {
     color: #520f0f;
     background: #d7b763;
@@ -1528,6 +1575,11 @@
     padding: 0px 0px 0px 10px;
     display: block;
     }
+
+   
+
+
+
     .category_tag.without_icon {
     min-width: 130px;
     display: inline-block;
@@ -1553,16 +1605,20 @@
     padding: 0px 0px 0px 10px;
     }
     .brewing_dataBox .brewing_detail p {
-    color: #000;
-    font-size: 16px;
-    font-weight: normal;
-    padding: 0px 0px 0px 0px;
-    margin: 0px 0px 0px;
-    line-height: 20px;
+        color: #000;
+        font-size: 16px;
+        font-weight: normal;
+        padding: 0px 0px 0px 0px;
+        margin: 0px 0px 0px;
+        line-height: 20px;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
     }
     .brewing_dataBox .brewing_detail span {
     display: block;
-    margin-bottom: 5px;
+    /* margin-bottom: 5px; */
     }
     .brewing_dataBox .brewing_detail .star_icon {
     width: 15px;
@@ -1786,7 +1842,7 @@
     color: #1e1e1e;
     font-size: 15px;
     font-weight: normal;
-    padding: 5px 15px 10px 0px;
+    padding: 5px 15px 5px 0px;
     margin: 0px 0px;
     line-height: 1;
     }
@@ -1982,12 +2038,16 @@
     display: inline-block;
     }
     .card_dataBox .card_detail p {
-    color: #000;
-    font-size: 18px;
-    font-weight: normal;
-    padding: 0px 0px 0px 0px;
-    margin: 0px 0px 0px;
-    line-height: 24px;
+        color: #000;
+        font-size: 18px;
+        font-weight: normal;
+        padding: 0px 0px 0px 0px;
+        margin: 0px 0px 0px;
+        line-height: 24px;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
     }
     .event_card_carousel_sec .owl-carousel .owl-nav button.owl-next, .event_card_carousel_sec .owl-carousel .owl-nav button.owl-prev, .event_card_carousel_sec .owl-carousel button.owl-dot {
     color: #fff;
@@ -2186,6 +2246,26 @@
     .title_1.yellow_color {
     color: #d7b763;
     }
+
+
+    .homt_main_title_hide_to_show_1 {display: none;} /* 003BHARATHI */
+    .homt_main_title_hide_to_show_2 {display: none;} /* 003BHARATHI */
+
+     /* 003BHARATHI */
+     .d_flex_end {
+        display: flex;
+        align-items: flex-end;
+    }
+    
+    .expand_icon img {width: 26px;} /* 003BHARATHI */
+
+    /* 003BHARATHI */
+    .video_part img {
+        width: 100%;
+        object-fit: cover;
+    }
+
+
     /****** Home Page CSS END ******/
     /*** Banner type Header CSS START ***/
     .header_with_banner_wrapper {
@@ -2572,6 +2652,7 @@
     background-color: #520f0f;
     border-radius: 0rem;
     min-width: 120px;
+    text-transform: uppercase; /* 003BHARATHI */
     }
     .subscribe_box .btn.subscribe_btn:focus {
     border: 0px;
@@ -3156,6 +3237,18 @@
     .social_media_icons {
     color: #D7B763;
     }
+
+    
+    /* 003BHARATHI */
+    .social_media_icons_2.mobile_horizontal_social_icon {
+        position: fixed;
+        /* margin-left: 109px; */
+        left: 3px;
+        top: 73%;
+        bottom: 50%;
+        z-index: 1;
+        }
+
     .social_media_icons_2 {
     position: fixed;
     /* margin-left: 109px; */
@@ -3184,6 +3277,23 @@
     align-items: center;
     justify-content: center;
     }
+
+/* 003BHARATHI */
+.mobile_horizontal_social_icon .social_circle_a li a {
+    margin: 6px auto 0 auto;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    font-size: 15px;
+    border: 2px solid #D7B763;
+    background: #D7B763 !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
     .six_c_six img {
     border-radius: 13px;
     }
@@ -4078,11 +4188,19 @@
     }
     .artice_page_one {
         background: #171717;
-      background: -moz-linear-gradient(top,  #171717 0%, #520f0f 41%, #520f0f 100%);
-     background: -webkit-linear-gradient(top,  #171717 0%,#520f0f 41%,#520f0f 100%);
-     background: linear-gradient(to bottom,  #171717 0%,#520f0f 41%,#520f0f 100%);
-     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#171717', endColorstr='#520f0f',GradientType=0 );
+background: -moz-linear-gradient(top,  #171717 0%, #520f0f 41%, #520f0f 100%);
+background: -webkit-linear-gradient(top,  #171717 0%,#520f0f 41%,#520f0f 100%);
+background: linear-gradient(to bottom,  #171717 0%,#520f0f 41%,#520f0f 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#171717', endColorstr='#520f0f',GradientType=0 );
     }
+
+
+    /* 003BHARATHI */
+    .nav.custom_navMenu_1.explore_state_list .nav-item {
+        margin: 0px 5px 5px 0px;
+    }
+
+
     .nav.custom_navMenu_1 .nav-item {
     margin: 3px 0px 5px 30px;
     }
@@ -4973,7 +5091,7 @@
     font-size: 20px;
     }
     p.font_bold.article_author_fsize_one {
-    line-height: 30px;
+    line-height: 25px;
     }
     /* about page code start  */
     .font_regular{
@@ -5666,7 +5784,7 @@
     transition: all .5s ease;
     }
     .para_text_4.line_height_21 {
-    line-height: 21px;
+    line-height: 20px;
     }
     .para_text_4.line_height_24 {
         line-height: 28px;
@@ -5762,6 +5880,52 @@
     }
     }
     @media only screen and (device-width: 1024px) {
+
+        
+        /* 003BHARATHI */        
+        .card_dataBox .card_detail p {
+            font-size: 16px;
+            line-height: 20px;
+        }
+    
+        /* 003BHARATHI */
+        .eightColum_imgBox img {
+            width: 100%;
+            object-fit: cover;
+            object-position: center center;
+        }
+    
+         /* 003BHARATHI */
+        .para_text_4.line_height_21.line_height_16 {
+            line-height: 16px;
+        }
+    
+         /* 003BHARATHI */
+        .category_tag.sponser_tag.without_icon {
+            margin: 0 0 2px;
+        }
+    
+    
+        /* 003BHARATHI */
+        .title_3.flex_box_1 {
+            font-size: 75px;
+        }
+        /* 003BHARATHI */
+        .title_3 span a img {
+            position: absolute;
+            bottom: 15px;
+            width: 45px;
+        }
+        
+        /* 003BHARATHI */
+        .title_1 a.expand_icon_moreVideos img {
+            position: absolute;
+            bottom: 22px;
+            width: 20px;
+        }
+
+
+
         .karnataka_section p{
             font-size: 70px;
             color:#520F0F;
@@ -5933,6 +6097,54 @@
     /* A-home-part end*/
     }
     @media only screen and (max-width: 992px) {
+
+        
+    /* 003BHARATHI */
+    .sub_title_1.mb_mob_ctrl {
+        margin-bottom: 0px;
+    }
+
+    /* 003BHARATHI */
+    .mega_menu_list_sec.navbar-nav .vertical_menu_sec .nav-link .change_icon i {
+        color: #520f0f;
+        font-size: 21px;
+    }
+
+    .homt_main_title_show_to_hide {display: none;} /* 003BHARATHI */
+    .homt_para_text_hide {display: none;} /* 003BHARATHI */
+    .homt_main_title_hide_to_show_1 {
+        display: block;
+        margin-top: 15px;
+    } /* 003BHARATHI */
+    .homt_main_title_hide_to_show_2 {display: block;} /* 003BHARATHI */
+
+    /* 003BHARATHI */
+    .eightColum_imgBox img {
+        width: 100%;
+        object-fit: cover;
+        object-position: center center;
+    }
+
+
+    /* 003BHARATHI */
+    .title_3.flex_box_1 {
+        font-size: 55px;
+    }
+    /* 003BHARATHI */
+    .title_3 span a img {
+        position: absolute;
+        bottom: 15px;
+        width: 30px;
+    }
+    
+    /* 003BHARATHI */
+    .title_1 a.expand_icon_moreVideos img {
+        position: absolute;
+        bottom: 22px;
+        width: 20px;
+    }
+
+
         .karnataka_section p {
             font-size: 80px;
             color: #520F0F;
@@ -6020,7 +6232,7 @@
 
     .vertical_menu_sec .custom_toggleIcon {
     position: fixed;
-    top: 15px;
+    top: 24px;
     right: 8px;
     z-index: 9;
     }
@@ -6215,9 +6427,9 @@
     }
     @media only screen and (min-width: 769px) and (max-width: 992px) {
 
-        section.body_main_top_container.pt_30 {
+        /* section.body_main_top_container.pt_30 {
             margin-top: -73px;
-        }
+        } */
 
     .sign_in_button {
     width: 100%;
@@ -6284,12 +6496,12 @@
     .vertical_menu_sec .v_menu {
     width: 25%;
     }
-    .vertical_menu_sec .custom_toggleIcon {
+    /* .vertical_menu_sec .custom_toggleIcon {
     position: absolute;
     top: -56px;
     right: 10px;
     z-index: 9;
-    }
+    } */
     .para_text_4 {
     font-size: 16px;
     line-height: 1.2;
@@ -6380,18 +6592,32 @@
     display: block;
     }
     /* articlepages code by bala end*/
+    
+    /* 003BHARATHI */
+    .vertical_menu_sec {
+        top: 82px;
+    }
+
     }
     @media only screen and (min-width: 640px) and (max-width: 768px) {
     /*** Responsive HOME Page CSS START ***/
     .vertical_menu_sec .v_menu {
-    width: 25%;
+        width: 25%;
+        position: absolute;
     }
-    .vertical_menu_sec .custom_toggleIcon {
+
+    /* 003BHARATHI */
+    .mega_menu_list_sec.navbar-nav .vertical_menu_sec ul li .dropdown-menu.show {
+        position: absolute;
+    }
+
+    /* .vertical_menu_sec .custom_toggleIcon {
     position: absolute;
     top: -56px;
     right: 10px;
     z-index: 9;
-    }
+    } */
+
     .carousel_nav_ctrl.owl-carousel .owl-nav .owl-next,
     .carousel_nav_ctrl.owl-carousel .owl-nav .owl-prev {
     top: 15%;
@@ -6399,6 +6625,34 @@
     /*** Responsive HOME Page CSS END ***/
     }
     @media only screen and (max-width: 768px) {
+
+
+    /* 003BHARATHI */
+    .mobile_horizontal_social_icon .social_network {
+        margin: 0px 0px 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        position: fixed;
+        bottom: 0px;
+        background: #fff;
+    }
+
+    /* 003BHARATHI */
+    .mobile_horizontal_social_icon.social_media_icons_2 {
+        width: 100%;
+        bottom: 0px;
+        left: 0px;
+    }
+
+    /* 003BHARATHI */
+    .copyrightText {
+        margin: 0px 0px 40px;
+    }
+
+
+
         ul.nav.custom_navMenu_1.menu_color.article_1::-webkit-scrollbar {
 
             display: none;
@@ -6464,9 +6718,9 @@
             font-size: 18px!important;
             font-weight:normal;
         }
-        .date_none{
+        /* .date_none{
             display: none;
-        }
+        } */
 
         .title_3 {
             font-size: 50px;
@@ -7064,7 +7318,7 @@
     padding: 15px 0px 0px;
     margin: -12px 0px 15px;
     font-size: 17px;
-    font-weight: 500;
+    font-weight: normal;
     line-height: 1.3;
     color: #3d3d3d;
     }
@@ -7109,8 +7363,8 @@
     .para_text_2 {
     color: #363636;
     font-size: 16px;
-    padding: 0px 0px 0px;
-    margin: 0px 0px 0px;
+    padding: 0px 0px 0px !important;
+    margin: 0px 0px 9px !important;
     text-align: left;
     line-height: 25px;
     font-weight: 300;
@@ -7372,6 +7626,27 @@
     }
     }
     @media only screen and (min-width: 767px) {
+        
+        .scrollPlay_multyImgBox.newClass {
+            min-width: auto;
+        }
+        /* .slider_imgbox_dataSec .tab_overlay_cont h5 {
+            color: #fc9f00;
+            font-size: 20px;
+            font-weight: bold;
+            padding: 0px 0px 0px 0px;
+            margin: 0px 0px 10px;
+            line-height: 28px;
+            margin-block-end: auto;
+        }
+        .slider_imgbox_dataSec .tab_overlay_cont p {
+            color: #fff;
+            font-size: 15px;
+            font-weight: 300;
+            padding: 0px 0px 0px 0px;
+            margin: 0px 0px 0px;
+            line-height: 28px;
+        } */
     .DeskView{
     display: block;
     }
@@ -7414,6 +7689,41 @@
       }
     }
     @media only screen and (max-width: 767px) {
+
+        .para_btm_0 {
+            padding-bottom: 0px !important; /* 003BHARATHI */
+        }
+        
+        .date_none{
+            display: none; /* 003BHARATHI */
+        }
+
+
+        /* 003BHARATHI */
+        .customListMenu_footer.column_wise_footer_mobMenu {
+            display: inline-block;
+        }
+        /* 003BHARATHI */
+        .customListMenu_footer.column_wise_footer_mobMenu .list-group-item {
+            width: 33%;
+            float: left;
+        }
+        /* 003BHARATHI */
+        .customListMenu_footer.column_wise_footer_mobMenu .list-group-item a {
+            font-weight: normal;
+        }
+
+
+     /* 001bala */
+     .scrollPlay_multyImgBox.newadded {
+        min-width: 164px !important;
+    }
+    p.newlineC {
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical !important;
+        overflow: hidden !important;
+    }
 
       /*  001BALA */
       .leftSp{
@@ -7599,9 +7909,9 @@
     contain-intrinsic-block-size: none;
     scroll-behavior: smooth;
     }
-    span.iconStar_box.withone img {
+    /* span.iconStar_box.withone img {
     display: none;
-    }
+    } */
     ul.nav.custom_navMenu_1.merun_navMenu.overItem {
     flex-wrap: nowrap;
     width: 118%;
@@ -8148,7 +8458,7 @@
     }
     .category_tag_resp_ctrl.category_tag_new {
     font-size: 10px;
-    min-width: auto;
+    /* min-width: auto; */
     height: 21px;
     position: relative;
     left: 0px;
@@ -8160,17 +8470,18 @@
     h1.title_1.yellow_color.flex_box_1 {
     /* margin-bottom: 54px; */
     }
-    li.nav-item1 {
+    /* li.nav-item1 {
     margin-right: 10px;
     margin-bottom: 4px;
-    }
+    } */
     .detail_box_1 .date_time {
     font-size: 16px;
     }
     .para_text_7 {
-    font-size: 20px;
-    line-height: 26px;
-    padding: 0px 0px 10px;
+        font-size: 20px;
+        line-height: 26px;
+        padding: 0px 0px 10px;
+        margin-bottom: 0px;
     }
     /*** Banner type Header CSS START ***/
     .header_with_banner_wrapper {
@@ -8316,6 +8627,19 @@
     }
     */
     @media only screen and (max-width: 667px) {
+
+/* 003BHARATHI */
+.title_3.flex_box_1 {
+    font-size: 40px;
+}
+/* 003BHARATHI */
+.title_3 span a img {
+    position: absolute;
+    bottom: 10px;
+    width: 30px;
+}
+
+
     .opinion_card_details1 .opinion_userImg {
     position: absolute;
     left: 34px;
@@ -8370,6 +8694,36 @@
     }
     }
     @media only screen and (max-width: 480px) {
+
+
+       /* 003BHARATHI */        
+       .vertical_menu_sec .custom_toggleIcon {
+        position: fixed;
+        top: 20px;
+        right: 8px;
+        z-index: 9;
+    }
+    
+    /* 003BHARATHI */
+    .title_3.flex_box_1 {
+        font-size: 30px;
+    }
+    /* 003BHARATHI */
+    .title_3 span a img {
+        position: absolute;
+        bottom: 5px;
+        width: 20px;
+    } 
+    
+
+    /* 003BHARATHI */
+    .title_1 a.expand_icon_moreVideos img {
+        position: absolute;
+        bottom: 22px;
+        width: 20px;
+    }
+
+
         .op_profileImg1 {
             filter: grayscale(0%);
             border-radius: 50%;
@@ -8456,11 +8810,11 @@
     }
     /* article updation */
     .bg_color_article{
-        background: #171717;
-        background: -moz-linear-gradient(top,  #171717 0%, #520f0f 41%, #520f0f 100%);
+        background: #520f0f;
+        /* background: -moz-linear-gradient(top,  #171717 0%, #520f0f 41%, #520f0f 100%);
         background: -webkit-linear-gradient(top,  #171717 0%,#520f0f 41%,#520f0f 100%);
         background: linear-gradient(to bottom,  #171717 0%,#520f0f 41%,#520f0f 100%);
-        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#171717', endColorstr='#520f0f',GradientType=0 );
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#171717', endColorstr='#520f0f',GradientType=0 ); */
     }
     .ads-bg-color
     {
@@ -8648,7 +9002,7 @@
     top: 28%;
     }
     .carousel_nav_ctrl.index_carousel_position.owl-carousel .owl-nav .owl-next, .carousel_nav_ctrl.owl-carousel .owl-nav .owl-prev{
-        top: 16%;
+        top: 12%;
     }
     .body_main_top_container {
     padding-top: 5rem !important;
@@ -8680,7 +9034,7 @@
     bottom: 13px;
     }
     .category_tag_resp_ctrl.category_tag_new {
-    font-size: 12px;
+    font-size: 10px;
     min-width: auto;
     padding: 0px 10px 2px;
     }
@@ -8736,7 +9090,30 @@
         }
     }
     @media only screen and (max-width: 414px) {
-       
+
+        /* 003BHARATHI */        
+    .vertical_menu_sec .custom_toggleIcon {
+        position: fixed;
+        top: 15px;
+        right: 8px;
+        z-index: 9;
+    }
+
+    /* 003BHARATHI */
+    .scrollPlay_multyImgBox.home_listImgBoxSize_reduce {
+        min-width: 250px;
+    }
+
+    /* 003BHARATHI */
+    .card_dataBox .card_detail p {
+        font-size: 16px;
+        line-height: 21px;
+    }
+
+       /* 001bala */
+        .scrollPlay_multyImgBox.newadded {
+            min-width: 183px !important;
+        }
         button.btn.time_update.p-1 {
             margin-right: 0;
             position: absolute;
@@ -8756,8 +9133,31 @@
     background: transparent;
     }
     .title_3 {
-    font-size: 26px;
+    font-size: 28px;
+    line-height: 28px;
     }
+    .title_3 span a img {
+        position: absolute;
+        bottom: 4px;
+    }
+
+   
+    /* 003BHARATHI */
+    .expand_icon_fedPlaylist img {
+        width: 21px;
+    }
+
+    /* 003BHARATHI */
+    h1.title_1.yellow_color.flex_box_1 {
+        font-size: 24px;
+        line-height: 17px;
+    }
+
+    /* 003BHARATHI */
+    .expand_icon_moreVideos img {
+        width: 18px;
+    }
+
     .title_4 {
     font-size: 24px;
     }
@@ -8948,7 +9348,31 @@
     }
     @media only screen and (min-width: 375px) and (max-width: 390px) {
 
-     
+
+ /* 003BHARATHI */        
+ .vertical_menu_sec .custom_toggleIcon {
+    position: fixed;
+    top: 13px;
+    right: 8px;
+    z-index: 9;
+}
+    
+/* 003BHARATHI */
+.title_3.flex_box_1 {
+    font-size: 25px;
+}
+/* 003BHARATHI */
+.title_3 span a img {
+    position: absolute;
+    bottom: 5px;
+    width: 18px;
+}
+
+
+        .scrollPlay_multyImgBox.newadded {
+            min-width: 172px !important;
+        }
+
         button.btn.time_update.p-1 {
             margin-right: 0;
             position: absolute;
@@ -9062,8 +9486,46 @@
         top: 11%;
     }
     /* 001bala */
+
+
+    @media only screen and (max-width: 390px) {
+    
+        /* 003BHARATHI */
+        .title_1 a.expand_icon_moreVideos img {
+            position: absolute;
+            bottom: 18px;
+            width: 18px;
+        }
+
+        /* 003BHARATHI */
+        .para_text_4.line_height_21.line_height_16 {
+            line-height: 18px;
+        }
+
+    } 
+
+
     }
     @media only screen and (max-width: 375px) {
+      
+      
+      /* 003BHARATHI */
+    .title_3 {
+        font-size: 23px;
+        line-height: 23px;
+    }    
+
+    /* 003BHARATHI */
+    .title_3 span a img {
+        position: absolute;
+        bottom: 4px;
+    }
+
+    /* 003BHARATHI */
+    .expand_icon_fedPlaylist img {
+        width: 18px;
+    }
+      
         .karnataka_section p{
             font-size: 32px;
             color:#520F0F;
@@ -9241,9 +9703,9 @@
     justify-content: center;
     margin: 0px 0;
     }
-    .title_3 {
+    /* .title_3 {
     margin: 0px -9px 39px;
-    }
+    } */
     button.btn.date_update.px-2 {
     margin-left: 162px;
     position: absolute;
@@ -9493,11 +9955,11 @@
     /* owl carousel dhivkar */
     .carousel_nav_ctrl.owl-carousel .owl-nav .owl-next {
     right: -20px;
-    top: 21%;
+    top: 12%;
     }
     .carousel_nav_ctrl.owl-carousel .owl-nav .owl-prev {
     left: -20px;
-    top: 21%!important;
+    top: 12%!important;
     }
     .caro_pos.carousel_nav_ctrl.owl-carousel .owl-nav .owl-prev {
     top: 10%!important;
@@ -9508,6 +9970,26 @@
     /* owl carousel dhivkar end */
     }
     @media only screen and (max-width: 360px) {
+
+         /* 003BHARATHI */        
+    .vertical_menu_sec .custom_toggleIcon {
+        position: fixed;
+        top: 11px;
+        right: 7px;
+        z-index: 9;
+    }
+        
+    /* 003BHARATHI */
+    .title_3.flex_box_1 {
+        font-size: 23px;
+    }
+    /* 003BHARATHI */
+    .title_3 span a img {
+        position: absolute;
+        bottom: 4px;
+        width: 15px;
+    }
+
         
     .ad_imgbox_sec .btn_position {
     position: absolute;
@@ -9547,6 +10029,15 @@
     }
 
     @media only screen and (max-width: 320px) {
+
+        /* 003BHARATHI */        
+        .vertical_menu_sec .custom_toggleIcon {
+            position: fixed;
+            top: 10px;
+            right: 7px;
+            z-index: 9;
+        }
+
         .carousel_nav_ctrl1.owl-carousel .owl-nav .owl-prev {
             left: -30px;
             top: 10%;
