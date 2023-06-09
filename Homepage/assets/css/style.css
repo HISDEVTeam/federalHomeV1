@@ -8682,7 +8682,14 @@
     }
 
 
-
+    @media only screen and (min-width: 540px) and (max-width: 540px) {
+    .op_profileImgBox1.article5.article_five img {
+        position: absolute;
+        width: 183px;
+        top: -108px;
+        left: 37px;
+    }
+    }
     @media only screen and (min-width: 393px) and (max-width: 393px) {
     .carousel_nav_ctrl1.owl-carousel .owl-nav .owl-next {
         right: -30px;
