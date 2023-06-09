@@ -3121,7 +3121,7 @@
     border-radius: 25px;
     }
     .nav.custom_navMenu_1.video_tagList_menu {
-    margin: 15px 0px 15px;
+    margin: 15px -3px 15px;
     }
     .carousel_text_1 {
     color: #FC9F00;
@@ -7340,6 +7340,15 @@
     @media only screen and (max-width: 767px) {
 
       /*  001BALA */
+      .leftSp{
+        margin-left: -6px;
+      }
+      .row.dis_mob_none.hide_res_img {
+        display: none;
+    }
+      .reduceSpace{
+        margin-top: -19px;
+      }
       .terms_font{
         font-size:20px;
         font-weight: normal;
@@ -7480,7 +7489,7 @@
     display: none;
     }
     .row.space_max {
-    margin-top: -3px;
+     margin-top: -22px; /*001bala */
     }
     .text-muted {
     color: #999!important;
@@ -8023,9 +8032,10 @@
     background-color: #D7B763;
     border: none;
     color: #520F0F;
-    font-size: 13px;
+    font-size: 15px;
     border-radius: 20px;
     line-height: 10px;
+    padding: 6px 7px;
     }
     /* articlepage end */
     button.btn.date_update.px-2 {
