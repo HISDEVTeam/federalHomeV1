@@ -1339,7 +1339,7 @@
     margin: 0px 0px 20px;
     text-align: left;
     text-transform: uppercase;
-    line-height: 26px;
+    line-height: 26px;  /* 003BHARATHI */
     }
     strong.eignt_spa {
     padding: 0 8px 0 8px;
@@ -1437,15 +1437,7 @@
     }
 
 
-    .para_text_4 {
-    color: #363636;
-    font-size: 18px;
-    font-weight: normal;
-    padding: 7px 10px;
-    margin: 0px 0px 0px;
-    text-align: left;
-    line-height: 28px;
-    }
+    
     .para_text_5 {
     color: #fff;
     font-size: 20px;
@@ -1454,15 +1446,7 @@
     margin: 0px 0px 15px;
     line-height: 26px;
     }
-    .para_text_7 {
-    color: #363636;
-    font-size: 21px;
-    font-weight: bold;
-    padding: 15px 0px 10px;
-    margin: 0px 0px 0px;
-    text-align: left;
-    line-height: 25px;
-    }
+    
     .date_time, .date_time_4c {
     color: #363636;
     font-size: 16px;
@@ -1587,6 +1571,9 @@
     .category_tag.sponcer_tag_green.without_icon {
     min-width: 120px;
     }
+	
+	
+	
     .category_tag.without_icon span {
     padding: 2px 0px 0px 0px;
     display: block;
@@ -2014,10 +2001,10 @@
     .card_dataBox .card_detail {
     padding: 0px 0px 0px 10px;
     }
-    span.iconStar_box {
+    /*span.iconStar_box {
     position: absolute;
     top: 0;
-    }
+    }*/
     .card_dataBox .card_detail .iconStar_box {
     display: block;
     margin-bottom: 5px;
@@ -7228,9 +7215,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#171717', end
     height: 30px;
     margin-top: 7px;
     }
-    .social_icons_wrapper{
+
+    /* 003BHARATHI */
+    /* .social_icons_wrapper{
     display: none;
-    }
+    } */
+
     .nav_menu{
     margin-top: 44px !important;
     }
@@ -7909,9 +7899,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#171717', end
     contain-intrinsic-block-size: none;
     scroll-behavior: smooth;
     }
+
+    /* 003BHARATHI */
     /* span.iconStar_box.withone img {
     display: none;
     } */
+
     ul.nav.custom_navMenu_1.merun_navMenu.overItem {
     flex-wrap: nowrap;
     width: 118%;
@@ -8333,9 +8326,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#171717', end
     line-height: 30px;
      letter-spacing: 0; /*001bala */
     }
+
+
     .social_network {
     margin: 0px 0px 32px;
     }
+
+
     .download_img_sec.download_img_withBg_1 {
     width: 331px;
     }
@@ -8456,9 +8453,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#171717', end
     left: 10px;
     bottom: 10px;
     }
+
     .category_tag_resp_ctrl.category_tag_new {
     font-size: 10px;
-    /* min-width: auto; */
+    /* min-width: auto; */ /* 003BHARATHI */
     height: 21px;
     position: relative;
     left: 0px;
@@ -8470,19 +8468,26 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#171717', end
     h1.title_1.yellow_color.flex_box_1 {
     /* margin-bottom: 54px; */
     }
+
+    /* 003BHARATHI */
     /* li.nav-item1 {
     margin-right: 10px;
     margin-bottom: 4px;
     } */
+
+
     .detail_box_1 .date_time {
     font-size: 16px;
     }
+
+    /* 003BHARATHI */
     .para_text_7 {
-        font-size: 20px;
-        line-height: 26px;
-        padding: 0px 0px 10px;
-        margin-bottom: 0px;
+    font-size: 20px;
+    line-height: 26px;
+    padding: 0px 0px 10px;
+    margin-bottom: 0px;
     }
+
     /*** Banner type Header CSS START ***/
     .header_with_banner_wrapper {
     height:23rem; 
@@ -8627,17 +8632,17 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#171717', end
     }
     */
     @media only screen and (max-width: 667px) {
-
-/* 003BHARATHI */
-.title_3.flex_box_1 {
-    font-size: 40px;
-}
-/* 003BHARATHI */
-.title_3 span a img {
-    position: absolute;
-    bottom: 10px;
-    width: 30px;
-}
+        
+    /* 003BHARATHI */
+    .title_3.flex_box_1 {
+        font-size: 40px;
+    }
+    /* 003BHARATHI */
+    .title_3 span a img {
+        position: absolute;
+        bottom: 10px;
+        width: 30px;
+    }
 
 
     .opinion_card_details1 .opinion_userImg {
@@ -8694,34 +8699,34 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#171717', end
     }
     }
     @media only screen and (max-width: 480px) {
+		
+		       
+        /* 003BHARATHI */        
+        .vertical_menu_sec .custom_toggleIcon {
+            position: fixed;
+            top: 20px;
+            right: 8px;
+            z-index: 9;
+        }
+        
+        /* 003BHARATHI */
+        .title_3.flex_box_1 {
+            font-size: 30px;
+        }
+        /* 003BHARATHI */
+        .title_3 span a img {
+            position: absolute;
+            bottom: 5px;
+            width: 20px;
+        } 
+        
 
-
-       /* 003BHARATHI */        
-       .vertical_menu_sec .custom_toggleIcon {
-        position: fixed;
-        top: 20px;
-        right: 8px;
-        z-index: 9;
-    }
-    
-    /* 003BHARATHI */
-    .title_3.flex_box_1 {
-        font-size: 30px;
-    }
-    /* 003BHARATHI */
-    .title_3 span a img {
-        position: absolute;
-        bottom: 5px;
-        width: 20px;
-    } 
-    
-
-    /* 003BHARATHI */
-    .title_1 a.expand_icon_moreVideos img {
-        position: absolute;
-        bottom: 22px;
-        width: 20px;
-    }
+        /* 003BHARATHI */
+        .title_1 a.expand_icon_moreVideos img {
+            position: absolute;
+            bottom: 22px;
+            width: 20px;
+        }
 
 
         .op_profileImg1 {
@@ -8907,7 +8912,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#171717', end
     color: #1e1e1e;
     font-size: 15px;
     font-weight: normal;
-    padding: 0px 0px 3px 0px;
+    padding: 5px 15px 10px 0px; /* 003BHARATHI */
     margin: 0px 0px;
     line-height: 1;
     }
@@ -9034,8 +9039,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#171717', end
     bottom: 13px;
     }
     .category_tag_resp_ctrl.category_tag_new {
-    font-size: 10px;
-    min-width: auto;
+    font-size: 10px;  /* 003BHARATHI */
+    min-width: auto !important;
     padding: 0px 10px 2px;
     }
     .detail_box_1 .date_time, .date_time_4c {
@@ -9132,16 +9137,21 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#171717', end
     .multiVideo_divBox {
     background: transparent;
     }
+
+
+
+    /* 003BHARATHI */
     .title_3 {
-    font-size: 28px;
-    line-height: 28px;
-    }
+        font-size: 28px;
+        line-height: 28px;
+    }    
+
+    /* 003BHARATHI */
     .title_3 span a img {
         position: absolute;
         bottom: 4px;
     }
 
-   
     /* 003BHARATHI */
     .expand_icon_fedPlaylist img {
         width: 21px;
@@ -9486,6 +9496,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#171717', end
         top: 11%;
     }
     /* 001bala */
+    }
 
 
     @media only screen and (max-width: 390px) {
@@ -9505,11 +9516,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#171717', end
     } 
 
 
-    }
-    @media only screen and (max-width: 375px) {
-      
-      
-      /* 003BHARATHI */
+
+    @media only screen and (max-width: 375px) {    
+
+    /* 003BHARATHI */
     .title_3 {
         font-size: 23px;
         line-height: 23px;
@@ -9525,7 +9535,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#171717', end
     .expand_icon_fedPlaylist img {
         width: 18px;
     }
-      
+
+
         .karnataka_section p{
             font-size: 32px;
             color:#520F0F;
@@ -9703,9 +9714,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#171717', end
     justify-content: center;
     margin: 0px 0;
     }
+
+    /* 003BHARATHI */
     /* .title_3 {
     margin: 0px -9px 39px;
     } */
+
+
     button.btn.date_update.px-2 {
     margin-left: 162px;
     position: absolute;
