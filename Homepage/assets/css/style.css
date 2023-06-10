@@ -1693,9 +1693,13 @@
 
 
     /* index-page */
-    .fault_imgBox {
+
+    /* 003BHARATHI */ /* SATURDAY */
+    /* .fault_imgBox {
     border-top: 1px solid;
-    }
+    } */
+
+
     p.op_user_name.newlwt {
     width: max-content;
     }
@@ -1825,11 +1829,13 @@
     display: flex;
     align-items: center;
     }
+
+    /* 003BHARATHI */ /* SATURDAY */
     .state_name {
     color: #1e1e1e;
     font-size: 15px;
     font-weight: normal;
-    padding: 5px 15px 5px 0px;
+    padding: 0px 15px 10px 0px;
     margin: 0px 0px;
     line-height: 1;
     }
@@ -1844,6 +1850,8 @@
     border-radius: 25px;
     text-transform: capitalize;
     }
+
+    /* 003BHARATHI */ /* SATURDAY */
     .nav.custom_navMenu_1.state_navMenu .nav-link:hover,
     .nav.custom_navMenu_1.state_navMenu .nav-link.active {
     color: #fff !important;
@@ -2157,7 +2165,7 @@
     text-transform: uppercase;
     }
     .title_3 span a img {
-    position: absolute;
+    /*position: absolute;*/
     bottom: 25px;
     }
     .title_4 {
@@ -2252,6 +2260,18 @@
         object-fit: cover;
     }
 
+
+    /* 003BHARATHI */ /* SATURDAY */
+    .state_of_nation_expandIcon {
+        display: none;
+    }
+
+    /* 003BHARATHI */ /* SATURDAY */
+    .eightColum_imgBox img {
+        width: 100%;
+        object-fit: cover;
+        object-position: center center;
+    }
 
     /****** Home Page CSS END ******/
     /*** Banner type Header CSS START ***/
@@ -4182,9 +4202,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#171717', end
     }
 
 
-    /* 003BHARATHI */
+    /* 003BHARATHI */ /* SATURDAY */
     .nav.custom_navMenu_1.explore_state_list .nav-item {
-        margin: 0px 5px 5px 0px;
+        margin: 0px 10px 10px 0px;
     }
 
 
@@ -5616,8 +5636,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#171717', end
     }
     /* E16 payment */
     .pay_box {
-        box-shadow: rgba(0, 0, 0, 0.56) 0px 15px 46px -10px;
-        border-radius: 33px;
+        box-shadow: 3px 3px 20px #00000029;
+        border-radius: 18px;
     }
     .table_modify{
     border: 1px solid #707070;
@@ -5829,11 +5849,22 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#171717', end
         margin-bottom: -35px;
     margin-top: 0px;
      }
+     .op_profileImgBox1.article5.article_five.five_changes{
+        align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -35px;
+    width: 100%;
+    left: -28px;
+     }
 
 
-
-
-
+     .audio_volum_btn_one {
+        margin: -5px 0px 0px 21px;
+    }
+    .federal_playlist_img_color{
+        filter: grayscale(1);
+    }
 
 
 
@@ -5870,6 +5901,27 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#171717', end
     }
     }
     @media only screen and (device-width: 1024px) {
+        .x_mark {
+            position: absolute;
+            float: left;
+            right: 279px;
+            top: 9px;
+            color: #FC9F00;
+            font-weight: bold;
+        }
+
+        /* 003BHARATHI */ /* SATURDAY */
+        .title_with_para_1 p {
+            font-size: 28px;
+            line-height: 30px;
+        }
+
+        /* 003BHARATHI */ /* SATURDAY */
+        .imgPosition_1 img.opinion_rightImg {
+            height: 185px !important;
+        } 
+
+
 
         
         /* 003BHARATHI */        
@@ -5934,8 +5986,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#171717', end
     .op_profileImgBox1.article5.article_five img {
         position: absolute;
         width: 183px;
-        top: -7px;
-        left: 10px;
+        top: 54px;
+        left: 41px;
     }
     /* h1.font_bold.main_header4 {
         font-weight: bold;
@@ -6087,6 +6139,39 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#171717', end
     /* A-home-part end*/
     }
     @media only screen and (max-width: 992px) {
+
+        /* 003BHARATHI */ /* SATURDAY */
+        .title_with_para_1 p {
+            font-size: 22px;
+            line-height: 28px;
+        }  
+
+        /* 003BHARATHI */ /* SATURDAY */
+        .imgPosition_1 img.opinion_rightImg {
+            object-fit: cover;
+            object-position: center center;
+        }     
+
+        /* 003BHARATHI */ /* SATURDAY */
+        .opinion_card_details .opinion_userImg {
+            top: -40px;
+            width: 75px;
+            height: 75px;
+        }   
+
+        /* 003BHARATHI */ /* SATURDAY */
+        .opinion_card_details .opinion_userImg.opinion_2_userImg {
+            left: 95px;
+        } 
+
+
+
+        /* 003BHARATHI */ /* SATURDAY */
+        .state_of_nation_expandIcon {
+            display: block;
+        }
+
+
 
         
     /* 003BHARATHI */
@@ -6634,7 +6719,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#171717', end
         bottom: 0px;
         background: #fff;
     }
-
+   
     /* 003BHARATHI */
     .mobile_horizontal_social_icon.social_media_icons_2 {
         width: 100%;
@@ -6680,7 +6765,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#171717', end
             position: absolute;
             top: -36px;
             width: 92%;
-            left: 7px;
+            left: 42px;
         }
 
 
@@ -6769,7 +6854,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#171717', end
         position: absolute;
         width: 183px;
         top: 75px;
-        left: 11px;
+        left: -21px;
     }
     p.font_bold.article_author_fsize{
         font-size: 20px;
@@ -8720,6 +8805,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#171717', end
     }
     }
     @media only screen and (max-width: 480px) {
+        .op_profileImgBox1.article5.article_five.five_changes{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            top: -36px;
+            width: 92%;
+            left: 7px;
+        }
+		
 		
 		       
         /* 003BHARATHI */        
@@ -8813,8 +8908,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#171717', end
             }
             .op_profileImgBox1.article5.article_five img {
                 position: absolute;
-                width: 111px;
-                top: -114px;
+                width: 70px;
+                top: 71px;
                 left: 40px;
             }
             .op_profile_preIcon img {
@@ -8927,11 +9022,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#171717', end
     color: #212529;
     }
     /* Home page Updation */
+
+
+    
+    /* 003BHARATHI */ /* SATURDAY */
     .nav.custom_navMenu_1.state_navMenu .nav-link {
     color: #fff;
     font-size: 12px !important;
     font-weight: 500;
-    padding: 5px 5px 6px 5px;
+    padding: 5px 10px 6px;
     margin: 0px 0px;
     line-height: 1;
     background: #520f0f;
@@ -9068,9 +9167,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#171717', end
     left: 10px;
     bottom: 13px;
     }
+
+    /* 003BHARATHI */ /* SATURDAY */
     .category_tag_resp_ctrl.category_tag_new {
-    font-size: 10px;  /* 003BHARATHI */
-    min-width: auto !important;
+    font-size: 10px;
+    min-width: 90px !important;
     padding: 0px 10px 2px;
     }
     .detail_box_1 .date_time, .date_time_4c {
@@ -9198,9 +9299,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#171717', end
         width: 18px;
     }
 
-    .title_4 {
+    /* 003BHARATHI */ /* SATURDAY */
+    /* .title_4 {
     font-size: 24px;
-    }
+    } */
+
+
     .op_profileImgBox_shot {
     display: flex;
     align-items: center;
@@ -9530,6 +9634,17 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#171717', end
 
 
     @media only screen and (max-width: 390px) {
+
+        /* 003BHARATHI */ /* SATURDAY */         
+        .title_1.state_ofNation {
+            font-size: 26px;
+        }
+    
+        /* 003BHARATHI */ /* SATURDAY */
+        .state_of_nation_expandIcon img {
+            width: 20px;
+        }
+        
     
         /* 003BHARATHI */
         .title_1 a.expand_icon_moreVideos img {
@@ -9547,7 +9662,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#171717', end
 
 
 
-    @media only screen and (max-width: 375px) {    
+    @media only screen and (max-width: 375px) {
 
     /* 003BHARATHI */
     .title_3 {
@@ -10077,6 +10192,18 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#171717', end
     }
 
     @media only screen and (max-width: 320px) {
+        
+        /* 003BHARATHI */  /* SATURDAY */         
+        .title_1.state_ofNation {
+            font-size: 22px;
+        }
+
+        /* 003BHARATHI */  /* SATURDAY */
+        .state_of_nation_expandIcon img {
+            width: 18px;
+        }
+
+
 
         /* 003BHARATHI */        
         .vertical_menu_sec .custom_toggleIcon {
