@@ -3432,7 +3432,7 @@
     text-transform: uppercase;
     line-height: 1.2;
     margin-bottom: 22px;
-    margin-top: 20px;
+    margin-top: 10px;
     }
     .ad_imgbox_sec .btn_position {
     position: absolute;
@@ -3570,7 +3570,7 @@
     padding: 0px 0px 0px 0px;
     }
     button.btn.sub_category_button_three_1.p-1 span {
-    margin-left: 15px;
+    margin-left: 14px;
     }
     .content_size {
     font-size: 45px;
@@ -5825,7 +5825,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#171717', end
      }
     
 
-
+     .col-md-12.bread_bottom_spcae.article_five{
+        margin-bottom: -35px;
+    margin-top: 0px;
+     }
 
 
 
@@ -6612,7 +6615,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#171717', end
     /*** Responsive HOME Page CSS END ***/
     }
     @media only screen and (max-width: 768px) {
-
+        .five_none{
+            display: block;
+        }
+        button.btn.btn-lg.btn-light.button_size_comment {
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
 
     /* 003BHARATHI */
     .mobile_horizontal_social_icon .social_network {
@@ -6661,6 +6670,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#171717', end
             justify-content: center;
             position: absolute;
             top: 33px;
+            width: 92%;
+            left: 7px;
+        }
+        .op_profileImgBox1.article5.article_five.five_changes{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            top: -36px;
             width: 92%;
             left: 7px;
         }
@@ -7569,6 +7587,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#171717', end
         .desktop_controll_off{
            display: none;
         }
+        .five_none{
+            display: none;
+        }
     /* opinion new update  */
     .desk_opinion_block{
     display: block;
@@ -7731,8 +7752,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#171717', end
         color: #363636;
         }
       .or1 {
-        padding: 3px 4px;
-        font-size: 16px;
+        padding: 2px 3px;
+        font-size: 18px;
     }
 
     .vertical_or1 {
@@ -8131,7 +8152,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#171717', end
     margin-top: 0px;
     color: #707070;
     font-size: 15px;
-    margin-left: 2px;
+    margin-left: 0px;
     width: 100%;
     }
     .desk_signin{
@@ -8727,7 +8748,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#171717', end
             bottom: 22px;
             width: 20px;
         }
-
+        a.category_tag.sponcer_tag_green.without_icon.category_tag_resp_ctrl.category_tag_new.new_modify{
+            font-size: 10px;
+    min-width: auto !important;
+    padding: 0px 8px 0px;
+        }
+        a.category_tag.without_icon.category_tag_resp_ctrl.category_tag_new.new_changes{
+            font-size: 10px;
+    min-width: auto !important;
+    padding: 0px 8px 0px;
+        }
 
         .op_profileImg1 {
             filter: grayscale(0%);
@@ -8784,7 +8814,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#171717', end
             .op_profileImgBox1.article5.article_five img {
                 position: absolute;
                 width: 111px;
-                top: -89px;
+                top: -114px;
                 left: 40px;
             }
             .op_profile_preIcon img {
@@ -9985,7 +10015,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#171717', end
     /* owl carousel dhivkar end */
     }
     @media only screen and (max-width: 360px) {
-
+        .karnataka_section p {
+            font-size: 30px;
+            color: #520F0F;
+        }
          /* 003BHARATHI */        
     .vertical_menu_sec .custom_toggleIcon {
         position: fixed;
