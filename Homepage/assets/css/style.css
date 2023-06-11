@@ -721,6 +721,12 @@
     .custom_container {
     max-width: 1320px;
     }
+	
+	/* 003BHARATHI */ /* SUNDAY */
+    .custom_flush_edge_container {
+        max-width: 1320px;
+    }
+	
     /*** Header Section Navbar CSS START ***/
     /* Header Row 1 CSS START */
     .header_wrapper {
@@ -2447,8 +2453,8 @@
     letter-spacing: 0px;
     color: #363636;
     opacity: 1;
-    position: absolute;
-    top: 32px;
+    /* position: absolute;
+    top: 32px; */
     }
     .artPage_content_divBox {
     padding: 30px 0px;
@@ -5878,15 +5884,22 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#171717', end
     color:#363636;
  }
   
- .img_pos_change{
+ .img_pos_change /* 002DHIVAKAR */{
     position: absolute;
-    left: 106px;
-    top: 151px;
+    left: 78px;
+    top: 149px;
  }
  .paswrd_font_size1{
     text-decoration: underline;
  }
+ .brandstudio::-webkit-scrollbar /*002DHIVAKAR*/ {
+    display: none;
+  }
 
+
+  .newchanges_article_five{
+    font-weight:normal !important;/*002DHIVAKAR*/
+  }
 
 
 
@@ -5905,7 +5918,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#171717', end
   }
 
 
-
+ .font_changes{
+    font-weight:normal;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+ }
 
 
 
@@ -5962,10 +5981,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#171717', end
     }
     }
     @media only screen and (device-width: 1024px) {
-        .img_pos_change {
+        .img_pos_change  /* 002DHIVAKAR */{
             position: absolute;
-            left: 57px;
-            top: 121px;
+            left: 47px;
+            top: 154px;
         }
         .vertical_or {
             border: 1px solid #707070;
@@ -6236,6 +6255,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#171717', end
     /* A-home-part end*/
     }
     @media only screen and (max-width: 992px) {
+		
+		/* 003BHARATHI */ /* SUNDAY */
+        .custom_flush_edge_container {
+            max-width: inherit;
+            padding-left: 0px;
+            padding-right: 0px;
+        }
 
         /* 003BHARATHI */ /* SATURDAY */
         .title_with_para_1 p {
@@ -6511,10 +6537,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#171717', end
     }
     }
     @media screen and (min-width:769px) and (max-width:1200px){
-        .img_pos_change {
+        .img_pos_change /* 002DHIVAKAR */ {
             position: absolute;
-            left: 55px;
-            top: 120px;
+            left: 47px;
+            top: 154px;
         }
     /* profile */
     .btn_re_size {
@@ -6825,6 +6851,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#171717', end
         .karnataka_section {
             width: 100%;
         }
+        .bg-border {
+            padding: 0px 0px;
+        }
         .dis_mob_none {
             display: none;
         }s
@@ -6832,10 +6861,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#171717', end
             font-size: 35px;
             font-weight: bold;
         }
-        .img_pos_change {
+        .img_pos_change /* 002DHIVAKAR */ {
             position: absolute;
-            left: 69px;
-            top: 118px;
+    left: 47px;
+    top: 144px  
         }
 
          span.po_top i {
@@ -8970,6 +8999,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#171717', end
     }
     }
     @media only screen and (max-width: 480px) {
+        .font_changes{     
+               font-size: 16px;
+                line-height: 20px;
+                padding: 0px 0px 0px!important;
+            }
         .slider_imgbox_dataSec .tab_overlay_cont h5 {
             color: #fc9f00;
             font-size: 20px;
@@ -8979,13 +9013,20 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#171717', end
             line-height: 28px;
             margin-block-end: auto;
         }
+        .slider_imgbox_dataSec .tab_overlay_cont {
+            position: absolute;
+            bottom: 0px;
+            width: 92%;
+            padding: 32px 0px 0px 0px;
+            min-height: 140px;
+        }
         .slider_imgbox_dataSec .tab_overlay_cont p {
             color: #fff;
             font-size: 15px;
             font-weight: 300;
             padding: 0px 0px 0px 0px;
             margin: 0px 0px 0px;
-            line-height: 28px;
+            line-height: 22px;
         }
         .op_profileImgBox1.article5.article_five.five_changes{
             display: flex;
@@ -9000,7 +9041,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#171717', end
             width:70px !important;
             height: auto;
         }
-        .img_pos_change {
+        .img_pos_change /* 002DHIVAKAR */{
             position: absolute;
             left: 16px;
             top: 127px;
@@ -9593,8 +9634,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#171717', end
             letter-spacing: 0px;
             color: #363636;
             opacity: 1;
-            position: absolute;
-            top: 20px;
+            /* position: absolute;
+            top: 20px; */
+        }
+        .brand_studio/* 002DHIVAKAR */{
+            font-size: 46px!important;
+    text-transform: uppercase;
+    color: #DEDEDE;
+    line-height: 1;
+    margin: 0px;
         }
     #audio_size_gird
     {
@@ -9862,7 +9910,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#171717', end
 
 
     @media only screen and (max-width: 375px) {
-        .img_pos_change {
+        .brand_studio/* 002DHIVAKAR */{
+            font-size: 46px!important;
+    text-transform: uppercase;
+    color: #DEDEDE;
+    line-height: 1;
+    margin: 0px;
+        }
+        .img_pos_change/* 002DHIVAKAR */ {
             position: absolute;
             left: 11px;
             top: 121px;
@@ -10005,8 +10060,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#171717', end
     }
 
     /* 007bala */
-    .article_author_fsize_one {
-    font-size: 20px!important;
+    .article_author_fsize_one  /* 002DHIVAKAR */ {
+    font-size: 15px!important;
     }
     span.font_regular.article_author_fsize{
     font-size: 13px!important;
