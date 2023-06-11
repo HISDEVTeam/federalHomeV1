@@ -8705,7 +8705,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#171717', end
     }
     .article_bg_color {
     background: none;
-    padding-top: 14px;
+    padding-top: 0px;
     }
     .res_mob_device {
      margin-top: 15px !important; /*001bala */
@@ -9377,7 +9377,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#171717', end
     display: none;
     }
     .category_size {
-    font-size: 50px!important;
+    font-size: 44px!important;
     text-transform: uppercase;
     color: #DEDEDE;
     line-height: 1;
@@ -9777,7 +9777,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#171717', end
     }
     #audio_size_gird
     {
-    width:200px;
+    width:190px;
     max-width: none;
     }
     .bigImg_quotes_text_position1 {
