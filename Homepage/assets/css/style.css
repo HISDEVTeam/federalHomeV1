@@ -9395,8 +9395,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#171717', end
     overflow: hidden;/* 002DHIVAKAR */
     }
     .imgOver_tag_btn.tag_resp_ctrl {
-    left: 10px;
-    bottom: 13px;
+    /*left: 10px;
+    bottom: 13px;*/
     }
 
     /* 003BHARATHI */ /* SATURDAY */
@@ -9610,7 +9610,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#171717', end
     @media only screen and (min-width:376px) and (max-width: 480px) {
         
         .video_page_seven p {
-            padding: 15px 0px 0px;
+            /*padding: 15px 0px 0px;*/
             font-size: 16px;
             font-weight: 300;
             line-height: 22px;
