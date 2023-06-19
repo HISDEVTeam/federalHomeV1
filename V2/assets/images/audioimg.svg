@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="118" height="29" viewBox="0 0 118 29">
+  <g id="Group_596" data-name="Group 596" transform="translate(-1164 -1432)">
+    <rect id="Rectangle_1718" data-name="Rectangle 1718" width="118" height="29" rx="9" transform="translate(1164 1432)" fill="#dedede"/>
+    <text id="Aa" transform="translate(1208 1455)" fill="#4a4a4a" font-size="22" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="0">Aa</tspan></text>
+    <path id="Icon_awesome-plus-circle" data-name="Icon awesome-plus-circle" d="M9.852.563a9.29,9.29,0,1,0,9.29,9.29A9.288,9.288,0,0,0,9.852.563ZM15.246,10.9a.451.451,0,0,1-.449.449H11.35V14.8a.451.451,0,0,1-.449.449H8.8a.451.451,0,0,1-.449-.449V11.35H4.908a.451.451,0,0,1-.449-.449V8.8a.451.451,0,0,1,.449-.449H8.354V4.908A.451.451,0,0,1,8.8,4.458h2.1a.451.451,0,0,1,.449.449V8.354H14.8a.451.451,0,0,1,.449.449Z" transform="translate(1242.438 1437.02)" fill="#4a4a4a"/>
+    <path id="Icon_awesome-minus-circle" data-name="Icon awesome-minus-circle" d="M9.852.563a9.29,9.29,0,1,0,9.29,9.29A9.288,9.288,0,0,0,9.852.563ZM4.908,11.35a.451.451,0,0,1-.449-.449V8.8a.451.451,0,0,1,.449-.449H14.8a.451.451,0,0,1,.449.449v2.1a.451.451,0,0,1-.449.449Z" transform="translate(1178.438 1437.02)" fill="#4a4a4a"/>
+  </g>
+</svg>
