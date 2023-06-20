@@ -5,9 +5,6 @@ $(document).ready(function() {
   // contentHeight(); // DIV Height Set to 100% 
   
   
-  
-  
-  
   //--- Premium star toggle Icon ----//
   
   $('.pre_icon_toggle').hide()
@@ -56,30 +53,6 @@ $(document).ready(function() {
   
   //--- Header Premium Tag button Hover text change ----//
   
-  
-  
-  
-  
-  //--- Vertical Hamburger Menu ----//
-  
-  $('.vertical_menu_sec .dropdown-menu a.dropdown-toggle').on('click', function(e) {
-    if (!$(this).next().hasClass('show')) {
-      $(this).parents('.dropdown-menu').first().find('.show').removeClass("show");
-    }
-    var $subMenu = $(this).next(".dropdown-menu");
-    $subMenu.toggleClass('show');
-  
-  
-    $(this).parents('li.nav-item.dropdown.show').on('hidden.bs.dropdown', function(e) {
-      $('.vertical_menu_sec .dropdown-submenu .show').removeClass("show");
-    });
-  
-  
-    return false;
-  
-  });
-  
-  //--- Vertical Hamburger Menu ----//
   
   
   
@@ -250,8 +223,10 @@ $(document).ready(function() {
   $(window).scroll(function () {
     if ($(this).scrollTop() > 50) {
       $('#back-to-top').fadeIn();
+      $('#share-button').fadeIn();
     } else {
       $('#back-to-top').fadeOut();
+      $('#share-button').fadeOut();
     }
   });
   
@@ -269,139 +244,152 @@ $(document).ready(function() {
   
   
   
+
+
+
+
   
+//--- Desktop Sticky Header Searc Box ----//  
+
+$('.sticky_search_icon').click(function (e) {
+  e.stopPropagation()
+  $(".stickySearch_inptBox").show();
+});
+
+$('.stickySearch_close').click(function (e) {
+  e.preventDefault();
+  $('.stickySearch_inptBox').hide();
+});
+
+
+$(document).click(function(e) {
+
+  if ( $(e.target).closest('.sticky_search_icon').length ) {
+    $(".stickySearch_inptBox").show();
+  } 
+  else if ( ! $(e.target).closest('.stickySearch_inptBox').length ) {
+    $('.stickySearch_inptBox').hide();
+}
+
+});
+
+//--- Desktop Sticky Header Searc Box ----//  
+
+
   
-  
-  
-  
-  
-  
-  
-  
-  /*
-  $('.custom_toggleIcon').click(function(){
-    // $(this).next('ul').slideToggle('500');
-    // $(this).find('i').toggleClass('fa-plus-circle fa-minus-circle');
-    $(this).find('i').toggleClass('fa-bars fa-close');
-    
-  });
-  
-  $(window).click(function() {
-    $(this).find('i').hide('fa-close')
-  });
-  */
-  
-  /*
-  $(document).on('click', function(){
-    $('.vertical_menu_sec ul .dropdown-menu').hide();
-  });
-  
-  $(".dropdown-menu").on("click", function(e) {
-    e.stopPropagation();
-  });
-  */
-  
-  
-  
-  
-  
-    
-    // $(".imgDiv").height( $(".cardBody_content_2").height()+20 );
-  
-     // var divHeight = $('.rightSide').height(); 
-    // $('.rightSide').css('min-height', divHeight+'px');
-  
-    // $("body").css('height', $(window).height() );
-    // $(".leftSide").css('height', $(".rightSide").height() );
-    
-  
-  
-    
-    
-    
-  /*
-  $('.navbar-nav .nav-link').click(function(){
-      $('.navbar-nav .nav-link').removeClass('active');
-      $(this).addClass('active');
-  })
-  */
-  
-    
-  
-  
-  /*
-  $('.dropdown-toggle').click(function(e) {
-    if ($(document).width() > 768) {
-      e.preventDefault();
-  
-      var url = $(this).attr('href');
-  
-         
-      if (url !== '#') {
-      
-        window.location.href = url;
-      }
-  
-    }
-  });
-  */
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  //--- Navbar expand bg color onclick change ----//
-  /*
-  
-  $('.nav_wrapper button').on('click', function(e){
-    $('.nav_wrapper').toggleClass('navbar_bgColor_onclick_changed');
+
+
+
+
+
+
+
+//--- Mobile Header Searc Box ----//  
+
+$('.mobView_searchIcon').click(function (e) {
+    e.stopPropagation()
+    $(".search_inptBox").show();
+    $(this).addClass('active');
+});
+
+$('.mob_search_close').click(function (e) {
     e.preventDefault();
-  });
-  
-  */
-  //--- Navbar expand bg color onclick change ----//
-  
-  
-  
-  
-  
-  
-  
-  //--- Banner slider ----//
-  
-  /*
-  $('#myCarousel').one('slide.bs.carousel', function (e) {
-    e.preventDefault();
-    $(this).carousel('pause');  // For stop the carousel
-  });
-  */
-  
-  
-  /*
-  $('.carousel').carousel({
-    interval: 3000,
-    pause: "false",
-  });
-  
-    
-  $( ".carousel .carousel-inner" ).swipe( {
-    swipeLeft: function ( event, direction, distance, duration, fingerCount ) {
-      this.parent( ).carousel( 'next' );
-    },
-    swipeRight: function ( ) {
-      this.parent( ).carousel( 'prev' );
-    },
+    $('.search_inptBox').hide();
+    $('.mobView_searchIcon.active').removeClass('active');
+});
+
+
+$(document).click(function(e) {
+
+  if ( $(e.target).closest('.mobView_searchIcon').length ) {
+      $('.search_inptBox').show();
+  } 
+  else if ( ! $(e.target).closest('.search_inptBox').length ) {
+    $('.search_inptBox').hide();
+    $('.mobView_searchIcon.active').removeClass('active');
   }
-  */  
-   
+
+});
+
+//--- Mobile Header Searc Box ----//
+
   
-  //--- Banner slider ----//
+
+
+//--- Mobile Vertical Hamburger Toggle Icon ----//
+
+$('.custom_toggleIcon').on('click', function(e){
+
+  // e.stopPropagation();
+  e.preventDefault();
+  $(this).find('i.mobileToggle_icon').toggleClass('fa-bars fa-close');
+
+});
+
+
+$(document).click(function(e) {
+	
+  $(this).find('i.mobileToggle_icon').removeClass('fa-close').addClass('fa-bars'); 
+  $('.vertical_menu_sec .dropdown-menu a.dropdown-toggle').removeClass('caret_down');     
+
+});
+
+//--- Mobile Vertical Hamburger Toggle Icon ----//
+
+
+  
+
+
+//--- Vertical Hamburger Multilevel Menu Type 01 ----//
+
+$('.vertical_menu_sec .dropdown-menu a.dropdown-toggle').on('click', function(e) {
+  if (!$(this).next().hasClass('show')) {
+    $(this).parents('.dropdown-menu').first().find('.show').removeClass("show");
+  }
+  var $subMenu = $(this).next(".dropdown-menu");
+  $subMenu.toggleClass('show');
+
+
+  $(this).parents('li.nav-item.dropdown.show').on('hidden.bs.dropdown', function(e) {
+    $('.vertical_menu_sec .dropdown-submenu .show').removeClass("show");
+  });
+
+  return false;
+
+});  
+  
+
+$('.vertical_menu_sec .dropdown-menu a.dropdown-toggle').on('click', function(e) {
+  
+  // e.stopPropagation();
+
+  if (!$(this).next().hasClass('show')) {
+    // $(this).removeClass('caret_down');
+    $(this).parents('.dropdown-menu').first().find('.caret_down').removeClass("caret_down");
+  }
+  else {
+    $(this).addClass('caret_down');
+  }
+
+});
+
+//--- Vertical Hamburger Multilevel Menu Type 01 ----//
+ 
   
   
+  
+  
+  
+//--- Navbar expand bg color onclick change ----//
+/*
+
+$('.nav_wrapper button').on('click', function(e){
+  $('.nav_wrapper').toggleClass('navbar_bgColor_onclick_changed');
+  e.preventDefault();
+});
+
+*/
+//--- Navbar expand bg color onclick change ----//
   
   
   
@@ -410,9 +398,6 @@ $(document).ready(function() {
   
   
   //--- Header Menu Sectcion Navbar Sticky and onScroll Logo and Icon Add-Remove ----//
-  
-  // $(".top_stickyMenu_logo_search_iconAdded li:first-child").hide();
-  // $(".top_stickyMenu_logo_search_iconAdded li:last-child").hide();
   
   $(window).on('scroll',function(){
     // var winscroll = $(window).scrollTop();
@@ -424,23 +409,19 @@ $(document).ready(function() {
             $(".mega_menu_list_sec").addClass("top_stickyMenu_logo_search_iconAdded");
             $(".mega_menu_list_sec li.list_first:first-child").addClass("sticky_newMenu_added");
             $(".mega_menu_list_sec li.list_last:last-child").addClass("sticky_newMenu_added");
-            // $(".top_stickyMenu_logo_search_iconAdded li:first-child").show();
-            // $(".top_stickyMenu_logo_search_iconAdded li:last-child").show();
+            // $(".stickySearch_inptBox").show();
         }
         else{
             $(".mega_menu_list_sec").removeClass("top_stickyMenu_logo_search_iconAdded");
             $(".mega_menu_list_sec li.list_first:first-child").removeClass("sticky_newMenu_added");
             $(".mega_menu_list_sec li.list_last:last-child").removeClass("sticky_newMenu_added");
-            // $(".top_stickyMenu_logo_search_iconAdded li:first-child").hide();
-            // $(".top_stickyMenu_logo_search_iconAdded li:last-child").hide();
+            $(".stickySearch_inptBox").hide();
         }
   
       }
   })
   
   //--- Header Menu Sectcion Navbar Sticky and onScroll Logo and Icon Add-Remove ----//
-  
-  
   
   
   
@@ -463,19 +444,18 @@ $(document).ready(function() {
       $(".mega_menu_list_sec").removeClass("top_stickyMenu_logo_search_iconAdded");
       $(".mega_menu_list_sec li.list_first:first-child").removeClass("sticky_newMenu_added");
       $(".mega_menu_list_sec li.list_last:last-child").removeClass("sticky_newMenu_added");
+      // $(".stickySearch_inptBox").show();
     }
     else{
       $(".mega_menu_list_sec").removeClass("top_stickyMenu_logo_search_iconAdded");
       $(".mega_menu_list_sec li.list_first:first-child").removeClass("sticky_newMenu_added");
       $(".mega_menu_list_sec li.list_last:last-child").removeClass("sticky_newMenu_added");
+      $(".stickySearch_inptBox").hide();
     }
   
   });
   
   //--- Header Menu Sectcion Navbar Sticky at WinResize Logo and Icon Add-Remove ----//
-  
-  
-  
   
   
   
@@ -511,34 +491,11 @@ $(document).ready(function() {
   
   
   
+
+
   
   
-  
-  
-  //--- DIV Height Set to 100% ---//
-  /*
-  
-  function contentHeight() {
-    // var winH = $(window).outerHeight(),
-      // headerHei = $(".header_sec").outerHeight(),
-      // headerStickyNavHei = $(".navbar_sticky_sec").outerHeight(),
-      // headerBreadcrumHei = $(".customBredcrum_sec").outerHeight(),
-      // footerHei = $(".footer_sec").outerHeight(),
-      // contentHei = winH - headerHei - headerStickyNavHei - headerBreadcrumHei - footerHei;
-    //   contentHei = winH;
-    // $(".container_height, .container_height_2, .containerFluid_height").css("min-height", contentHei);
-    
-  }
-  
-  $(window).resize(function() {
-    contentHeight();
-  });
-  
-  */
-  //--- DIV Height Set to 100% ---//
-  
-/*  
-  
+/*    
   const mouseWheel = document.querySelector('.box-scroll');
   
   mouseWheel.addEventListener('wheel', function(e) {
@@ -577,4 +534,6 @@ $(document).ready(function() {
       else // Scroll left
       mouseWheel3.scrollLeft -= race;
       e.preventDefault();
-  }); */
+  }); 
+
+*/
