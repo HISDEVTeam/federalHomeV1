@@ -204,7 +204,6 @@ $(document).ready(function() {
         }
     }
    });
-  
   //--- Event Card Carousel ----//
   
   
@@ -444,7 +443,7 @@ $('.nav_wrapper button').on('click', function(e){
       $(".mega_menu_list_sec").removeClass("top_stickyMenu_logo_search_iconAdded");
       $(".mega_menu_list_sec li.list_first:first-child").removeClass("sticky_newMenu_added");
       $(".mega_menu_list_sec li.list_last:last-child").removeClass("sticky_newMenu_added");
-      // $(".stickySearch_inptBox").show();
+      $(".stickySearch_inptBox").hide();
     }
     else{
       $(".mega_menu_list_sec").removeClass("top_stickyMenu_logo_search_iconAdded");
