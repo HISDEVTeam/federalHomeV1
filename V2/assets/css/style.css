@@ -6097,6 +6097,61 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#171717', end
 
 
 
+	.two_category_toggle_tab_search {
+        position: relative;
+         margin: 0px 0px 20px; /* 003BHARATHI -  20230622-THURSDAY */
+    }
+    .two_category_toggle_tab_search .pre_icon_toggle {
+    width: 25px;
+    position: absolute;
+    top: 0px;
+    left: -5px;
+    z-index: 3;
+    }
+
+    /* 003BHARATHI -  20230622-THURSDAY */
+    .two_category_toggle_tab_search .sub_1 {
+    color: #520F0F;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px 15px 5px 15px;
+    line-height: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 25px;
+    background: #D7B763;
+    display: inline-block;
+    cursor: pointer;
+    position: absolute;
+    left: 0px;
+    transition: all .5s ease;
+    z-index: 2;
+    min-width: 140px;
+    }
+
+    /* 003BHARATHI -  20230622-THURSDAY */
+    .two_category_toggle_tab_search .sub_2 {
+    color: #D7B763;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px 15px 5px 25px;
+    line-height: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 25px;
+    background: #520F0F;
+    display: inline-block;
+    cursor: pointer;
+    position: absolute;
+    left: 120px;
+    transition: all .5s ease;
+    z-index: 1;
+    min-width: 148px;
+    }
+
+
+
+
 
 
     /* Toggle icon CSS START */
