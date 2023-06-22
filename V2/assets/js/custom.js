@@ -7,15 +7,23 @@ $(document).ready(function() {
   
   //--- Premium star toggle Icon ----//
   
-  $('.pre_icon_toggle').hide()
+  /*$('.pre_icon_toggle').hide()
   $(".two_category_toggle_tab").click(function() {
     $(this).find('img').toggle();
     // $(this).find('img').animate({width: 'toggle'});
     $(this).find('.sub_1').toggleClass('sub_padding_add');
     $(this).find('.sub_2').toggleClass('sub_padding_add');
-  });
+  });*/
   
   //--- Premium star toggle Icon ----//
+  
+  
+  
+  //--- Bookmart tag toggle Icon ----//
+  $('.bookmark_icon').click(function() {
+    $(this).find('i').toggleClass('fa-bookmark fa-bookmark-o')
+  });
+  //--- Bookmart tag toggle Icon ----//
   
   
   
