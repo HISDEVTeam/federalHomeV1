@@ -1580,7 +1580,7 @@
     overflow: hidden;
     }
 
-
+	/* 004VENGAT */ /* 20230622-THURSDAY */
     .para_text_3 {
     color: #fff;
     font-size: 21px;
@@ -1589,6 +1589,10 @@
     margin: 0px 0px 0px;
     text-align: left;
     line-height: 24px;
+	display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
     }
 
   /* 003BHARATHI */
@@ -1984,7 +1988,7 @@
         line-height: 28px;
         margin-block-end: auto;
         }
-        /* 004VENGAT */ /* 20230619-MONDAY */
+        /* 004VENGAT */ /* 20230622-THURSDAY */
         .slider_imgbox_dataSec .tab_overlay_cont span {
         color: #fff;
         font-size: 20px;
@@ -1992,6 +1996,10 @@
         padding: 0px 0px 0px 0px;
         margin: 0px 0px 0px;
         line-height: 28px;
+		display: -webkit-box;
+		-webkit-line-clamp: 3;
+		-webkit-box-orient: vertical;
+		overflow: hidden;
         }
 
     .slider_imgbox_dataSec .tab_overlay_cont h5 {
@@ -2146,6 +2154,7 @@
     .op_text_detail {
     padding: 15px 30px 5px;
     }
+	/* 004VENGAT */ /* 20230622-THURSDAY */
     .op_user_cmd {
     color: #000;
     font-size: 22px;
@@ -2154,6 +2163,10 @@
     margin: 0px 0px 0px;
     text-align: left;
     line-height: 28px;
+	display: -webkit-box;
+	-webkit-line-clamp: 6;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
     }
     .op_user_name {
     color: #520f0f;
@@ -3164,7 +3177,7 @@
     align-items: center;
     justify-content: center;
     background: #dedede;
-    /* min-height: 394px; */            
+    max-height: 468px;           
     height: 100%;
     padding: 5px;
     /* margin-bottom: 15px; */
@@ -3784,6 +3797,11 @@
     display: flex;
     justify-content: center;
     }
+	/* 004VENGAT */ /* 20230622-THURSDAY */
+	.faultline_ad_img {
+    display: flex;
+    justify-content: center;
+    }
     .article_page_image_content_sub img{
     width: 100%;
     }
@@ -4390,6 +4408,13 @@
         border-right: 6px solid #DEDEDE;
         border-top: 18px solid #DEDEDE;
     }
+	/* 004VENGAT */ /* 20230622-THURSDAY */
+	.faultline_ad_img img {
+		/* width: 382px; */
+		height: auto;
+		border: 3px solid #DEDEDE !important;
+		text-align:center;
+	}
 
 
     .ad_img_2 img {
@@ -6068,10 +6093,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#171717', end
     background: lightgrey;
     padding: 3px;
     }
+
+
+
+
+
+
     /* Toggle icon CSS START */
     .two_category_toggle_tab {
-    position: relative;
-    margin: 0px 0px 20px;
+        position: relative;
+        /* margin: 0px 0px 20px; */ /* 003BHARATHI -  20230622-THURSDAY */
     }
     .two_category_toggle_tab .pre_icon_toggle {
     width: 25px;
@@ -6080,6 +6111,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#171717', end
     left: -5px;
     z-index: 3;
     }
+
+    /* 003BHARATHI -  20230622-THURSDAY */
     .two_category_toggle_tab .sub_1 {
     color: #520F0F;
     font-size: 15px;
@@ -6093,10 +6126,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#171717', end
     display: inline-block;
     cursor: pointer;
     position: absolute;
-    left: 0px;
+    left: 30px;
     transition: all .5s ease;
     z-index: 2;
+    min-width: 140px;
     }
+
+    /* 003BHARATHI -  20230622-THURSDAY */
     .two_category_toggle_tab .sub_2 {
     color: #D7B763;
     font-size: 15px;
@@ -6110,9 +6146,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#171717', end
     display: inline-block;
     cursor: pointer;
     position: absolute;
-    left: 120px;
+    left: 150px;
     transition: all .5s ease;
     z-index: 1;
+    min-width: 148px;
     }
     .sub_1.sub_padding_add {
     padding: 5px 15px 5px 25px;
@@ -6123,6 +6160,32 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#171717', end
     left: 130px;
     transition: all .5s ease;
     }
+
+
+    /* 003BHARATHI -  20230622-THURSDAY */
+    .bookmark_icon i {
+        color: #D7B763;
+        font-size: 26px;
+    }
+
+    /* 003BHARATHI -  20230622-THURSDAY */
+    .bookmark_icon i.fa-bookmark-o {
+        color: #DEDEDE;
+        font-size: 26px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
     .para_text_4.line_height_21 {
     line-height: 20px;
     }
@@ -8505,6 +8568,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#171717', end
     text-align: left;
     line-height: 24px;
         }
+		/* 004VENGAT */ /* 20230622-THURSDAY */
         .op_user_cmd {
             color: #000;
             font-size: 20px;
@@ -8513,6 +8577,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#171717', end
             margin: 0px 0px 0px;
             text-align: left;
             line-height: 28px;
+			display: -webkit-box;
+			-webkit-line-clamp: 6;
+			-webkit-box-orient: vertical;
+			overflow: hidden;
         }
         .index_para_text_7{
             font-size: 18px!important;
@@ -11351,7 +11419,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#171717', end
             font-size: 16px;
             font-weight: 300;
             line-height: 22px;
-            color: #3d3d3d;
+            color: #fff;
             margin: 0 auto;
         }
 
