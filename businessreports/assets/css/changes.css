@@ -53,7 +53,7 @@
 
 .report_galleryBox {
 	width: 10%;
-	height: 80vh;
+	height: 75vh;
 	transition: all 0.5s ease;
 	display: flex;
 	justify-content: center;
