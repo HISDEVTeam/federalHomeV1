@@ -7492,7 +7492,7 @@ ul.nav.custom_navMenu_3.brandstudio {
 
 .report_galleryBox {
 	width: 10%;
-	height: 75vh;
+	height: 60vh;
 	/* height: 80vh; */
 	transition: all 0.5s ease;
 	display: flex;
@@ -7556,7 +7556,7 @@ ul.nav.custom_navMenu_3.brandstudio {
 	transform: rotate(-90deg);
 	transform-origin: 0% 0%;
     height: 5%;
-    width: 80vh;
+    width: 60vh;
     position: absolute;
     top: 100%;
     padding: 50% 0px;
@@ -7786,10 +7786,10 @@ ul.nav.custom_navMenu_3.brandstudio {
 /* 
 Inner page 21.09.2023 Starts */
 .inner_page_banner{
-	background: linear-gradient(to right, rgba(251, 200, 7, 0.5), transparent), url(https://thefederal.com/h-upload/2023/09/21/415078-shiromaniakalidalpresidentbadal.webp) no-repeat top center;
+	background: linear-gradient(to right, rgba(251, 200, 7), transparent), url(https://thefederal.com/h-upload/2023/09/21/415078-shiromaniakalidalpresidentbadal.webp) no-repeat top center;
 
     background-size: 100%;
-    height: 648px;
+    height: 630px;
     position: relative;
 	
 	
