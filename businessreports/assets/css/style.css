@@ -7881,8 +7881,25 @@ border-bottom: 0px;
 .ip_advt img{
 	width: 100%;
 }
+ /* Script use Hide and show */
+.reportVideos {
+	display: none;
+}
+.reportNews{
+	display: none;
+}
+ /* Script use Hide and show */
 
-
+.report_para_text ,.report_date_time{
+    color: #000000 !important;
+}
+.videos_watermark_sec{
+	font-size: 34.5rem;
+}
+.videoTop{
+	padding-top: 213px;
+    padding-bottom: 30px;
+}
 
 
 
@@ -7979,6 +7996,18 @@ border-bottom: 0px;
 	.report_watermark_sec {
 		font-size: 20.9rem;
 	}
+}
+
+@media only screen and (max-width: 1400px) {
+       /* Report page changes */
+	 
+	.videoTop {
+		padding-top: 110px;
+		padding-bottom: 30px;
+	}
+	   /* Report page changes */
+	
+	
 }
 @media only screen and (min-width: 1300px) and (max-width: 1400px) {
 	 /* report page 21.09.2023 */
@@ -9627,6 +9656,13 @@ border-bottom: 0px;
 }
 
 @media only screen and (max-width: 768px) {
+
+	 /* Report page changes */
+	.videoTop {
+		padding-top: 22px;
+		padding-bottom: 30px;
+	}    
+	 /* Report page changes */   
 
 	/* Business Report Banner CSS START */
 	.report_galleryBox {
@@ -12875,6 +12911,12 @@ border-bottom: 0px;
 }
 
 @media only screen and (min-width: 320px) and (max-width: 479px) {
+	  /* Report page changes */
+	.videoTop {
+		padding-top: 0px;
+		padding-bottom: 30px;
+	}
+	  /* Report page changes */
 /* Inner page 21.09.2023 */
 .inner_iframe_one{
 	border: none; 
