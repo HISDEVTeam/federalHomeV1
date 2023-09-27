@@ -36,14 +36,60 @@ $('.business_report_gallery_sec .report_galleryBox').each(function() {
 
 //--- Business Report Gallery Banner section ----//
 
+        // Business Page Hide and Show
 
+     $(".reportPara").hide();
+        $(".reportVideos").hide();
+        $(".reportNews").show();
 
+        $(".reportShow").click(function(){
+        $(".reportPara").show();
+        $(".reportVideos").hide();
+        $(".reportNews").hide();
+      });
+        
+      $(".videoShow").click(function(){
+        $(".reportVideos").show();
+        $(".reportPara").hide();
+        $(".reportNews").hide();
+      });
 
-
+      $(".newShow").click(function(){
+        $(".reportNews").show();
+        $(".reportPara").hide();
+        $(".reportVideos").hide();
+      });
 
 
   
-  
+   // Business Page Hide and Show
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   //--- Bookmart tag toggle Icon ----//
   $('.bookmark_icon').click(function() {
     $(this).find('i').toggleClass('fa-bookmark fa-bookmark-o')
@@ -186,6 +232,28 @@ $('.business_report_gallery_sec .report_galleryBox').each(function() {
     }
   });
   
+
+  $('.federal_playlist_three_card').owlCarousel({
+    loop: false,
+    margin: 15,
+    dots: false,
+    nav: true,
+    navText: [
+      "<i class='fa fa-angle-left'></i>", 
+      "<i class='fa fa-angle-right'></i>"
+    ],
+    responsive: {
+          0: {
+             items: 1
+          },
+          600: {
+             items: 3
+          },
+          1000: {
+             items: 3
+          }
+    }
+  });
   
   
   
