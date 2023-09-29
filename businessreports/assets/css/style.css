@@ -7817,6 +7817,10 @@ Inner page 21.09.2023 Starts */
  text-shadow: 0px 3px 6px #000000B0;
  margin-bottom: 30px;
  line-height: 1.1;
+ display: -webkit-box;
+	-webkit-line-clamp: 5;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
 }
 .ip_top_reportbtn{
 	background-color: #ffff!important;
@@ -7902,7 +7906,9 @@ border-bottom: 0px;
 }
 
 
-
+.paginationOne a{
+	padding: 8px 80px;
+}
 
 
 
@@ -7989,7 +7995,7 @@ border-bottom: 0px;
 		border-radius: 1px;
 	}
 	.ourBusiness {
-		font-size: 24px;
+		font-size: 35px;
 		font-weight: 500;
 		text-transform: uppercase;
 	}
@@ -8016,8 +8022,11 @@ border-bottom: 0px;
 		line-height: 1.2;
 		color: #ffff;
 	}
-	 .ourBusiness {
-		font-size: 24px;
+
+	/* new changes */
+	 .ourBusiness
+	  {
+		font-size: 26px;
 	}
 	.emailRightForm {
 		padding: 2rem 0.75rem;
