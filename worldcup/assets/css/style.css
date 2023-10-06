@@ -8062,9 +8062,175 @@ border-bottom: 0px;
 
 
 
+/* Cricket Design starts 05.10.2023 */
+ /* Fixture page */
+ .fixtureDateTitle h1{
+	color:#ff00a5;
+	font-weight: bold;
+	
+}
+.fixtureDateTitle h1 span{
+	color:#320073;
+}
+.matchTiming{
+	color:#320073;
+}
+.matchDate{
+	font-size:28px;
+	margin-bottom: 6px;
+}
+.matchTime{
+	font-size: 33px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+.matchTime span{
+	font-size: 20px;
+	color: #9ea2ae;
+}
+.matchStadium{
+	font-size: 20px;
+    line-height: 1.7;
+}
+.matchTimeBelow{
+	font-size: 18px;
+	font-weight: bold;
+    text-transform: uppercase;
+}
+.matchTimeBelow span{
+	color: #9ea2ae;
+}
+.imgOuter{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+.topImage img{
+	width: 45px;
+	height: 30px;
+}
+.topImage p{
+	font-size: 22px;
+	font-weight: bold;
+	color:#320073;
+	margin-left: 20px;
+	text-transform: uppercase;
+	line-height: 2.1;
+}
+.matchInnerPos{
+	padding: 20px 20px;
+	border: 1px solid #f3f3f5;
+	box-shadow: 2px 4px 9px 0 rgba(47,47,47,.04);
+}
+.semiFinalTitle h3{
+	font-size: 22px;
+    text-transform: uppercase;
+    font-weight: bold;
+	background-image: radial-gradient(circle at 50% 50%,#0096d2,#99D5ED);
+	box-shadow: 0 0.2rem 0.4rem 0 rgba(47,47,47,.1);
+	color: #ffff;
+	text-align: center;
+	padding: 10px 10px;
+}
+.matchInnerPos_1 , .matchLocation{
+	border: 1px solid #f3f3f5;
+	box-shadow: 2px 4px 9px 0 rgba(47,47,47,.04);
+}
+.matchInnerPos_2{
+	padding: 20px 20px;
+}
+.FinalTitle{
+	font-size: 22px;
+    text-transform: uppercase;
+    font-weight: bold;
+	background-image: radial-gradient(circle at 50% 50%,#665400,#cca800);
+	box-shadow: 0 0.2rem 0.4rem 0 rgba(47,47,47,.1);
+	color: #ffff;
+	text-align: center;
+	padding: 10px 10px;
+}
+.matchResult {
+    border: 0px solid #f3f3f5;
+    box-shadow: 0px 4px 9px 0 rgba(47,47,47,.07);
+    padding: 63px 30px; 
+    display: flex;
+    align-items: center;
+	width: 100%; 
+            height: 195px; 
+	color:#ff00a5;
+}
+.matchSemiResult{
+	height: 245px; 
+}
+.matchTimingInner{
+	padding:20px;
+	color: #320073;
+}
 
+.mostRunBg{
+	background-color: #320073;
+	border-radius: 75px 0px 0px;
+}
+.mostRun_leftBox{
+	padding: 55px 79px 20px 79px;
+}
+.rightBoxImg{
+	width: 70%;
+  margin : 60px  -191px 0px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.mostRun_RightBox{
+	position: relative;
+}
+.mostRunScore{
+	max-width: 70%;
+    position: absolute;
+   bottom:-23px;
+    left: 34%;
+    line-height: 1.1;	
+	
+}
+.mostRunScore ,.secondRunScore p{
+  font-size: 32px; 
+  color: #ffff;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.runs_update{
+	color:#fd00ab !important;
+	font-size: 45px !important;
+}
+.leftBoxInner{
+	background-color: #ffff;
+	width:100%;
+	height:400px;
+}
+.secondPage{
+	width: 100%;
+    position: relative;
+    left: -72%;
+    top: 68px;
+}
+.secondRunScore{
+	max-width: 70%;
+    position: absolute;
+    bottom: -80px;
+    left: 16%;
+    line-height: 1.1;
+}
+.pointTable{
+	width:100%;
+	height:500px;
+}
 
-
+.secondPageRightBox img{
+	position: relative;
+    right: 300px;
+    top: 66px;
+}
 
 
 
@@ -8131,6 +8297,23 @@ border-bottom: 0px;
 }
 
 @media only screen and (min-width: 1400px) and (max-width: 1599px) {
+         /* Cricket Design */
+		 .secondRunScore {
+			max-width: 70%;
+			position: absolute;
+			
+			left: 16%;
+			line-height: 1.1;
+		}
+		.secondPageRightBox img {
+			position: relative;
+			right: 300px;
+			top: 64px;
+		}
+
+
+
+
 	.video_part_player {
 		border: none;
 		width: 364px;
@@ -8148,6 +8331,26 @@ border-bottom: 0px;
 	}
 }
 @media only screen and (min-width: 1300px) and (max-width: 1400px) {
+	
+  /* Cricket Design */
+  .secondRunScore {
+	max-width: 70%;
+	position: absolute;	
+	left: 16%;
+	line-height: 1.1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 	 /* report page 21.09.2023 */
 	 .left p {
 		font-size: 22px;
@@ -8593,6 +8796,63 @@ border-bottom: 0px;
 }
 
 @media only screen and (max-width: 1024px) {
+         /* Cricket Design */
+		 
+		 .rightBoxImg {
+			width: 100%;
+			/* position: relative;
+			left: -51%;
+			top: 20px; */
+			
+		}
+		.mostRunScore p {
+			font-size: 24px;
+		}
+		.runs_update {
+			font-size: 34px !important;
+		}
+		.mostRun_leftBox {
+			padding: 55px 30px;
+		}
+		.secondPage {
+			width: 100%;
+			position: relative;
+			left: -62%;
+			top: 96px;
+		}
+		.secondRunScore {
+			max-width: 70%;
+			position: absolute;
+		bottom:2px;
+			left: 21%;
+			line-height: 1.1;
+		}
+        .mostRunScore {
+			max-width: 70%;
+			position: absolute;
+			
+			left: 34%;
+			line-height: 1.1;
+		}
+		.secondPageRightBox img {
+			position: relative;
+			right: 200px;
+			top: 114px;
+		}
+		.secondRunScore p {
+			font-size: 27px;
+		}
+
+
+
+
+
+
+
+
+
+
+
 	   /* New page 21.09.2023 */
       /* report page 21.09.2023 */
 	  .ReportTitle h1 {
@@ -8794,6 +9054,46 @@ border-bottom: 0px;
 }
 
 @media only screen and (max-width: 992px) {
+
+	 /* Cricket Design */
+	.mostRun_leftBox {
+		padding: 56px 15px;
+	}
+	
+	.rightBoxImg {
+		width: 70%;
+		/* position: relative;
+		left: 5%;
+		top: -38px; */
+	}
+	.mostRunScore {
+		max-width: 70%;
+		position: absolute;
+		
+		left: 63%;
+	}
+	.mostRunScore p {
+		font-size: 30px;
+	}
+	.runs_update {
+		font-size: 45px !important;
+	}
+	.secondRunScore p {
+		font-size: 30px;
+	}
+	.secondPage_run{
+		font-size: 30px !important;
+	}
+
+
+
+
+
+
+
+
+
+
 
 	/* Business Report Banner CSS START */
 	.report_galleryBox {
@@ -9776,6 +10076,18 @@ border-bottom: 0px;
 
 @media only screen and (min-width: 640px) and (max-width: 768px) {
 
+        
+
+
+
+
+
+
+
+
+
+
+
 	/*** Responsive HOME Page CSS START ***/
 	.vertical_menu_sec .v_menu {
 		width: 25%;
@@ -9794,6 +10106,58 @@ border-bottom: 0px;
 }
 
 @media only screen and (max-width: 768px) {
+
+ /* Cricket Design */
+ .matchTimeBelow {
+	font-size: 17px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+  /* cricket Design */
+  .mostRun_leftBox {
+	padding: 56px 15px;
+}
+
+.rightBoxImg {
+	width: 50%;
+	margin: 10px 0px 30px;
+	/* position: relative;
+	left: 5%;
+	top: -38px; */
+}
+.mostRunScore {
+	max-width: 70%;
+	position: absolute;
+	left: 63%;
+	line-height: 1.1;
+}
+
+.secondRunScore{
+left: 59%;
+}
+.secondPageRightBox img {
+    position: relative;
+    right: 170px;
+    top: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 	/* Business Report Banner CSS START */
 	.report_galleryBox {
@@ -11091,6 +11455,18 @@ border-bottom: 0px;
 }
 
 @media only screen and (min-width: 767px) {
+    
+
+
+
+
+
+
+
+
+
+
+
 
 	.scrollPlay_multyImgBox.newClass {
 		min-width: auto;
@@ -11151,6 +11527,45 @@ border-bottom: 0px;
 }
 
 @media only screen and (max-width: 767px) {
+	  /* cricket Design */
+	  .mostRun_leftBox {
+		padding: 56px 15px;
+	}
+
+	.rightBoxImg {
+		width: 70%;
+		/* position: relative;
+		left: 5%;
+		top: -38px; */
+	}
+	.mostRunScore {
+		max-width: 70%;
+		position: absolute;
+		left: 63%;
+		line-height: 1.1;
+	}
+
+	.secondRunScore p {
+		font-size: 21px;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -12198,6 +12613,33 @@ border-bottom: 0px;
 }
 
 @media only screen and (max-width: 640px) {
+        /* Cricket Design */
+		.secondRunScore{
+			max-width: 70%;
+    position: absolute;
+   bottom:10px;
+    left: 50%;
+    line-height: 1.1;
+		}
+		.secondPageRightBox img {
+			position: relative;
+			right: 139px;
+			top: 0px;
+		}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 	/* Mobile Vertical Toggle Sub menu CSS */
 	.mega_menu_list_sec.navbar-nav .vertical_menu_sec ul li .dropdown-menu.show {
@@ -12509,6 +12951,50 @@ border-bottom: 0px;
 }
 
 @media only screen and (max-width: 480px) {
+
+      /* Cricket Design */
+
+	  .mostRunScore {
+		max-width: 29%;
+    position: absolute;
+    left: 63%;
+    line-height: 1.1;
+	}
+	.rightBoxImg {
+		width: 60%;
+		/* position: relative;
+		left: 5%;
+		top: -38px; */
+	}
+	.runs_update {
+		font-size: 23px !important;
+	}
+	.mostRunScore p {
+		font-size: 15px;
+	}
+	.secondPage{
+		width: 100%;
+    position: relative;
+    left: -17%;
+    top: -38px;
+	}
+	.imgOuter {
+		padding: 43px 19px 37px 27px;
+	}
+	.secondPageRightBox img {
+		position: relative;
+		right: 96px;
+		top: -17px;
+	}
+
+
+
+
+
+
+
+
+
 		/* Inner page 21.09.2023 */
 				
 		.ip_card li:before {
@@ -13757,6 +14243,43 @@ border-bottom: 0px;
 }
 
 @media only screen and (max-width: 375px) {
+   /* Cricket Design */
+   .topImage p {
+	font-size: 26px;
+
+}
+.matchStadium {
+	font-size: 18px;
+	line-height: 1.3;
+}
+.secondPage{
+	width: 100%;
+    position: relative;
+    left: -20%;
+    top: -38px;
+}
+.secondRunScore{
+    left: 52%;
+  
+}
+.secondPageRightBox img {
+    position: relative;
+    right: 74px;
+    top: -17px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 	/* Inner page 21.09.2023 */
 	.innerpageTitle h1 {
 		font-weight: bold;
@@ -14407,6 +14930,24 @@ border-bottom: 0px;
 }
 
 @media only screen and (max-width: 320px) {
+
+    /* Cricket Design */
+	.runs_update {
+		font-size: 19px !important;
+	}
+	.secondRunScore p {
+		font-size: 15px;
+	}
+
+
+
+
+
+
+
+
+
+
 
 	/* Business Report Banner CSS START */
 	.report_galleryBox {
